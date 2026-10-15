@@ -1,0 +1,9 @@
+* text=auto
+*.py text eol=lf
+# Frozen render configs contain byte hashes; preserve their original newlines.
+*.json -text
+*.md text eol=lf
+*.csv text eol=lf
+*.blend binary
+*.png binary
+*.jpg binary

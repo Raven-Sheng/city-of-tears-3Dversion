@@ -1,0 +1,32 @@
+# Local tools and credentials
+.env
+.env.*
+!.env.example
+.mcp.json
+.claude/
+.codex/
+.playwright-cli/
+.idea/
+.vscode/
+
+# Generated output and historical packages
+_work/
+logs/
+renders/
+delivery/
+scenes/checkpoints/
+__pycache__/
+*.py[cod]
+*.blend[0-9]*
+*.log
+*.tmp
+*.bak
+*.mp4
+*.mov
+*.mp3
+*.wav
+*.zip
+*.7z
+CityOfTears_Reference/00_Master/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,143 @@
+{
+  "about": "Stage 2 fountain plaza sample. World units = H (see config/project.json). The plaza layout is read from 11_Lower_City/Lower_City_statue.jpg: image pixels (2000 px wide reading scale) map to play-plane units with 44.1 px per unit, statue axis at x=625, plaza floor at y=995. Elements behind or in front of the play plane (Y != 0) are placed along the sight line of the reference camera so the main view keeps the reference composition while every element has real depth.",
+  "sample_file": "scenes/plaza_sample.blend",
+  "seed": 20261002,
+  "ground_z": 0.867,
+  "water_z": -0.42,
+  "quay_y": -5.2,
+  "reference": {
+    "image": "CityOfTears_Reference/11_Lower_City/Lower_City_statue.jpg",
+    "px_per_unit_at_2000": 44.1,
+    "statue_px": [
+      625,
+      995
+    ],
+    "camera": {
+      "x": 8.5,
+      "y": -36.0,
+      "z": 2.2,
+      "lens": 28.6,
+      "sensor": 36.0,
+      "shift_y": 0.1874,
+      "note": "Perspective, level, horizon near the plaza floor with vertical lens shift (side-scroller look without keystone). Distance 36 fits the parallax between the plinth front and the figure in the reference (camera 8.5 units right of the statue axis)."
+    }
+  },
+  "statue": {
+    "scale": 0.914,
+    "height_note": "8.57 above the plaza in the main reference at the play-plane scale; the stage 1 greybox used 7.8 from the master map.",
+    "reference_closeup": "docs/reference_review/user_supplied/20261001_fountain_closeup.webp"
+  },
+  "rain": {
+    "source": "14_Rain/Rain_video.mp4, all 1259 frames decoded; see docs/art_direction.md",
+    "direction": "vertical",
+    "speed_units_per_second": 207.0,
+    "speed_units_per_frame_24fps": 8.6,
+    "streak_length_units": [
+      12.0,
+      40.0
+    ],
+    "period": 96.0,
+    "z_clip": 62.0,
+    "z_clip_note": "Greybox lower bridge deck starts at Z 63; streaks are made transparent above this height.",
+    "tracks": {
+      "near": 60,
+      "mid": 150,
+      "far": 210
+    }
+  },
+  "film": {
+    "fps": 24,
+    "frames": [
+      1,
+      240
+    ],
+    "lens": 28.0
+  },
+  "look": {
+    "note": "Exterior plaza baseline only. Tuned by eye against the main reference; see docs/art_direction.md.",
+    "view_transform": "Standard",
+    "look": "None",
+    "exposure": 0.0,
+    "fog_density": 0.0002,
+    "fog_anisotropy": 0.35,
+    "fog_color": [
+      0.25,
+      0.48,
+      1.0
+    ],
+    "world_color": [
+      0.0003,
+      0.0008,
+      0.003
+    ],
+    "world_strength": 1.0,
+    "glass_scale": 1.0,
+    "lamp_strength": 2.4,
+    "rain_strength": 0.45,
+    "rain_alpha": 0.24,
+    "lights": {
+      "lamp_power": 330.0,
+      "well_top": 800.0,
+      "back_glow": 3600.0,
+      "back_glow_low": 0.0,
+      "front_fill": 500.0,
+      "screen_pane": 150.0,
+      "glass_pillar": 140.0,
+      "statue_key": 5000.0,
+      "plaza_fill": 3000.0,
+      "terrace_back": 520.0,
+      "statue_rim": 1900.0,
+      "viaduct_wash": 3000.0
+    },
+    "rain_color": [
+      0.12,
+      0.3,
+      0.95
+    ],
+    "glow_haze_density": 0.006,
+    "bloom": {
+      "threshold": 1.0,
+      "strength": 0.4,
+      "size": 0.5
+    },
+    "top_light": 0.7,
+    "edge_dark": 0.85,
+    "scaffold_glow": 0.075,
+    "scaffold_glow_note": "Round 4: 0.05 -> 0.075 so the chords and the key fret of the new truss bands read lighter than their dark backing plate, as drawn in the reference.",
+    "crevice": 0.0,
+    "crevice_note": "Ambient-occlusion seam darkening. Tested at 0.85 on 2026-10-01: small visual gain, 1440p render time 40 s -> 118 s. Left off.",
+    "outline": {
+      "enabled": true,
+      "thickness": 0.045,
+      "reference_distance": 37.0,
+      "min": 0.03,
+      "max": 0.22,
+      "note": "Inverted-hull contour on mesh assets. Thickness grows with distance from the reference camera so the line weight stays about the same on screen. targets: object name prefix -> thickness factor. Curve ironwork is not covered.",
+      "targets": {
+        "COT_Statue_": 1.0,
+        "COT_ShellMounds": 1.0,
+        "COT_Plaza_Base": 0.8,
+        "COT_Plaza_Cobbles": 0.55,
+        "COT_Viaduct": 0.9,
+        "COT_House_Body": 0.9,
+        "COT_House_LouvreRoof": 0.8,
+        "COT_House_GlassPillar": 0.9,
+        "COT_WestGallery_Bay": 0.9,
+        "COT_WestGallery_LouvreRoof": 0.8,
+        "COT_FreeTower_Ribs": 1.0,
+        "COT_BackTower_A_Body": 1.0,
+        "COT_BackTower_B_Body": 1.0,
+        "COT_EastTower_Body": 1.0,
+        "COT_FreeTower_Body": 1.0,
+        "COT_FarTower_C_Body": 1.0
+      }
+    },
+    "outline_color": [
+      0.0012,
+      0.0025,
+      0.01
+    ],
+    "outline_color_note": "Kept darker than shadowed stone: at 0.004/0.008/0.03 the line read lighter than unlit cobbles once the scene was darkened.",
+    "statue_pool_note": "2026-10-02, user request: brighter pool of light around the fountain so it stands out from the surroundings; only the three statue spots were raised (key 1500->5000, plaza fill 600->3000, rim 1100->1900). Nothing else changed. A first step (3200/1800/1500, checkpoint v017) raised the statue by only 15 percent and was judged too weak."
+  }
+}

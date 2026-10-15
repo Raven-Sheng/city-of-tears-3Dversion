@@ -1,0 +1,3 @@
+# Optional command-line image analysis and QA; bpy/mathutils come with Blender.
+numpy
+Pillow

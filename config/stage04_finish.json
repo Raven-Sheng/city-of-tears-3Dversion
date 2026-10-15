@@ -1,0 +1,10 @@
+{
+  "source": "scenes/checkpoints/city_art_closeout_20261008_v009.blend",
+  "shaft_emission_per_density": 3.0,
+  "cavern_spot_power": 50000,
+  "deep_rock_power": 28000,
+  "front_rock_power": 90000,
+  "far_ambient": [0.12, 0.18, 0.30],
+  "evidence": "C: stylized soft window shafts and balanced cavern rock illumination; original cores and room openings preserved"
+}
+

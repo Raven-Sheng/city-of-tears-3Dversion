@@ -1,0 +1,126 @@
+{
+  "source": "scenes/checkpoints/city_art_closeout_source_20261008.blend",
+  "note": "Local closeout from preserved v018 plus accepted Marissa clearance. Stage 5 not started.",
+  "rain_radius_scale": 0.52,
+  "rain_alpha": 0.11,
+  "rain_strength": 0.46,
+  "rain_color": [
+    0.18,
+    0.37,
+    0.96
+  ],
+  "mist_strength": 0.16,
+  "window": {
+    "down_power": 22000,
+    "down_angle": 8,
+    "shaft_tilt": 0.32,
+    "shaft_density": 0.12,
+    "power_per_m2": 14.0,
+    "down_radius_scale": 0.06,
+    "shaft_extra_prefixes": [
+      "S3_SoulSanctum_MainWest_XWinL_6_"
+    ]
+  },
+  "floor": {
+    "Base Color": [
+      0.026,
+      0.033,
+      0.059
+    ],
+    "Roughness": 0.65,
+    "Seams": 1.0,
+    "Seam Depth": 0.85
+  },
+  "ceiling": {
+    "Base Color": [
+      0.015,
+      0.019,
+      0.037
+    ],
+    "Roughness": 0.8,
+    "Seams": 0.0,
+    "Seam Depth": 0.0
+  },
+  "plaza": {
+    "MAT_S2_statue": {
+      "Base Color": [
+        0.046,
+        0.069,
+        0.125
+      ],
+      "Roughness": 0.72,
+      "Gloss Up": 0.12,
+      "Variation": 0.5,
+      "Bump": 0.1
+    },
+    "MAT_S2_shell": {
+      "Base Color": [
+        0.035,
+        0.051,
+        0.09
+      ],
+      "Roughness": 0.58,
+      "Gloss Up": 0.14,
+      "Variation": 0.65,
+      "Coat": 0.16
+    },
+    "MAT_S2_stone": {
+      "Base Color": [
+        0.034,
+        0.048,
+        0.084
+      ],
+      "Roughness": 0.78,
+      "Gloss Up": 0.1,
+      "Variation": 0.45
+    }
+  },
+  "room_window_power": {
+    "EastStack": 25,
+    "EastJarHouse": 32,
+    "EastQuarter": 22,
+    "PlazaEastHouse": 32,
+    "HouseOfPleasure": 16
+  },
+  "room_window_color": {
+    "EastStack": [
+      0.6,
+      0.46,
+      1.0
+    ],
+    "EastJarHouse": [
+      0.75,
+      0.52,
+      1.0
+    ],
+    "EastQuarter": [
+      0.58,
+      0.65,
+      1.0
+    ],
+    "PlazaEastHouse": [
+      0.65,
+      0.52,
+      1.0
+    ],
+    "HouseOfPleasure": [
+      0.85,
+      0.44,
+      0.73
+    ]
+  },
+  "background_relief": 2.8,
+  "background_grid": 4.0,
+  "cluster_dots": {
+    "size": 0.28,
+    "scale": 18.0,
+    "amount": 0.65,
+    "color": [
+      0.12,
+      0.12,
+      0.11
+    ],
+    "coverage": 0.7
+  },
+  "cluster_spot_scale": 0.65
+}

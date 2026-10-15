@@ -1,0 +1,22 @@
+{
+  "source": "scenes/checkpoints/city_art_closeout_20261008_v013.blend",
+  "source_sha256": "f264374acef8b9e7e9f70289464e3a241b7d651704c0fcfcb5712f4ffd6297a6",
+  "output": "scenes/checkpoints/city_art_closeout_20261008_v014.blend",
+  "note": "User 2026-10-08 expands reduced fog to the whole city: prioritize clear structure; factors are relative to v013, preserve masks and lighting.",
+  "materials": {
+    "MAT_S2_fog": 0.2,
+    "MAT_S2_glow_haze": 0.3,
+    "MAT_S4_groundfog_LeftWell": 0.2,
+    "MAT_S4_groundfog_Central": 0.2,
+    "MAT_S4_groundfog_EastWell": 0.2,
+    "MAT_S4_groundfog_EastRainGap": 0.2,
+    "MAT_S4_air_SanctumHalls": 0.5,
+    "MAT_S4_air_PleasureStage": 0.5,
+    "MAT_S4_shaft_air": 0.6,
+    "MAT_S4_beam_MarissaBeamL": 0.6,
+    "MAT_S4_beam_MarissaBeamR": 0.6
+  },
+  "mist_strength": 0.04,
+  "bloom_strength": 0.12,
+  "bloom_size": 0.2
+}

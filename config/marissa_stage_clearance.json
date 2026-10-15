@@ -1,0 +1,28 @@
+{
+  "note": "User 2026-10-07: Marissa is the stage subject; clear foreground obstructions. Apply only after placement. Preserve originals and room envelope.",
+  "component_objects": [
+    "S3_HouseOfPleasure_CaveCeiling",
+    "S3_HouseOfPleasure_CeilingFringe",
+    "S3_HouseOfPleasure_Curtains",
+    "S3_HouseOfPleasure_LedgeStalactites"
+  ],
+  "clearance_box": [[155.4, -9.0, 79.0], [161.6, 4.8, 83.7]],
+  "max_component_width": 1.5,
+  "hide_objects": [
+    "S3_HouseOfPleasure_PelmetLamp_2",
+    "S3_HouseOfPleasure_Bouquet_0",
+    "S3_HouseOfPleasure_Bouquet_1"
+  ],
+  "light_energy_scale": {
+    "COT_S4_Spot_MarissaBeamL": 0.18,
+    "COT_S4_Spot_MarissaBeamR": 0.18,
+    "COT_S4_Spot_PleasureStage": 0.35,
+    "COT_S4_Spot_PleasureStageBlue": 0.7
+  },
+  "hero_camera": {
+    "name": "CAM_MAR_City_Hero",
+    "position": [158.5, -2.0, 81.45],
+    "target": [158.5, 4.4, 81.45],
+    "lens": 30.0
+  }
+}

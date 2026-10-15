@@ -1,0 +1,12 @@
+{
+  "source": "scenes/checkpoints/city_art_closeout_20261008_v012.blend",
+  "output": "scenes/checkpoints/city_art_closeout_20261008_v013.blend",
+  "note": "User 2026-10-08 asks for less fog in Sanctum and Marissa stage. Local only; preserve lights, clear-air masks, geometry and all other city weather.",
+  "materials": {
+    "MAT_S4_shaft_air": 0.65,
+    "MAT_S4_air_SanctumHalls": 0.4,
+    "MAT_S4_air_PleasureStage": 0.35,
+    "MAT_S4_beam_MarissaBeamL": 0.35,
+    "MAT_S4_beam_MarissaBeamR": 0.35
+  }
+}

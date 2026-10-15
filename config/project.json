@@ -1,0 +1,62 @@
+{
+  "project": "CityOfTears",
+  "stage": 1,
+  "blender_version_tested": "5.2.1 LTS",
+  "master_file": "scenes/city_master.blend",
+  "checkpoint_dir": "scenes/checkpoints",
+  "random_seed": 20261001,
+  "coordinates": {
+    "convention": "X = master-map left/right, Z = height, Y = added depth. Negative Y is toward the viewer of the master map; positive Y is deeper into the scene.",
+    "map_space": "pixels of the 7600 px wide reading version of 00_Master/master_map.png.png (docs/reference_review/master_map_7600.jpg); x to the right, y downward",
+    "map_to_master_png": 3.33224,
+    "origin_map": [
+      3730,
+      3600
+    ],
+    "origin_meaning": "Fountain statue centre in X; rain-well ground and water datum of the central wells in Z. East-city ground is lower (about map y 3640).",
+    "px_per_bu": 15.0,
+    "scale_note": "1 Blender unit = H = about one player-character height, an art yardstick only. Estimated from three same-image ratios (14-17 px per H); uncertainty about 10 percent. Not an official or real-world size."
+  },
+  "depth_defaults": {
+    "note": "All Y values are level-C design choices; the master map gives no depth.",
+    "stack_y": [
+      -7.0,
+      9.0
+    ],
+    "shaft_y": [
+      -2.2,
+      2.2
+    ],
+    "walkway_y": [
+      -3.0,
+      3.0
+    ],
+    "bridge_y": [
+      -3.5,
+      3.5
+    ],
+    "canopy_y": [
+      -7.5,
+      9.5
+    ],
+    "door_y": [
+      -1.6,
+      1.6
+    ],
+    "wall": 0.6,
+    "floor": 0.5,
+    "cavern_y": [
+      -128,
+      100
+    ]
+  },
+  "layers": {
+    "FRONT": "Front (viewer-side) walls of interiors. Hidden for elevation checks so rooms can be read like the master map; shown for top, oblique and back views.",
+    "CEILING": "Cave ceilings and overhangs that would hide the city in a top view.",
+    "HOSTROCK": "Level-C fill for black or unshown areas of the master map that need a supporting mass. Not observed structure.",
+    "BACKDROP": "Simplified distant shell towers and spires with real volume, placed deep in Y for parallax.",
+    "CAVESHELL": "Outer cavern boundary: base, back wall and end walls.",
+    "REFERENCE": "Region labels, connection lines and the scale figure. Never part of the city.",
+    "FOREGROUND": "Level-C tower row on the viewer side of the wells. Hidden for elevations and any view taken from far in front; shown for top, back and in-well views."
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "version": "stage06_v004_delivery",
+  "source_blend": "scenes/city_animation_v010.blend",
+  "render_config": "config/stage06_delivery_render.json",
+  "shot_config": "config/shots_v010.json",
+  "frame_range": [
+    1,
+    4272
+  ],
+  "fps": 24,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "duration_seconds": 178,
+  "note": "Source distribution: editable scene and single-frame rendering; generated films and image sequences are excluded.",
+  "entrypoints": {
+    "render_one_frame": "scripts/render/render_delivery_frame.py"
+  }
+}

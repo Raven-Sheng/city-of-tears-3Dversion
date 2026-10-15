@@ -1,0 +1,12 @@
+{
+  "note": "2026-10-08: remove contour punctures and volumetric mottling on the stage subject; preserve wing markings.",
+  "contour_strength": {"MAR_Gown_": 0.002, "MAR_Wing": 0.002},
+  "clear_air": {
+    "objects": ["COT_S4_BeamAir_MarissaBeamL", "COT_S4_BeamAir_MarissaBeamR", "COT_S4_Air_PleasureStage"],
+    "centre": [158.5, 4.12, 81.1],
+    "radii": [2.4, 2.4, 2.3],
+    "soft_edge": 0.35
+  },
+  "samples": 128,
+  "transparent_bounces": 32
+}

@@ -1,0 +1,6979 @@
+{
+ "version": 1,
+ "about": "Stage 1 city greybox. x/y in every 'map', 'pts', 'x', 'floors' field are pixels of the 7600 px reading version of the master map (y downward). Every 'y'/'yc'/'ry' depth value is in Blender units and is level-C design. 'ev' is the evidence level of the element's X/Z placement: A direct observation, B cross-image inference, C 3D completion.",
+ "regions": [
+  {
+   "id": "WestFaceChamber",
+   "name": "人面浮雕室",
+   "label": [
+    215,
+    1230
+   ],
+   "elements": [
+    {
+     "id": "Room",
+     "type": "stack",
+     "map": [
+      102,
+      1268,
+      330,
+      1412
+     ],
+     "floors": [
+      1412
+     ],
+     "doors": [
+      [
+       "R",
+       1412
+      ]
+     ],
+     "ev": "A",
+     "ref": "master D1",
+     "y": [
+      -8,
+      12
+     ]
+    },
+    {
+     "id": "FaceRelief",
+     "type": "marker",
+     "shape": "sphere",
+     "map": [
+      150,
+      1280,
+      300,
+      1395
+     ],
+     "y": [
+      5.5,
+      8.4
+     ],
+     "mat": "landmark",
+     "ev": "A",
+     "ref": "master D1"
+    }
+   ]
+  },
+  {
+   "id": "WestStreets",
+   "name": "西侧街道长厅",
+   "label": [
+    900,
+    1100
+   ],
+   "elements": [
+    {
+     "id": "LowArcade",
+     "type": "stack",
+     "map": [
+      330,
+      1340,
+      800,
+      1412
+     ],
+     "floors": [
+      1412
+     ],
+     "doors": [
+      [
+       "L",
+       1412
+      ],
+      [
+       "R",
+       1412
+      ]
+     ],
+     "ev": "A",
+     "ref": "05_Streets/Streets_left.jpg; master D1",
+     "y": [
+      -7,
+      11
+     ]
+    },
+    {
+     "id": "HallFloor",
+     "type": "slab",
+     "map": [
+      800,
+      1448,
+      1440,
+      1464
+     ],
+     "y": [
+      -7,
+      9
+     ],
+     "mat": "floor",
+     "ev": "A",
+     "ref": "05_Streets/Streets_total.jpg; master D2"
+    },
+    {
+     "id": "StepTerrace",
+     "type": "box",
+     "map": [
+      786,
+      1403,
+      924,
+      1448
+     ],
+     "y": [
+      -7,
+      9
+     ],
+     "mat": "stone",
+     "ev": "A",
+     "ref": "master D1"
+    },
+    {
+     "id": "Tier1",
+     "type": "slab",
+     "map": [
+      990,
+      1388,
+      1134,
+      1398
+     ],
+     "y": [
+      -3,
+      3
+     ],
+     "mat": "stone",
+     "ev": "A",
+     "ref": "05_Streets/Streets_middle.jpg"
+    },
+    {
+     "id": "Tier2",
+     "type": "slab",
+     "map": [
+      1032,
+      1334,
+      1128,
+      1344
+     ],
+     "y": [
+      -3,
+      3
+     ],
+     "mat": "stone",
+     "ev": "A",
+     "ref": "05_Streets/Streets_middle.jpg"
+    },
+    {
+     "id": "HangPlatform",
+     "type": "slab",
+     "map": [
+      1287,
+      1316,
+      1359,
+      1326
+     ],
+     "y": [
+      -2,
+      2
+     ],
+     "mat": "iron",
+     "ev": "A",
+     "ref": "05_Streets/Streets_right.jpg"
+    },
+    {
+     "id": "DomePavilion",
+     "type": "pavilion",
+     "map": [
+      1176,
+      1340,
+      1296,
+      1448
+     ],
+     "roof_to": 1400,
+     "y": [
+      -3.5,
+      3.5
+     ],
+     "ev": "A",
+     "ref": "05_Streets/Streets_middle.jpg"
+    },
+    {
+     "id": "UpperCanopy",
+     "type": "canopy",
+     "map": [
+      1404,
+      1214,
+      1494,
+      1262
+     ],
+     "curve": "L",
+     "y": [
+      -5,
+      7
+     ],
+     "ev": "A",
+     "ref": "05_Streets/Streets_right.jpg"
+    },
+    {
+     "id": "BackWall",
+     "type": "box",
+     "map": [
+      800,
+      1150,
+      1440,
+      1448
+     ],
+     "y": [
+      9,
+      10
+     ],
+     "mat": "rock",
+     "ev": "C",
+     "ref": "depth completion"
+    },
+    {
+     "id": "FrontWall",
+     "type": "box",
+     "map": [
+      800,
+      1150,
+      1440,
+      1448
+     ],
+     "y": [
+      -7.6,
+      -7
+     ],
+     "mat": "front",
+     "layer": "FRONT",
+     "ev": "C",
+     "ref": "depth completion"
+    },
+    {
+     "id": "Ceiling",
+     "type": "poly",
+     "pts": [
+      [
+       800,
+       1330
+      ],
+      [
+       1040,
+       1250
+      ],
+      [
+       1260,
+       1175
+      ],
+      [
+       1500,
+       1165
+      ],
+      [
+       1500,
+       1125
+      ],
+      [
+       800,
+       1125
+      ]
+     ],
+     "y": [
+      -7,
+      9
+     ],
+     "mat": "rock",
+     "ev": "A",
+     "ref": "master D1/D2 stalactite ceiling line"
+    }
+   ]
+  },
+  {
+   "id": "WestStation",
+   "name": "西侧车站",
+   "label": [
+    1680,
+    1215
+   ],
+   "elements": [
+    {
+     "id": "Hall",
+     "type": "stack",
+     "map": [
+      1440,
+      1250,
+      1900,
+      1335
+     ],
+     "floors": [
+      1331
+     ],
+     "doors": [
+      [
+       "L",
+       1331
+      ]
+     ],
+     "ev": "A",
+     "ref": "05_Streets/Streets_station.jpg; master C7",
+     "y": [
+      -8,
+      12
+     ]
+    },
+    {
+     "id": "Podium",
+     "type": "box",
+     "map": [
+      1440,
+      1335,
+      1900,
+      1448
+     ],
+     "y": [
+      -8,
+      12
+     ],
+     "mat": "hostrock",
+     "ev": "C",
+     "ref": "black on master; support under the raised station floor"
+    },
+    {
+     "id": "TunnelArch",
+     "type": "marker",
+     "shape": "box",
+     "map": [
+      1818,
+      1262,
+      1896,
+      1331
+     ],
+     "y": [
+      -2.5,
+      4
+     ],
+     "mat": "landmark",
+     "ev": "A",
+     "ref": "05_Streets/Streets_station.jpg"
+    }
+   ]
+  },
+  {
+   "id": "GreenAtrium",
+   "name": "绿色中庭",
+   "label": [
+    1420,
+    1700
+   ],
+   "elements": [
+    {
+     "id": "Shell",
+     "type": "stack",
+     "map": [
+      1194,
+      1452,
+      1650,
+      2000
+     ],
+     "floors": [
+      1989
+     ],
+     "y": [
+      -9,
+      13
+     ],
+     "doors": [
+      [
+       "R",
+       1989
+      ],
+      [
+       "R",
+       1620
+      ],
+      [
+       "R",
+       1713
+      ],
+      [
+       "R",
+       1809
+      ]
+     ],
+     "ev": "A",
+     "ref": "07_Interior/Interior_total.jpg; master A_green_shaft",
+     "voids": [
+      [
+       1209,
+       1254,
+       1980,
+       2005
+      ]
+     ]
+    },
+    {
+     "id": "Cables",
+     "type": "cables",
+     "xs": [
+      1326,
+      1401,
+      1446,
+      1497,
+      1560
+     ],
+     "map_y": [
+      1470,
+      1985
+     ],
+     "ev": "A",
+     "ref": "07_Interior/Interior_centre.jpg"
+    },
+    {
+     "id": "HangPlatforms",
+     "type": "slabs",
+     "w": 36,
+     "items": [
+      [
+       1326,
+       1557
+      ],
+      [
+       1326,
+       1626
+      ],
+      [
+       1326,
+       1692
+      ],
+      [
+       1326,
+       1767
+      ],
+      [
+       1326,
+       1827
+      ],
+      [
+       1401,
+       1590
+      ],
+      [
+       1401,
+       1662
+      ],
+      [
+       1401,
+       1728
+      ],
+      [
+       1401,
+       1800
+      ],
+      [
+       1401,
+       1878
+      ],
+      [
+       1446,
+       1692
+      ],
+      [
+       1446,
+       1839
+      ],
+      [
+       1446,
+       1914
+      ],
+      [
+       1497,
+       1638
+      ],
+      [
+       1497,
+       1731
+      ],
+      [
+       1497,
+       1803
+      ],
+      [
+       1497,
+       1953
+      ],
+      [
+       1560,
+       1701
+      ],
+      [
+       1560,
+       1773
+      ],
+      [
+       1560,
+       1839
+      ]
+     ],
+     "y": [
+      -1.3,
+      1.3
+     ],
+     "mat": "iron",
+     "ev": "A",
+     "ref": "master A_green_shaft; 07_Interior/*"
+    },
+    {
+     "id": "DomeLeft",
+     "type": "canopy",
+     "map": [
+      1200,
+      1884,
+      1380,
+      1938
+     ],
+     "curve": "R",
+     "y": [
+      -4,
+      6
+     ],
+     "ev": "A",
+     "ref": "07_Interior/Interior_bottom_left.jpg"
+    },
+    {
+     "id": "DomeRight",
+     "type": "canopy",
+     "map": [
+      1578,
+      1860,
+      1650,
+      1914
+     ],
+     "curve": "L",
+     "y": [
+      -4,
+      6
+     ],
+     "ev": "A",
+     "ref": "07_Interior/Interior_bottom_right.jpg"
+    },
+    {
+     "id": "BalconyLedges",
+     "type": "slabs",
+     "items": [
+      [
+       1587,
+       1650,
+       1620
+      ],
+      [
+       1587,
+       1650,
+       1713
+      ],
+      [
+       1587,
+       1650,
+       1809
+      ]
+     ],
+     "y": [
+      -3,
+      3
+     ],
+     "mat": "stone",
+     "ev": "A",
+     "ref": "07_Interior/Interior_middle_right.jpg"
+    },
+    {
+     "id": "BalconyRooms",
+     "type": "stack",
+     "map": [
+      1650,
+      1575,
+      1830,
+      1815
+     ],
+     "floors": [
+      1620,
+      1713,
+      1809
+     ],
+     "doors": [
+      [
+       "L",
+       1620
+      ],
+      [
+       "L",
+       1713
+      ],
+      [
+       "L",
+       1809
+      ]
+     ],
+     "ev": "A",
+     "ref": "master A_green_shaft",
+     "y": [
+      -7,
+      11
+     ]
+    },
+    {
+     "id": "UpperLeftLedge",
+     "type": "slab",
+     "map": [
+      1200,
+      1524,
+      1281,
+      1532
+     ],
+     "y": [
+      -3,
+      3
+     ],
+     "mat": "stone",
+     "ev": "A",
+     "ref": "07_Interior/Interior_upper_left.jpg"
+    },
+    {
+     "id": "RockColumn",
+     "type": "rock",
+     "map": [
+      1205,
+      1550,
+      1285,
+      1860
+     ],
+     "y": [
+      6,
+      12
+     ],
+     "ev": "A",
+     "ref": "07_Interior/Interior_middle_left.jpg"
+    },
+    {
+     "id": "BottomCorridor",
+     "type": "stack",
+     "map": [
+      1650,
+      1930,
+      1905,
+      2000
+     ],
+     "floors": [
+      1989
+     ],
+     "doors": [
+      [
+       "L",
+       1989
+      ],
+      [
+       "R",
+       1989
+      ]
+     ],
+     "ev": "B",
+     "ref": "07_Interior/Interior_bottom_right.jpg shows a lamp-lit corridor leaving to the right; length inferred from master",
+     "y": [
+      -6,
+      8
+     ]
+    }
+   ]
+  },
+  {
+   "id": "WestLowCorridor",
+   "name": "中庭下方低廊",
+   "label": [
+    1000,
+    2260
+   ],
+   "elements": [
+    {
+     "id": "Corridor",
+     "type": "stack",
+     "map": [
+      795,
+      2113,
+      1803,
+      2210
+     ],
+     "floors": [
+      2203
+     ],
+     "voids": [
+      [
+       1209,
+       1254,
+       2105,
+       2120
+      ],
+      [
+       1600,
+       1645,
+       2195,
+       2215
+      ]
+     ],
+     "ev": "A",
+     "ref": "master B5",
+     "y": [
+      -6,
+      8
+     ]
+    },
+    {
+     "id": "ShaftUp",
+     "type": "shaft",
+     "map": [
+      1209,
+      2000,
+      1254,
+      2113
+     ],
+     "ev": "A",
+     "ref": "master B5"
+    },
+    {
+     "id": "LowerRoom",
+     "type": "stack",
+     "map": [
+      1533,
+      2230,
+      1749,
+      2315
+     ],
+     "floors": [
+      2311
+     ],
+     "voids": [
+      [
+       1546,
+       1591,
+       2305,
+       2320
+      ],
+      [
+       1600,
+       1645,
+       2225,
+       2235
+      ]
+     ],
+     "ev": "A",
+     "ref": "master B5",
+     "y": [
+      -6,
+      8
+     ]
+    },
+    {
+     "id": "ShaftDown",
+     "type": "shaft",
+     "map": [
+      1546,
+      2311,
+      1591,
+      2428
+     ],
+     "ev": "A",
+     "ref": "master B5"
+    },
+    {
+     "id": "LinkStub",
+     "type": "shaft",
+     "map": [
+      1600,
+      2210,
+      1645,
+      2230
+     ],
+     "ev": "C",
+     "ref": "short link between corridor floor and lower room; not resolvable on master"
+    }
+   ]
+  },
+  {
+   "id": "LeftWell",
+   "name": "左雨井",
+   "label": [
+    2100,
+    2500
+   ],
+   "elements": [
+    {
+     "id": "WestBlock",
+     "type": "stack",
+     "map": [
+      1479,
+      2428,
+      1794,
+      3104
+     ],
+     "floors": [
+      2563,
+      2720,
+      2833,
+      2923,
+      2995,
+      3090
+     ],
+     "voids": [
+      [
+       1488,
+       1533
+      ],
+      [
+       1546,
+       1591,
+       2400,
+       2440
+      ]
+     ],
+     "ev": "A",
+     "ref": "03_Left_City/Left_City_left_upper.jpg; master B5",
+     "y": [
+      -8,
+      15
+     ]
+    },
+    {
+     "id": "WestBlockShaft",
+     "type": "shaft",
+     "map": [
+      1488,
+      2600,
+      1533,
+      3090
+     ],
+     "ev": "A",
+     "ref": "master B5",
+     "open": true
+    },
+    {
+     "id": "WestBlockLower",
+     "type": "stack",
+     "map": [
+      1340,
+      3104,
+      1710,
+      3328
+     ],
+     "floors": [
+      3143,
+      3243,
+      3320
+     ],
+     "voids": [
+      [
+       1438,
+       1478
+      ]
+     ],
+     "ev": "A",
+     "ref": "03_Left_City/Left_City_left_middle.jpg; master A_left_well_lower",
+     "y": [
+      -8,
+      15
+     ]
+    },
+    {
+     "id": "Elevator",
+     "type": "shaft",
+     "map": [
+      1438,
+      3243,
+      1478,
+      3581
+     ],
+     "car": 3560,
+     "ev": "A",
+     "ref": "03_Left_City/Left_City_left_bottom.jpg"
+    },
+    {
+     "id": "GlassPillarUpper",
+     "type": "pillar",
+     "x": 1786,
+     "map_y": [
+      2440,
+      3100
+     ],
+     "r": 12,
+     "ev": "A",
+     "ref": "03_Left_City/Left_City_left_upper.jpg"
+    },
+    {
+     "id": "GlassPillarLower",
+     "type": "pillar",
+     "x": 1702,
+     "map_y": [
+      3135,
+      3243
+     ],
+     "r": 11,
+     "ev": "A",
+     "ref": "master A_left_well_lower"
+    },
+    {
+     "id": "GroundWest",
+     "type": "box",
+     "map": [
+      1300,
+      3581,
+      1520,
+      3640
+     ],
+     "y": [
+      -9,
+      14
+     ],
+     "mat": "stone",
+     "ev": "A",
+     "ref": "03_Left_City/Left_City_left_bottom.jpg"
+    },
+    {
+     "id": "Bed",
+     "type": "box",
+     "map": [
+      1520,
+      3625,
+      2700,
+      3680
+     ],
+     "y": [
+      -14,
+      40
+     ],
+     "mat": "rock",
+     "ev": "C",
+     "ref": "well floor under the water line"
+    },
+    {
+     "id": "Water",
+     "type": "water",
+     "map": [
+      1520,
+      3608,
+      2700,
+      3608
+     ],
+     "y": [
+      -14,
+      40
+     ],
+     "ev": "A",
+     "ref": "03_Left_City/Left_City_middle_bottom.jpg"
+    },
+    {
+     "id": "Piers",
+     "type": "piers",
+     "items": [
+      [
+       1583,
+       1624,
+       3545
+      ],
+      [
+       1660,
+       1700,
+       3545
+      ],
+      [
+       2047,
+       2101,
+       3555
+      ],
+      [
+       2150,
+       2191,
+       3555
+      ],
+      [
+       2290,
+       2434,
+       3565
+      ]
+     ],
+     "base": 3625,
+     "ev": "A",
+     "ref": "master A_left_well_lower"
+    },
+    {
+     "id": "ArcadeWall",
+     "type": "slab",
+     "map": [
+      1741,
+      3527,
+      1939,
+      3625
+     ],
+     "y": [
+      -2.5,
+      2.5
+     ],
+     "mat": "stone",
+     "ev": "A",
+     "ref": "03_Left_City/Left_City_middle_bottom.jpg"
+    },
+    {
+     "id": "ScaffoldA",
+     "type": "scaffold",
+     "map": [
+      1718,
+      3432,
+      1957,
+      3527
+     ],
+     "tiers": [
+      3432
+     ],
+     "posts": 5,
+     "ev": "A",
+     "ref": "15_Background/Background_01.jpg"
+    },
+    {
+     "id": "ScaffoldB",
+     "type": "scaffold",
+     "map": [
+      1876,
+      3360,
+      2033,
+      3581
+     ],
+     "tiers": [
+      3360
+     ],
+     "posts": 4,
+     "ev": "A",
+     "ref": "15_Background/Background_01.jpg"
+    },
+    {
+     "id": "ScaffoldC",
+     "type": "scaffold",
+     "map": [
+      1912,
+      3185,
+      1957,
+      3360
+     ],
+     "tiers": [
+      3185
+     ],
+     "posts": 2,
+     "ev": "A",
+     "ref": "15_Background/Background_01.jpg"
+    },
+    {
+     "id": "ScaffoldD",
+     "type": "scaffold",
+     "map": [
+      2105,
+      3280,
+      2191,
+      3555
+     ],
+     "tiers": [
+      3280,
+      3342,
+      3401,
+      3455
+     ],
+     "posts": 2,
+     "ev": "A",
+     "ref": "15_Background/Background_02.jpg"
+    },
+    {
+     "id": "ScaffoldE",
+     "type": "scaffold",
+     "map": [
+      1530,
+      3437,
+      1633,
+      3581
+     ],
+     "tiers": [
+      3437
+     ],
+     "posts": 2,
+     "ev": "A",
+     "ref": "03_Left_City/Left_City_left_bottom.jpg"
+    },
+    {
+     "id": "FloatingLow",
+     "type": "slabs",
+     "w": 30,
+     "items": [
+      [
+       1837,
+       3320
+      ],
+      [
+       1952,
+       3262
+      ],
+      [
+       2011,
+       3194
+      ],
+      [
+       2056,
+       3334
+      ],
+      [
+       2088,
+       3419
+      ],
+      [
+       2227,
+       3370
+      ],
+      [
+       2002,
+       3428
+      ],
+      [
+       1675,
+       3460
+      ]
+     ],
+     "y": [
+      -1.3,
+      1.3
+     ],
+     "mat": "stone",
+     "ev": "A",
+     "ref": "master A_left_well_lower"
+    },
+    {
+     "id": "FloatingHigh",
+     "type": "slabs",
+     "w": 30,
+     "items": [
+      [
+       2010,
+       3040
+      ],
+      [
+       2150,
+       2940
+      ],
+      [
+       1960,
+       2820
+      ],
+      [
+       2190,
+       2700
+      ],
+      [
+       2060,
+       2580
+      ]
+     ],
+     "y": [
+      -1.3,
+      1.3
+     ],
+     "mat": "stone",
+     "ev": "B",
+     "ref": "03_Left_City/Left_City_middle_upper.jpg shows platforms continuing upward; exact positions not measured"
+    },
+    {
+     "id": "HighBalcony",
+     "type": "slab",
+     "map": [
+      2267,
+      3315,
+      2461,
+      3347
+     ],
+     "y": [
+      -3,
+      3
+     ],
+     "mat": "stone",
+     "ev": "A",
+     "ref": "03_Left_City/Left_City_right_upper.jpg"
+    },
+    {
+     "id": "ShellTowerUpper",
+     "type": "tower",
+     "map": [
+      2412,
+      2200,
+      2646,
+      2632
+     ],
+     "yc": 2,
+     "ry": 8,
+     "roof": "dome",
+     "windows": 9,
+     "ev": "A",
+     "ref": "master B3_central_lower"
+    },
+    {
+     "id": "ShellTowerLower",
+     "type": "tower",
+     "map": [
+      2304,
+      2641,
+      2547,
+      3600
+     ],
+     "yc": 2,
+     "ry": 8,
+     "roof": "flat",
+     "windows": 14,
+     "ev": "A",
+     "ref": "03_Left_City/Left_City_right_bottom.jpg; master B3_central_lower"
+    },
+    {
+     "id": "SpottedRock",
+     "type": "rock",
+     "map": [
+      1830,
+      1990,
+      1965,
+      2460
+     ],
+     "y": [
+      -6,
+      12
+     ],
+     "ev": "A",
+     "ref": "04_Bridges/Bridges_left.jpg; master A_upper_bridge"
+    },
+    {
+     "id": "BackTowerA",
+     "type": "tower",
+     "map": [
+      1900,
+      2250,
+      2280,
+      3625
+     ],
+     "yc": 46,
+     "ry": 13,
+     "roof": "umbrella",
+     "windows": 16,
+     "layer": "BACKDROP",
+     "ev": "B",
+     "ref": "blurred leaf-window towers behind the well; count and depth are completion"
+    },
+    {
+     "id": "BackTowerB",
+     "type": "tower",
+     "map": [
+      2200,
+      2500,
+      2480,
+      3625
+     ],
+     "yc": 66,
+     "ry": 11,
+     "roof": "dome",
+     "windows": 12,
+     "layer": "BACKDROP",
+     "ev": "C",
+     "ref": "depth completion"
+    },
+    {
+     "id": "BackTowerC",
+     "type": "tower",
+     "map": [
+      1820,
+      2600,
+      2050,
+      3625
+     ],
+     "yc": 30,
+     "ry": 8,
+     "roof": "dome",
+     "windows": 10,
+     "layer": "BACKDROP",
+     "ev": "C",
+     "ref": "depth completion: simplified distant tower with real volume"
+    },
+    {
+     "id": "BackTowerD",
+     "type": "tower",
+     "map": [
+      2050,
+      2050,
+      2330,
+      3625
+     ],
+     "yc": 84,
+     "ry": 12,
+     "roof": "umbrella",
+     "windows": 14,
+     "layer": "BACKDROP",
+     "ev": "C",
+     "ref": "depth completion: simplified distant tower with real volume"
+    },
+    {
+     "id": "FrontTowerA",
+     "type": "tower",
+     "map": [
+      1850,
+      2500,
+      2150,
+      3625
+     ],
+     "yc": -88,
+     "ry": 11,
+     "roof": "umbrella",
+     "windows": 14,
+     "layer": "FOREGROUND",
+     "ev": "C",
+     "ref": "viewer-side tower row closing the well; not shown by the master map, screenshots only show dark foreground silhouettes"
+    },
+    {
+     "id": "FrontTowerB",
+     "type": "tower",
+     "map": [
+      2180,
+      2850,
+      2420,
+      3625
+     ],
+     "yc": -104,
+     "ry": 9,
+     "roof": "dome",
+     "windows": 10,
+     "layer": "FOREGROUND",
+     "ev": "C",
+     "ref": "viewer-side tower row closing the well; not shown by the master map, screenshots only show dark foreground silhouettes"
+    }
+   ]
+  },
+  {
+   "id": "SouthwestCave",
+   "name": "西南洞穴休憩区",
+   "label": [
+    650,
+    3080
+   ],
+   "elements": [
+    {
+     "id": "Floor",
+     "type": "box",
+     "map": [
+      120,
+      3625,
+      1300,
+      3680
+     ],
+     "y": [
+      -9,
+      14
+     ],
+     "mat": "rock",
+     "ev": "C",
+     "ref": "cave floor under the water line"
+    },
+    {
+     "id": "Water",
+     "type": "water",
+     "map": [
+      440,
+      3608,
+      1300,
+      3608
+     ],
+     "y": [
+      -9,
+      14
+     ],
+     "ev": "A",
+     "ref": "09_Bench/Bench_middle.jpg"
+    },
+    {
+     "id": "WestBank",
+     "type": "rock",
+     "map": [
+      120,
+      3500,
+      440,
+      3640
+     ],
+     "y": [
+      -9,
+      14
+     ],
+     "ev": "A",
+     "ref": "09_Bench/Bench_left.jpg"
+    },
+    {
+     "id": "HutLedge",
+     "type": "rock",
+     "map": [
+      226,
+      3356,
+      523,
+      3400
+     ],
+     "y": [
+      -4,
+      8
+     ],
+     "ev": "A",
+     "ref": "09_Bench/Bench_top.jpg"
+    },
+    {
+     "id": "Hut",
+     "type": "marker",
+     "shape": "hut",
+     "map": [
+      383,
+      3266,
+      446,
+      3356
+     ],
+     "yc": 2,
+     "mat": "landmark",
+     "ev": "A",
+     "ref": "09_Bench/Bench_top.jpg"
+    },
+    {
+     "id": "Piers",
+     "type": "piers",
+     "items": [
+      [
+       496,
+       532,
+       3523
+      ],
+      [
+       577,
+       604,
+       3520
+      ],
+      [
+       649,
+       757,
+       3535
+      ],
+      [
+       833,
+       865,
+       3520
+      ],
+      [
+       919,
+       1081,
+       3540
+      ]
+     ],
+     "base": 3625,
+     "ev": "A",
+     "ref": "09_Bench/Bench_middle.jpg; master B4"
+    },
+    {
+     "id": "Pole",
+     "type": "marker",
+     "shape": "box",
+     "map": [
+      1096,
+      3350,
+      1104,
+      3560
+     ],
+     "y": [
+      -0.3,
+      0.3
+     ],
+     "mat": "iron",
+     "ev": "A",
+     "ref": "09_Bench/Bench_right.jpg"
+    },
+    {
+     "id": "CeilingRock",
+     "type": "poly",
+     "pts": [
+      [
+       120,
+       3185
+      ],
+      [
+       520,
+       3170
+      ],
+      [
+       700,
+       3235
+      ],
+      [
+       900,
+       3295
+      ],
+      [
+       1240,
+       3305
+      ],
+      [
+       1240,
+       3255
+      ],
+      [
+       900,
+       3245
+      ],
+      [
+       700,
+       3180
+      ],
+      [
+       520,
+       3115
+      ],
+      [
+       120,
+       3125
+      ]
+     ],
+     "y": [
+      -9,
+      14
+     ],
+     "mat": "rock",
+     "layer": "CEILING",
+     "ev": "A",
+     "ref": "master B4 cave outline"
+    },
+    {
+     "id": "WestWall",
+     "type": "rock",
+     "map": [
+      100,
+      3125,
+      150,
+      3640
+     ],
+     "y": [
+      -9,
+      14
+     ],
+     "ev": "A",
+     "ref": "master B4"
+    },
+    {
+     "id": "BackWall",
+     "type": "box",
+     "map": [
+      120,
+      3125,
+      1240,
+      3640
+     ],
+     "y": [
+      14,
+      15.5
+     ],
+     "mat": "rock",
+     "ev": "C",
+     "ref": "depth completion"
+    },
+    {
+     "id": "EastPassage",
+     "type": "slab",
+     "map": [
+      1081,
+      3581,
+      1300,
+      3625
+     ],
+     "y": [
+      -4,
+      6
+     ],
+     "mat": "stone",
+     "ev": "A",
+     "ref": "master B5: ground continues east to the left well"
+    }
+   ]
+  },
+  {
+   "id": "UpperBridge",
+   "name": "上层长桥",
+   "label": [
+    2270,
+    1860
+   ],
+   "elements": [
+    {
+     "id": "Bridge",
+     "type": "bridge",
+     "x": [
+      1905,
+      2640
+     ],
+     "deck": 1983,
+     "band_to": 2026,
+     "bays": 16,
+     "roof": [
+      1925,
+      1935
+     ],
+     "posts": 16,
+     "ev": "A",
+     "ref": "04_Bridges/Bridges_total.jpg; master A_upper_bridge"
+    },
+    {
+     "id": "LouvreRoof",
+     "type": "canopy",
+     "map": [
+      2300,
+      1899,
+      2640,
+      1925
+     ],
+     "curve": "L",
+     "y": [
+      -4,
+      4
+     ],
+     "ev": "A",
+     "ref": "04_Bridges/Bridges_right.jpg"
+    }
+   ]
+  },
+  {
+   "id": "BridgeGatehouse",
+   "name": "桥东门厅",
+   "label": [
+    2850,
+    1850
+   ],
+   "elements": [
+    {
+     "id": "Room",
+     "type": "stack",
+     "map": [
+      2640,
+      1880,
+      3000,
+      1990
+     ],
+     "floors": [
+      1983
+     ],
+     "doors": [
+      [
+       "L",
+       1983
+      ]
+     ],
+     "ev": "A",
+     "ref": "master B3_sanctum; no local screenshot",
+     "y": [
+      -8,
+      14
+     ]
+    },
+    {
+     "id": "TallWindow",
+     "type": "marker",
+     "shape": "box",
+     "map": [
+      2832,
+      1890,
+      2880,
+      1983
+     ],
+     "y": [
+      13.0,
+      13.4
+     ],
+     "mat": "glass",
+     "ev": "A",
+     "ref": "master B3_sanctum"
+    }
+   ]
+  },
+  {
+   "id": "SoulSanctum",
+   "name": "灵魂圣所",
+   "label": [
+    3440,
+    960
+   ],
+   "elements": [
+    {
+     "id": "LeftWing",
+     "type": "stack",
+     "map": [
+      2166,
+      986,
+      2496,
+      1814
+     ],
+     "floors": [
+      1142,
+      1298,
+      1418,
+      1574,
+      1670,
+      1802
+     ],
+     "doors": [
+      [
+       "R",
+       1418
+      ]
+     ],
+     "ev": "A",
+     "ref": "master B3_sanctum; 01_Soul_Sanctuary/Soul_Sanctuary_left.jpg",
+     "y": [
+      -9,
+      16
+     ]
+    },
+    {
+     "id": "LeftGlassTower",
+     "type": "pillar",
+     "x": 2451,
+     "map_y": [
+      1430,
+      1814
+     ],
+     "r": 30,
+     "yc": -3.5,
+     "ev": "A",
+     "ref": "master B3_sanctum"
+    },
+    {
+     "id": "Arena",
+     "type": "stack",
+     "map": [
+      2580,
+      1082,
+      2790,
+      1274
+     ],
+     "floors": [
+      1270
+     ],
+     "ev": "A",
+     "ref": "master B3_sanctum; no local screenshot",
+     "y": [
+      -8,
+      14
+     ]
+    },
+    {
+     "id": "HallUnderArena",
+     "type": "stack",
+     "map": [
+      2580,
+      1310,
+      2832,
+      1418
+     ],
+     "floors": [
+      1414
+     ],
+     "ev": "A",
+     "ref": "master B3_sanctum; no local screenshot",
+     "y": [
+      -8,
+      14
+     ]
+    },
+    {
+     "id": "LinkCorridor",
+     "type": "stack",
+     "map": [
+      2496,
+      1430,
+      3000,
+      1478
+     ],
+     "floors": [
+      1474
+     ],
+     "doors": [
+      [
+       "L",
+       1474
+      ],
+      [
+       "R",
+       1474
+      ]
+     ],
+     "ev": "A",
+     "ref": "master B3_sanctum",
+     "y": [
+      -5,
+      7
+     ]
+    },
+    {
+     "id": "Main",
+     "type": "stack",
+     "map": [
+      3000,
+      1082,
+      3888,
+      1930
+     ],
+     "floors": [
+      1166,
+      1250,
+      1442,
+      1562,
+      1670,
+      1790,
+      1910
+     ],
+     "y": [
+      -12,
+      26
+     ],
+     "voids": [
+      [
+       3222,
+       3258,
+       1500,
+       1920
+      ]
+     ],
+     "doors": [
+      [
+       "L",
+       1474
+      ]
+     ],
+     "ev": "A",
+     "ref": "01_Soul_Sanctuary/Soul_Sanctuary_core.jpg; master B3_sanctum"
+    },
+    {
+     "id": "Elevator",
+     "type": "shaft",
+     "map": [
+      3222,
+      1514,
+      3258,
+      1910
+     ],
+     "car": 1890,
+     "ev": "A",
+     "ref": "01_Soul_Sanctuary/Soul_Sanctuary_bottom1.jpg, middle1.jpg",
+     "open": true
+    },
+    {
+     "id": "Dome",
+     "type": "dome",
+     "map": [
+      3192,
+      1004,
+      3468,
+      1082
+     ],
+     "ry": 12,
+     "yc": 7,
+     "ev": "A",
+     "ref": "01_Soul_Sanctuary/Soul_Sanctuary_core_upper.jpg"
+    },
+    {
+     "id": "RoofLeft",
+     "type": "canopy",
+     "map": [
+      3000,
+      1058,
+      3192,
+      1082
+     ],
+     "curve": "L",
+     "y": [
+      -12.5,
+      26.5
+     ],
+     "ev": "A",
+     "ref": "01_Soul_Sanctuary/Soul_Sanctuary_core_upper.jpg"
+    },
+    {
+     "id": "RoofRight",
+     "type": "canopy",
+     "map": [
+      3468,
+      1058,
+      3672,
+      1082
+     ],
+     "curve": "R",
+     "y": [
+      -12.5,
+      26.5
+     ],
+     "ev": "A",
+     "ref": "01_Soul_Sanctuary/Soul_Sanctuary_core_upper.jpg"
+    },
+    {
+     "id": "RoofRightLow",
+     "type": "canopy",
+     "map": [
+      3672,
+      1084,
+      3888,
+      1118
+     ],
+     "curve": "R",
+     "y": [
+      -12.5,
+      26.5
+     ],
+     "ev": "A",
+     "ref": "01_Soul_Sanctuary/Soul_Sanctuary_upper2.jpg"
+    },
+    {
+     "id": "FacadeGlassA",
+     "type": "pillar",
+     "x": 3876,
+     "map_y": [
+      1120,
+      1900
+     ],
+     "r": 13,
+     "yc": -6,
+     "ev": "A",
+     "ref": "01_Soul_Sanctuary/Soul_Sanctuary_bottom2.jpg, middle2.jpg"
+    },
+    {
+     "id": "FacadeGlassB",
+     "type": "pillar",
+     "x": 3876,
+     "map_y": [
+      1120,
+      1900
+     ],
+     "r": 13,
+     "yc": 8,
+     "ev": "C",
+     "ref": "repeat of the facade pillar in depth"
+    },
+    {
+     "id": "Lower",
+     "type": "stack",
+     "map": [
+      3200,
+      1930,
+      3700,
+      2283
+     ],
+     "floors": [
+      2078,
+      2270
+     ],
+     "ev": "A",
+     "ref": "01_Soul_Sanctuary/Soul_Sanctuary_bottom.jpg; master B3_sanctum",
+     "y": [
+      -10,
+      20
+     ]
+    },
+    {
+     "id": "BookRooms",
+     "type": "stack",
+     "map": [
+      2616,
+      1598,
+      3000,
+      1862
+     ],
+     "floors": [
+      1700,
+      1790,
+      1858
+     ],
+     "ev": "A",
+     "ref": "01_Soul_Sanctuary/Soul_Sanctuary_upper1.jpg; master B3_sanctum",
+     "y": [
+      -8,
+      16
+     ]
+    },
+    {
+     "id": "FacadeGlassC",
+     "type": "pillar",
+     "x": 3876,
+     "map_y": [
+      1120,
+      1900
+     ],
+     "r": 13,
+     "yc": 20,
+     "ev": "C",
+     "ref": "repeat of the facade pillar in depth"
+    }
+   ]
+  },
+  {
+   "id": "CentralBlock",
+   "name": "中央楼群",
+   "label": [
+    2900,
+    2140
+   ],
+   "elements": [
+    {
+     "id": "Neck",
+     "type": "stack",
+     "map": [
+      2688,
+      1990,
+      3180,
+      2200
+     ],
+     "floors": [
+      2100,
+      2196
+     ],
+     "ev": "B",
+     "ref": "rooms between the gatehouse and the main stack on master B3_sanctum; floor levels approximate",
+     "y": [
+      -9,
+      17
+     ]
+    },
+    {
+     "id": "Stack",
+     "type": "stack",
+     "map": [
+      2687,
+      2200,
+      3151,
+      3461
+     ],
+     "floors": [
+      2263,
+      2380,
+      2497,
+      2605,
+      2821,
+      2911,
+      3019,
+      3109,
+      3208,
+      3320,
+      3451
+     ],
+     "voids": [
+      [
+       2970,
+       3010,
+       2265,
+       2530
+      ],
+      [
+       2970,
+       3010,
+       2735,
+       3330
+      ],
+      [
+       2775,
+       2815,
+       3440,
+       3470
+      ]
+     ],
+     "doors": [
+      [
+       "R",
+       2605
+      ],
+      [
+       "R",
+       3451
+      ]
+     ],
+     "ev": "A",
+     "ref": "11_Lower_City/Lower_City_middle.jpg, Lower_City_upper.jpg; master B3_central_lower",
+     "y": [
+      -10,
+      21
+     ]
+    },
+    {
+     "id": "ShaftUpper",
+     "type": "shaft",
+     "map": [
+      2970,
+      2272,
+      3010,
+      2524
+     ],
+     "ev": "A",
+     "ref": "master B3_central_lower",
+     "open": true
+    },
+    {
+     "id": "ShaftLower",
+     "type": "shaft",
+     "map": [
+      2970,
+      2740,
+      3010,
+      3325
+     ],
+     "car": 3305,
+     "ev": "A",
+     "ref": "11_Lower_City/Lower_City_upper.jpg",
+     "open": true
+    },
+    {
+     "id": "DarkBand",
+     "type": "box",
+     "map": [
+      2547,
+      2200,
+      2687,
+      3461
+     ],
+     "y": [
+      -10,
+      21
+     ],
+     "mat": "hostrock",
+     "ev": "C",
+     "ref": "black band on master between the shell towers and the interiors; treated as building mass"
+    },
+    {
+     "id": "GlassPillar",
+     "type": "pillar",
+     "x": 3146,
+     "map_y": [
+      2640,
+      2990
+     ],
+     "r": 12,
+     "yc": 0,
+     "ev": "A",
+     "ref": "11_Lower_City/Lower_City_upper.jpg"
+    },
+    {
+     "id": "ShopGlassPillar",
+     "type": "pillar",
+     "x": 3146,
+     "map_y": [
+      3380,
+      3443
+     ],
+     "r": 11,
+     "yc": -4,
+     "ev": "A",
+     "ref": "13_Lighting/Lighting_03.jpg"
+    },
+    {
+     "id": "Walkway",
+     "type": "slab",
+     "map": [
+      3151,
+      3451,
+      3428,
+      3469
+     ],
+     "y": [
+      -3,
+      3
+     ],
+     "mat": "louvre",
+     "ev": "A",
+     "ref": "13_Lighting/Lighting_03.jpg; master C6"
+    },
+    {
+     "id": "GroundGallery",
+     "type": "stack",
+     "map": [
+      2690,
+      3497,
+      3560,
+      3600
+     ],
+     "floors": [
+      3598
+     ],
+     "voids": [
+      [
+       2775,
+       2815,
+       3490,
+       3500
+      ]
+     ],
+     "doors": [
+      [
+       "L",
+       3598
+      ],
+      [
+       "R",
+       3598
+      ]
+     ],
+     "ev": "A",
+     "ref": "11_Lower_City/Lower_City_bottom.jpg; master C6",
+     "y": [
+      -10,
+      21
+     ]
+    },
+    {
+     "id": "GroundShaft",
+     "type": "shaft",
+     "map": [
+      2775,
+      3451,
+      2815,
+      3598
+     ],
+     "car": 3580,
+     "ev": "A",
+     "ref": "11_Lower_City/Lower_City_bottom.jpg",
+     "open": true
+    },
+    {
+     "id": "Plinth",
+     "type": "box",
+     "map": [
+      2690,
+      3461,
+      3151,
+      3497
+     ],
+     "y": [
+      -10,
+      21
+     ],
+     "mat": "stone",
+     "ev": "C",
+     "ref": "solid between the lowest room floor and the ground gallery roof"
+    }
+   ]
+  },
+  {
+   "id": "LowerBridge",
+   "name": "下层长桥",
+   "label": [
+    3620,
+    2440
+   ],
+   "elements": [
+    {
+     "id": "Bridge",
+     "type": "bridge",
+     "x": [
+      3151,
+      4030
+     ],
+     "deck": 2618,
+     "band_to": 2652,
+     "bays": 20,
+     "roof": [
+      2515,
+      2565
+     ],
+     "posts": 20,
+     "pavilions": [
+      3383,
+      3563,
+      3738
+     ],
+     "pav_top": 2488,
+     "pav_w": 110,
+     "ev": "A",
+     "ref": "11_Lower_City/Lower_City_upperbridge.jpg; master B6"
+    },
+    {
+     "id": "BenchRoom",
+     "type": "stack",
+     "map": [
+      3734,
+      2652,
+      3896,
+      2704
+     ],
+     "floors": [
+      2700
+     ],
+     "ev": "A",
+     "ref": "11_Lower_City/Lower_City_upperbridge.jpg lower right; master B6",
+     "y": [
+      -5,
+      7
+     ]
+    }
+   ]
+  },
+  {
+   "id": "CentralWell",
+   "name": "中央雨井",
+   "label": [
+    3520,
+    2860
+   ],
+   "elements": [
+    {
+     "id": "Bed",
+     "type": "box",
+     "map": [
+      3151,
+      3625,
+      4270,
+      3680
+     ],
+     "y": [
+      -16,
+      44
+     ],
+     "mat": "rock",
+     "ev": "C",
+     "ref": "well floor"
+    },
+    {
+     "id": "Water",
+     "type": "water",
+     "map": [
+      3151,
+      3608,
+      3900,
+      3608
+     ],
+     "y": [
+      -16,
+      -3.5
+     ],
+     "ev": "A",
+     "ref": "11_Lower_City/Lower_City_statue.jpg: water in front of the plaza edge"
+    },
+    {
+     "id": "FreeTower",
+     "type": "tower",
+     "map": [
+      3392,
+      2983,
+      3653,
+      3600
+     ],
+     "yc": 14,
+     "ry": 8,
+     "roof": "umbrella",
+     "taper": 0.5,
+     "windows": 10,
+     "ev": "A",
+     "ref": "master B6; X/Z observed, depth position is completion"
+    },
+    {
+     "id": "IronArches",
+     "type": "scaffold",
+     "map": [
+      3600,
+      3280,
+      3644,
+      3587
+     ],
+     "tiers": [
+      3280,
+      3370,
+      3460
+     ],
+     "posts": 2,
+     "y": [
+      3,
+      6
+     ],
+     "ev": "A",
+     "ref": "master B6"
+    },
+    {
+     "id": "EastTower",
+     "type": "tower",
+     "map": [
+      3996,
+      2740,
+      4149,
+      3380
+     ],
+     "yc": 1,
+     "ry": 6,
+     "roof": "flat",
+     "windows": 8,
+     "ev": "A",
+     "ref": "master B6"
+    },
+    {
+     "id": "Overhang",
+     "type": "poly",
+     "pts": [
+      [
+       3752,
+       2704
+      ],
+      [
+       4022,
+       2704
+      ],
+      [
+       4022,
+       2860
+      ],
+      [
+       3900,
+       2830
+      ],
+      [
+       3752,
+       2725
+      ]
+     ],
+     "y": [
+      -6,
+      9
+     ],
+     "mat": "rock",
+     "ev": "A",
+     "ref": "master B6 dark overhang below the bridge end"
+    },
+    {
+     "id": "BackTowerA",
+     "type": "tower",
+     "map": [
+      3160,
+      2330,
+      3640,
+      3625
+     ],
+     "yc": 52,
+     "ry": 20,
+     "roof": "umbrella",
+     "windows": 22,
+     "layer": "BACKDROP",
+     "ev": "B",
+     "ref": "very large blurred tower behind the well on master B6 and Lower_City_upperbridge.jpg; depth is completion"
+    },
+    {
+     "id": "BackTowerB",
+     "type": "tower",
+     "map": [
+      3640,
+      2560,
+      3980,
+      3625
+     ],
+     "yc": 74,
+     "ry": 14,
+     "roof": "dome",
+     "windows": 14,
+     "layer": "BACKDROP",
+     "ev": "C",
+     "ref": "depth completion"
+    },
+    {
+     "id": "BackTowerC",
+     "type": "tower",
+     "map": [
+      3880,
+      2300,
+      4150,
+      3625
+     ],
+     "yc": 38,
+     "ry": 9,
+     "roof": "umbrella",
+     "windows": 12,
+     "layer": "BACKDROP",
+     "ev": "C",
+     "ref": "depth completion: simplified distant tower with real volume"
+    },
+    {
+     "id": "BackTowerD",
+     "type": "tower",
+     "map": [
+      3300,
+      2050,
+      3620,
+      3625
+     ],
+     "yc": 86,
+     "ry": 14,
+     "roof": "dome",
+     "windows": 14,
+     "layer": "BACKDROP",
+     "ev": "C",
+     "ref": "depth completion: simplified distant tower with real volume"
+    },
+    {
+     "id": "FrontTowerA",
+     "type": "tower",
+     "map": [
+      3250,
+      2700,
+      3560,
+      3625
+     ],
+     "yc": -92,
+     "ry": 12,
+     "roof": "dome",
+     "windows": 14,
+     "layer": "FOREGROUND",
+     "ev": "C",
+     "ref": "viewer-side tower row closing the well; not shown by the master map, screenshots only show dark foreground silhouettes"
+    },
+    {
+     "id": "FrontTowerB",
+     "type": "tower",
+     "map": [
+      3700,
+      2400,
+      3960,
+      3625
+     ],
+     "yc": -108,
+     "ry": 10,
+     "roof": "umbrella",
+     "windows": 14,
+     "layer": "FOREGROUND",
+     "ev": "C",
+     "ref": "viewer-side tower row closing the well; not shown by the master map, screenshots only show dark foreground silhouettes"
+    }
+   ]
+  },
+  {
+   "id": "FountainPlaza",
+   "name": "喷泉雕像广场",
+   "label": [
+    3730,
+    3260
+   ],
+   "elements": [
+    {
+     "id": "Platform",
+     "type": "box",
+     "map": [
+      3560,
+      3587,
+      3890,
+      3640
+     ],
+     "y": [
+      -3.5,
+      12
+     ],
+     "mat": "stone",
+     "ev": "A",
+     "ref": "11_Lower_City/Lower_City_statue.jpg"
+    },
+    {
+     "id": "Statue",
+     "type": "statue",
+     "x": 3730,
+     "base": 3587,
+     "height_px": 117,
+     "yc": 3,
+     "ev": "A",
+     "ref": "11_Lower_City/Lower_City_statue.jpg; 12_Materials/Materials_02.jpg. Placeholder massing only; stage 2 makes the real asset"
+    },
+    {
+     "id": "LampL",
+     "type": "lamp",
+     "x": 3688,
+     "base": 3587,
+     "yc": -1.5,
+     "ev": "A",
+     "ref": "11_Lower_City/Lower_City_statue.jpg"
+    },
+    {
+     "id": "LampR",
+     "type": "lamp",
+     "x": 3772,
+     "base": 3587,
+     "yc": -1.5,
+     "ev": "A",
+     "ref": "11_Lower_City/Lower_City_statue.jpg"
+    },
+    {
+     "id": "IronArches",
+     "type": "scaffold",
+     "map": [
+      3572,
+      3300,
+      3624,
+      3587
+     ],
+     "tiers": [
+      3300,
+      3380,
+      3460,
+      3530
+     ],
+     "posts": 2,
+     "y": [
+      5,
+      8
+     ],
+     "ev": "A",
+     "ref": "11_Lower_City/Lower_City_statue.jpg left side"
+    },
+    {
+     "id": "BackArcade",
+     "type": "box",
+     "map": [
+      3560,
+      3530,
+      3890,
+      3587
+     ],
+     "y": [
+      10.5,
+      12
+     ],
+     "mat": "stone",
+     "ev": "A",
+     "ref": "11_Lower_City/Lower_City_statue.jpg: railing and round-arched wall behind the statue; its depth is completion"
+    }
+   ]
+  },
+  {
+   "id": "PlazaEastHouse",
+   "name": "广场东侧楼",
+   "label": [
+    4000,
+    3280
+   ],
+   "elements": [
+    {
+     "id": "House",
+     "type": "stack",
+     "map": [
+      3890,
+      3379,
+      4112,
+      3595
+     ],
+     "floors": [
+      3451,
+      3523,
+      3590
+     ],
+     "doors": [
+      [
+       "L",
+       3451
+      ],
+      [
+       "L",
+       3590
+      ],
+      [
+       "R",
+       3590
+      ]
+     ],
+     "ev": "A",
+     "ref": "11_Lower_City/Lower_City_statue.jpg right side; 13_Lighting/Lighting_04.jpg; master B6",
+     "y": [
+      -7,
+      13
+     ]
+    },
+    {
+     "id": "Terrace",
+     "type": "slab",
+     "map": [
+      3852,
+      3451,
+      3890,
+      3460
+     ],
+     "y": [
+      -3,
+      3
+     ],
+     "mat": "stone",
+     "ev": "A",
+     "ref": "11_Lower_City/Lower_City_statue.jpg"
+    },
+    {
+     "id": "Canopy",
+     "type": "canopy",
+     "map": [
+      3900,
+      3325,
+      4067,
+      3379
+     ],
+     "curve": "L",
+     "y": [
+      -7.5,
+      13.5
+     ],
+     "ev": "A",
+     "ref": "11_Lower_City/Lower_City_statue_upper_right.jpg"
+    },
+    {
+     "id": "GlassPillar",
+     "type": "pillar",
+     "x": 3896,
+     "map_y": [
+      3460,
+      3587
+     ],
+     "r": 11,
+     "yc": -4.5,
+     "ev": "A",
+     "ref": "11_Lower_City/Lower_City_statue.jpg"
+    },
+    {
+     "id": "CorridorEast",
+     "type": "stack",
+     "map": [
+      4112,
+      3540,
+      4269,
+      3595
+     ],
+     "floors": [
+      3590
+     ],
+     "doors": [
+      [
+       "L",
+       3590
+      ],
+      [
+       "R",
+       3590
+      ]
+     ],
+     "ev": "A",
+     "ref": "master B2_rc_block_lower",
+     "y": [
+      -5,
+      7
+     ]
+    }
+   ]
+  },
+  {
+   "id": "TowerBlock",
+   "name": "塔楼楼群",
+   "label": [
+    4570,
+    180
+   ],
+   "elements": [
+    {
+     "id": "Base",
+     "type": "stack",
+     "map": [
+      4269,
+      3251,
+      4867,
+      3595
+     ],
+     "floors": [
+      3404,
+      3590
+     ],
+     "voids": [
+      [
+       4327,
+       4363,
+       3340,
+       3420
+      ],
+      [
+       4759,
+       4795,
+       3340,
+       3420
+      ],
+      [
+       4289,
+       4323,
+       3240,
+       3260
+      ]
+     ],
+     "doors": [
+      [
+       "L",
+       3590
+      ],
+      [
+       "R",
+       3590
+      ]
+     ],
+     "ev": "A",
+     "ref": "08_Tower/Tower_step1.jpg; master B2_rc_block_lower",
+     "y": [
+      -10,
+      19
+     ]
+    },
+    {
+     "id": "BaseShaftL",
+     "type": "shaft",
+     "map": [
+      4327,
+      3350,
+      4363,
+      3590
+     ],
+     "car": 3572,
+     "ev": "A",
+     "ref": "08_Tower/Tower_step1.jpg",
+     "open": true
+    },
+    {
+     "id": "BaseShaftR",
+     "type": "shaft",
+     "map": [
+      4759,
+      3350,
+      4795,
+      3590
+     ],
+     "car": 3572,
+     "ev": "A",
+     "ref": "08_Tower/Tower_step1.jpg",
+     "open": true
+    },
+    {
+     "id": "LinkShaft",
+     "type": "shaft",
+     "map": [
+      4289,
+      2981,
+      4323,
+      3251
+     ],
+     "ev": "A",
+     "ref": "master B2_rc_block_lower"
+    },
+    {
+     "id": "MassA",
+     "type": "box",
+     "map": [
+      4323,
+      2981,
+      4867,
+      3251
+     ],
+     "y": [
+      -9,
+      17
+     ],
+     "mat": "hostrock",
+     "ev": "C",
+     "ref": "black on master inside the building outline; treated as solid body"
+    },
+    {
+     "id": "Rooms",
+     "type": "stack",
+     "map": [
+      4273,
+      2666,
+      4867,
+      2981
+     ],
+     "floors": [
+      2750,
+      2860,
+      2976
+     ],
+     "voids": [
+      [
+       4289,
+       4323,
+       2960,
+       2990
+      ]
+     ],
+     "ev": "A",
+     "ref": "08_Tower/Tower_step2.jpg; master B2_rc_block_lower",
+     "y": [
+      -9,
+      17
+     ]
+    },
+    {
+     "id": "WhiteWindow",
+     "type": "marker",
+     "shape": "box",
+     "map": [
+      4521,
+      2792,
+      4647,
+      2976
+     ],
+     "y": [
+      16.0,
+      16.4
+     ],
+     "mat": "glass",
+     "ev": "A",
+     "ref": "08_Tower/Tower_step2.jpg"
+    },
+    {
+     "id": "Corridor",
+     "type": "stack",
+     "map": [
+      4269,
+      2468,
+      4867,
+      2666
+     ],
+     "floors": [
+      2540,
+      2621,
+      2662
+     ],
+     "voids": [
+      [
+       4546,
+       4588,
+       2460,
+       2560
+      ]
+     ],
+     "doors": [
+      [
+       "L",
+       2621
+      ]
+     ],
+     "ev": "A",
+     "ref": "08_Tower/Tower_step3.jpg; master B2_rc_block_lower",
+     "y": [
+      -9,
+      17
+     ]
+    },
+    {
+     "id": "CorridorWest",
+     "type": "stack",
+     "map": [
+      4030,
+      2558,
+      4269,
+      2625
+     ],
+     "floors": [
+      2621
+     ],
+     "doors": [
+      [
+       "L",
+       2621
+      ],
+      [
+       "R",
+       2621
+      ]
+     ],
+     "ev": "A",
+     "ref": "master B2_rc_block_lower: corridor runs west to the bridge",
+     "y": [
+      -5,
+      7
+     ]
+    },
+    {
+     "id": "MidShaft",
+     "type": "shaft",
+     "map": [
+      4546,
+      2297,
+      4588,
+      2540
+     ],
+     "car": 2520,
+     "ev": "A",
+     "ref": "08_Tower/Tower_step3.jpg",
+     "open": true
+    },
+    {
+     "id": "Upper",
+     "type": "stack",
+     "map": [
+      4285,
+      2000,
+      4836,
+      2468
+     ],
+     "floors": [
+      2067,
+      2337,
+      2464
+     ],
+     "voids": [
+      [
+       4546,
+       4588,
+       2290,
+       2470
+      ]
+     ],
+     "ev": "A",
+     "ref": "master B2_rc_block_lower; partly black inside",
+     "y": [
+      -8,
+      15
+     ]
+    },
+    {
+     "id": "HallFloors",
+     "type": "stack",
+     "map": [
+      4153,
+      1618,
+      4792,
+      2000
+     ],
+     "floors": [
+      1870,
+      1996
+     ],
+     "ev": "A",
+     "ref": "08_Tower/Tower_step4.jpg; master B2_rc_block_upper",
+     "y": [
+      -10,
+      17
+     ]
+    },
+    {
+     "id": "Floor5",
+     "type": "stack",
+     "map": [
+      4094,
+      1452,
+      4792,
+      1618
+     ],
+     "floors": [
+      1614
+     ],
+     "ev": "A",
+     "ref": "08_Tower/Tower_step5.jpg; master B2_rc_block_upper",
+     "y": [
+      -9,
+      15
+     ]
+    },
+    {
+     "id": "WestCanopy",
+     "type": "canopy",
+     "map": [
+      4094,
+      1410,
+      4215,
+      1452
+     ],
+     "curve": "L",
+     "y": [
+      -9.5,
+      15.5
+     ],
+     "ev": "A",
+     "ref": "master B2_rc_block_upper"
+    },
+    {
+     "id": "SpireBase",
+     "type": "stack",
+     "map": [
+      4207,
+      1295,
+      4729,
+      1452
+     ],
+     "floors": [
+      1447
+     ],
+     "voids": [
+      [
+       4410,
+       4446,
+       1280,
+       1300
+      ]
+     ],
+     "ev": "A",
+     "ref": "08_Tower/Tower_step6.jpg",
+     "y": [
+      -8,
+      13
+     ]
+    },
+    {
+     "id": "BasePavilion",
+     "type": "dome",
+     "map": [
+      4285,
+      1240,
+      4380,
+      1295
+     ],
+     "ry": 3.2,
+     "yc": 0,
+     "ev": "A",
+     "ref": "08_Tower/Tower_step6.jpg"
+    },
+    {
+     "id": "SpireShaft",
+     "type": "shaft",
+     "map": [
+      4410,
+      398,
+      4446,
+      1295
+     ],
+     "ev": "A",
+     "ref": "08_Tower/Tower_step7.jpg, Tower_step8.jpg"
+    },
+    {
+     "id": "SpireGlass",
+     "type": "pillar",
+     "x": 4396,
+     "map_y": [
+      470,
+      1295
+     ],
+     "r": 14,
+     "yc": 0,
+     "ev": "A",
+     "ref": "08_Tower/Tower_step7.jpg"
+    },
+    {
+     "id": "SpireBodyLow",
+     "type": "box",
+     "map": [
+      4446,
+      533,
+      4652,
+      1295
+     ],
+     "y": [
+      -5,
+      7
+     ],
+     "mat": "hostrock",
+     "ev": "C",
+     "ref": "black right of the shaft on master and in Tower_step7.jpg; treated as solid tower body"
+    },
+    {
+     "id": "SpireBodyHigh",
+     "type": "box",
+     "map": [
+      4446,
+      398,
+      4652,
+      470
+     ],
+     "y": [
+      -5,
+      7
+     ],
+     "mat": "hostrock",
+     "ev": "C",
+     "ref": "as above"
+    },
+    {
+     "id": "SpireBodySideL",
+     "type": "box",
+     "map": [
+      4446,
+      470,
+      4531,
+      533
+     ],
+     "y": [
+      -5,
+      7
+     ],
+     "mat": "hostrock",
+     "ev": "C",
+     "ref": "as above"
+    },
+    {
+     "id": "SpireBodySideR",
+     "type": "box",
+     "map": [
+      4621,
+      470,
+      4652,
+      533
+     ],
+     "y": [
+      -5,
+      7
+     ],
+     "mat": "hostrock",
+     "ev": "C",
+     "ref": "as above"
+    },
+    {
+     "id": "SmallChamber",
+     "type": "stack",
+     "map": [
+      4531,
+      470,
+      4621,
+      533
+     ],
+     "floors": [
+      530
+     ],
+     "y": [
+      -5,
+      7
+     ],
+     "ev": "A",
+     "ref": "master B2_rc_block_upper; no local screenshot"
+    },
+    {
+     "id": "TopRoom",
+     "type": "stack",
+     "map": [
+      4315,
+      268,
+      4778,
+      398
+     ],
+     "floors": [
+      394
+     ],
+     "voids": [
+      [
+       4410,
+       4446,
+       385,
+       400
+      ]
+     ],
+     "ev": "A",
+     "ref": "08_Tower/Tower_step9.jpg",
+     "y": [
+      -7,
+      10
+     ]
+    },
+    {
+     "id": "TopRoofWest",
+     "type": "canopy",
+     "map": [
+      4315,
+      236,
+      4560,
+      268
+     ],
+     "curve": "L",
+     "y": [
+      -7.5,
+      10.5
+     ],
+     "ev": "A",
+     "ref": "08_Tower/Tower_step9.jpg"
+    },
+    {
+     "id": "TopRoofEast",
+     "type": "dome",
+     "map": [
+      4540,
+      222,
+      4778,
+      268
+     ],
+     "ry": 7.5,
+     "yc": 1.5,
+     "ev": "A",
+     "ref": "08_Tower/Tower_step9.jpg"
+    },
+    {
+     "id": "Telescope",
+     "type": "marker",
+     "shape": "cylx",
+     "map": [
+      4262,
+      328,
+      4335,
+      344
+     ],
+     "y": [
+      -0.6,
+      0.6
+     ],
+     "mat": "landmark",
+     "ev": "A",
+     "ref": "08_Tower/Tower_step9.jpg"
+    }
+   ]
+  },
+  {
+   "id": "TopCavern",
+   "name": "顶部雨腔与洞顶",
+   "label": [
+    3900,
+    420
+   ],
+   "elements": [
+    {
+     "id": "CeilingWest",
+     "type": "rock",
+     "map": [
+      2765,
+      130,
+      4250,
+      330
+     ],
+     "y": [
+      -40,
+      96
+     ],
+     "layer": "CEILING",
+     "ev": "A",
+     "ref": "master B7 pebble ceiling; depth extent is completion"
+    },
+    {
+     "id": "CeilingEast",
+     "type": "rock",
+     "map": [
+      4250,
+      130,
+      5002,
+      212
+     ],
+     "y": [
+      -40,
+      96
+     ],
+     "layer": "CEILING",
+     "ev": "A",
+     "ref": "master B7/B2: the pebble ceiling is thinner over the tower top room; depth extent is completion"
+    },
+    {
+     "id": "WestWall",
+     "type": "rock",
+     "map": [
+      2765,
+      330,
+      2990,
+      986
+     ],
+     "y": [
+      -12,
+      96
+     ],
+     "ev": "A",
+     "ref": "master B7"
+    },
+    {
+     "id": "EastWall",
+     "type": "rock",
+     "map": [
+      4882,
+      330,
+      5002,
+      2400
+     ],
+     "y": [
+      -12,
+      96
+     ],
+     "ev": "A",
+     "ref": "master B7, B2_rc_block_upper"
+    },
+    {
+     "id": "SpireA",
+     "type": "marker",
+     "shape": "spire",
+     "map": [
+      3215,
+      760,
+      3290,
+      1004
+     ],
+     "yc": 50,
+     "mat": "backdrop",
+     "layer": "BACKDROP",
+     "ev": "B",
+     "ref": "distant spires in the cavity on master B7; depth is completion"
+    },
+    {
+     "id": "SpireB",
+     "type": "marker",
+     "shape": "spire",
+     "map": [
+      3660,
+      895,
+      3730,
+      1082
+     ],
+     "yc": 58,
+     "mat": "backdrop",
+     "layer": "BACKDROP",
+     "ev": "B",
+     "ref": "as above"
+    },
+    {
+     "id": "SpireC",
+     "type": "marker",
+     "shape": "spire",
+     "map": [
+      4760,
+      1100,
+      4850,
+      1300
+     ],
+     "yc": 40,
+     "mat": "backdrop",
+     "layer": "BACKDROP",
+     "ev": "B",
+     "ref": "as above"
+    },
+    {
+     "id": "BackTowerA",
+     "type": "tower",
+     "map": [
+      3980,
+      700,
+      4260,
+      2520
+     ],
+     "yc": 44,
+     "ry": 10,
+     "roof": "umbrella",
+     "windows": 14,
+     "layer": "BACKDROP",
+     "ev": "B",
+     "ref": "blurred tall forms in the open rain cavity right of the sanctum on master B7; depth is completion"
+    },
+    {
+     "id": "BackTowerB",
+     "type": "tower",
+     "map": [
+      3700,
+      1150,
+      3960,
+      2520
+     ],
+     "yc": 70,
+     "ry": 9,
+     "roof": "dome",
+     "windows": 12,
+     "layer": "BACKDROP",
+     "ev": "C",
+     "ref": "depth completion: simplified distant tower with real volume"
+    },
+    {
+     "id": "BackTowerC",
+     "type": "tower",
+     "map": [
+      4660,
+      900,
+      4860,
+      2400
+     ],
+     "yc": 62,
+     "ry": 8,
+     "roof": "dome",
+     "windows": 10,
+     "layer": "BACKDROP",
+     "ev": "C",
+     "ref": "depth completion: simplified distant tower with real volume"
+    },
+    {
+     "id": "FrontTowerA",
+     "type": "tower",
+     "map": [
+      4000,
+      1500,
+      4230,
+      3625
+     ],
+     "yc": -100,
+     "ry": 9,
+     "roof": "dome",
+     "windows": 18,
+     "layer": "FOREGROUND",
+     "ev": "C",
+     "ref": "viewer-side tower row closing the well; not shown by the master map, screenshots only show dark foreground silhouettes"
+    }
+   ]
+  },
+  {
+   "id": "GroundCorridorEast",
+   "name": "东向地面低廊",
+   "label": [
+    5150,
+    3480
+   ],
+   "elements": [
+    {
+     "id": "Upper",
+     "type": "stack",
+     "map": [
+      4867,
+      3548,
+      5414,
+      3595
+     ],
+     "floors": [
+      3590
+     ],
+     "doors": [
+      [
+       "L",
+       3590
+      ],
+      [
+       "R",
+       3590
+      ]
+     ],
+     "ev": "A",
+     "ref": "master C8; no local screenshot",
+     "y": [
+      -5,
+      7
+     ]
+    },
+    {
+     "id": "Lower",
+     "type": "stack",
+     "map": [
+      5110,
+      3608,
+      5440,
+      3668
+     ],
+     "floors": [
+      3664
+     ],
+     "doors": [
+      [
+       "R",
+       3664
+      ]
+     ],
+     "ev": "A",
+     "ref": "master C8; no local screenshot",
+     "y": [
+      -5,
+      7
+     ]
+    },
+    {
+     "id": "Step",
+     "type": "slab",
+     "map": [
+      5414,
+      3590,
+      5450,
+      3640
+     ],
+     "y": [
+      -3,
+      3
+     ],
+     "mat": "stone",
+     "ev": "C",
+     "ref": "short step down to the east-city ground"
+    }
+   ]
+  },
+  {
+   "id": "EastWell",
+   "name": "东城区左雨井",
+   "label": [
+    5930,
+    2700
+   ],
+   "elements": [
+    {
+     "id": "Ground",
+     "type": "box",
+     "map": [
+      5440,
+      3640,
+      6320,
+      3680
+     ],
+     "y": [
+      -14,
+      44
+     ],
+     "mat": "stone",
+     "ev": "A",
+     "ref": "06_Right_City/Right_City_west.jpg; master C3"
+    },
+    {
+     "id": "SmallBridge",
+     "type": "bridge",
+     "x": [
+      5522,
+      5774
+     ],
+     "deck": 3637,
+     "band_to": 3672,
+     "bays": 4,
+     "y": [
+      -2.5,
+      2.5
+     ],
+     "ev": "A",
+     "ref": "10_Elevator/Elevator_bottom.jpg; 12_Materials/Materials_01.jpg"
+    },
+    {
+     "id": "LeftBalcony",
+     "type": "box",
+     "map": [
+      5450,
+      3580,
+      5522,
+      3640
+     ],
+     "y": [
+      -3,
+      3
+     ],
+     "mat": "stone",
+     "ev": "A",
+     "ref": "10_Elevator/Elevator_bottom.jpg"
+    },
+    {
+     "id": "TiersA",
+     "type": "slabs",
+     "items": [
+      [
+       5774,
+       6032,
+       3553
+      ],
+      [
+       5840,
+       5978,
+       3466
+      ],
+      [
+       5909,
+       6041,
+       3421
+      ]
+     ],
+     "y": [
+      1,
+      6
+     ],
+     "mat": "iron",
+     "ev": "A",
+     "ref": "06_Right_City/Right_City_west.jpg; master C3"
+    },
+    {
+     "id": "TiersB",
+     "type": "slabs",
+     "items": [
+      [
+       6125,
+       6302,
+       3520
+      ],
+      [
+       6098,
+       6275,
+       3424
+      ],
+      [
+       6092,
+       6269,
+       3361
+      ]
+     ],
+     "y": [
+      1,
+      6
+     ],
+     "mat": "iron",
+     "ev": "A",
+     "ref": "06_Right_City/Right_City_west.jpg; master C3"
+    },
+    {
+     "id": "UmbrellaTower",
+     "type": "tower",
+     "map": [
+      5744,
+      2764,
+      6122,
+      3640
+     ],
+     "yc": 15,
+     "ry": 11,
+     "roof": "umbrella",
+     "windows": 18,
+     "ev": "A",
+     "ref": "master B1; 06_Right_City/Right_City_west.jpg"
+    },
+    {
+     "id": "LeftTower",
+     "type": "tower",
+     "map": [
+      5594,
+      2596,
+      5738,
+      3640
+     ],
+     "yc": 12,
+     "ry": 6,
+     "roof": "flat",
+     "windows": 12,
+     "ev": "A",
+     "ref": "master B1; 10_Elevator/Elevator_upper.jpg"
+    },
+    {
+     "id": "RightTower",
+     "type": "tower",
+     "map": [
+      6158,
+      2680,
+      6314,
+      3361
+     ],
+     "yc": 13,
+     "ry": 6,
+     "roof": "flat",
+     "windows": 9,
+     "ev": "A",
+     "ref": "master B1"
+    },
+    {
+     "id": "WestFlank",
+     "type": "tower",
+     "map": [
+      5438,
+      3260,
+      5520,
+      3580
+     ],
+     "yc": 6,
+     "ry": 4,
+     "roof": "flat",
+     "windows": 4,
+     "ev": "A",
+     "ref": "master C8; 10_Elevator/Elevator_bottom.jpg left edge"
+    },
+    {
+     "id": "Ceiling",
+     "type": "rock",
+     "map": [
+      5740,
+      2560,
+      6320,
+      2644
+     ],
+     "y": [
+      -10,
+      96
+     ],
+     "layer": "CEILING",
+     "ev": "A",
+     "ref": "master B1 stalactite band over the well"
+    },
+    {
+     "id": "UpperColumnTower",
+     "type": "tower",
+     "map": [
+      5590,
+      2135,
+      5770,
+      2596
+     ],
+     "yc": 12,
+     "ry": 7,
+     "roof": "flat",
+     "windows": 8,
+     "ev": "A",
+     "ref": "master C1: leaf-window rain column beside the House of Pleasure"
+    },
+    {
+     "id": "UpperColumnCeiling",
+     "type": "rock",
+     "map": [
+      5590,
+      2090,
+      6230,
+      2135
+     ],
+     "y": [
+      -8,
+      96
+     ],
+     "layer": "CEILING",
+     "ev": "A",
+     "ref": "master C1 stalactite edge"
+    },
+    {
+     "id": "BackTower",
+     "type": "tower",
+     "map": [
+      5470,
+      2700,
+      5720,
+      3660
+     ],
+     "yc": 52,
+     "ry": 12,
+     "roof": "dome",
+     "windows": 14,
+     "layer": "BACKDROP",
+     "ev": "C",
+     "ref": "depth completion"
+    },
+    {
+     "id": "BackTowerB",
+     "type": "tower",
+     "map": [
+      6050,
+      2700,
+      6300,
+      3660
+     ],
+     "yc": 44,
+     "ry": 9,
+     "roof": "umbrella",
+     "windows": 12,
+     "layer": "BACKDROP",
+     "ev": "C",
+     "ref": "depth completion: simplified distant tower with real volume"
+    },
+    {
+     "id": "BackTowerC",
+     "type": "tower",
+     "map": [
+      5760,
+      2640,
+      6050,
+      3660
+     ],
+     "yc": 78,
+     "ry": 12,
+     "roof": "dome",
+     "windows": 12,
+     "layer": "BACKDROP",
+     "ev": "C",
+     "ref": "depth completion: simplified distant tower with real volume"
+    },
+    {
+     "id": "FrontTowerA",
+     "type": "tower",
+     "map": [
+      5600,
+      2800,
+      5900,
+      3660
+     ],
+     "yc": -90,
+     "ry": 11,
+     "roof": "umbrella",
+     "windows": 12,
+     "layer": "FOREGROUND",
+     "ev": "C",
+     "ref": "viewer-side tower row closing the well; not shown by the master map, screenshots only show dark foreground silhouettes"
+    },
+    {
+     "id": "FrontTowerB",
+     "type": "tower",
+     "map": [
+      6050,
+      3000,
+      6280,
+      3660
+     ],
+     "yc": -104,
+     "ry": 8,
+     "roof": "dome",
+     "windows": 10,
+     "layer": "FOREGROUND",
+     "ev": "C",
+     "ref": "viewer-side tower row closing the well; not shown by the master map, screenshots only show dark foreground silhouettes"
+    }
+   ]
+  },
+  {
+   "id": "HouseOfPleasure",
+   "name": "欢乐之屋",
+   "label": [
+    6000,
+    2060
+   ],
+   "elements": [
+    {
+     "id": "Lobby",
+     "type": "stack",
+     "map": [
+      5842,
+      2360,
+      6016,
+      2442
+     ],
+     "floors": [
+      2436
+     ],
+     "doors": [
+      [
+       "L",
+       2436
+      ],
+      [
+       "R",
+       2436
+      ]
+     ],
+     "voids": [
+      [
+       5860,
+       5908,
+       2350,
+       2370
+      ]
+     ],
+     "ev": "A",
+     "ref": "02_Marissa/Marrisa_home.jpg; master C1",
+     "y": [
+      -7,
+      11
+     ]
+    },
+    {
+     "id": "PatternShaft",
+     "type": "shaft",
+     "map": [
+      5860,
+      2190,
+      5908,
+      2360
+     ],
+     "ev": "A",
+     "ref": "master C1: patterned wall column above the lobby"
+    },
+    {
+     "id": "Porch",
+     "type": "slab",
+     "map": [
+      5770,
+      2436,
+      5842,
+      2446
+     ],
+     "y": [
+      -4,
+      4
+     ],
+     "mat": "stone",
+     "ev": "A",
+     "ref": "master C1"
+    },
+    {
+     "id": "PorchCanopy",
+     "type": "canopy",
+     "map": [
+      5770,
+      2346,
+      5842,
+      2382
+     ],
+     "curve": "L",
+     "y": [
+      -4.5,
+      4.5
+     ],
+     "ev": "A",
+     "ref": "02_Marissa/Marrisa_home.jpg upper left; master C1"
+    },
+    {
+     "id": "GlassPillar",
+     "type": "pillar",
+     "x": 5849,
+     "map_y": [
+      2190,
+      2346
+     ],
+     "r": 8,
+     "yc": -3,
+     "ev": "A",
+     "ref": "master C1"
+    },
+    {
+     "id": "Stage",
+     "type": "stack",
+     "map": [
+      6016,
+      2340,
+      6190,
+      2442
+     ],
+     "floors": [
+      2436
+     ],
+     "doors": [
+      [
+       "L",
+       2436
+      ]
+     ],
+     "ev": "A",
+     "ref": "02_Marissa/Marissa.jpg; master C1",
+     "y": [
+      -8,
+      14
+     ]
+    },
+    {
+     "id": "StagePlatform",
+     "type": "box",
+     "map": [
+      6080,
+      2418,
+      6184,
+      2436
+     ],
+     "y": [
+      1,
+      12
+     ],
+     "mat": "stone",
+     "ev": "A",
+     "ref": "02_Marissa/Marissa.jpg: raised edge with scrollwork; depth is completion"
+    },
+    {
+     "id": "DrapeCanopy",
+     "type": "marker",
+     "shape": "cyl",
+     "map": [
+      6105,
+      2348,
+      6180,
+      2366
+     ],
+     "yc": 7.5,
+     "ry": 2.6,
+     "mat": "landmark",
+     "ev": "A",
+     "ref": "02_Marissa/Marissa.jpg: round draped canopy above the stage"
+    },
+    {
+     "id": "UpperRoom",
+     "type": "stack",
+     "map": [
+      5980,
+      2160,
+      6220,
+      2256
+     ],
+     "floors": [
+      2252
+     ],
+     "ev": "A",
+     "ref": "master C1; no local screenshot",
+     "y": [
+      -7,
+      12
+     ]
+    },
+    {
+     "id": "Podium",
+     "type": "box",
+     "map": [
+      5770,
+      2446,
+      6224,
+      2560
+     ],
+     "y": [
+      -8,
+      96
+     ],
+     "mat": "hostrock",
+     "ev": "C",
+     "ref": "black on master under the house; rock shelf tied back to the cavern wall",
+     "layer": "HOSTROCK"
+    },
+    {
+     "id": "InfillA",
+     "type": "box",
+     "map": [
+      5908,
+      2256,
+      6224,
+      2340
+     ],
+     "y": [
+      -8,
+      96
+     ],
+     "mat": "hostrock",
+     "ev": "C",
+     "ref": "black on master between the upper room and the stage",
+     "layer": "HOSTROCK"
+    }
+   ]
+  },
+  {
+   "id": "EastTower",
+   "name": "东城区高塔",
+   "label": [
+    6395,
+    1600
+   ],
+   "elements": [
+    {
+     "id": "Shaft",
+     "type": "shaft",
+     "map": [
+      6307,
+      1666,
+      6481,
+      2849
+     ],
+     "y": [
+      -5,
+      5
+     ],
+     "car": 2830,
+     "car_w": 60,
+     "ev": "A",
+     "ref": "06_Right_City/Right_City_elevator.jpg, Right_City_elevator_upper.jpg; master B1, C5"
+    },
+    {
+     "id": "ReliefA",
+     "type": "marker",
+     "shape": "sphere",
+     "map": [
+      6335,
+      2394,
+      6455,
+      2550
+     ],
+     "y": [
+      3.2,
+      4.6
+     ],
+     "mat": "landmark",
+     "ev": "A",
+     "ref": "06_Right_City/Right_City_elevator_upper.jpg"
+    },
+    {
+     "id": "ReliefB",
+     "type": "marker",
+     "shape": "sphere",
+     "map": [
+      6335,
+      1880,
+      6455,
+      2036
+     ],
+     "y": [
+      3.2,
+      4.6
+     ],
+     "mat": "landmark",
+     "ev": "A",
+     "ref": "master B1: relief repeats up the tower"
+    },
+    {
+     "id": "WoodPlatform",
+     "type": "slab",
+     "map": [
+      6315,
+      2500,
+      6372,
+      2508
+     ],
+     "y": [
+      -2,
+      2
+     ],
+     "mat": "iron",
+     "ev": "A",
+     "ref": "06_Right_City/Right_City_elevator_upper.jpg"
+    },
+    {
+     "id": "Cap",
+     "type": "dome",
+     "map": [
+      6307,
+      1630,
+      6481,
+      1666
+     ],
+     "ry": 5,
+     "yc": 0,
+     "ev": "A",
+     "ref": "master B1 rounded tower top"
+    },
+    {
+     "id": "LowerGlassL",
+     "type": "pillar",
+     "x": 6340,
+     "map_y": [
+      2849,
+      3124
+     ],
+     "r": 9,
+     "yc": 0,
+     "ev": "A",
+     "ref": "master B1: rain strip and glass below the tower"
+    },
+    {
+     "id": "LowerGlassR",
+     "type": "pillar",
+     "x": 6498,
+     "map_y": [
+      2849,
+      3124
+     ],
+     "r": 9,
+     "yc": 0,
+     "ev": "A",
+     "ref": "master B1"
+    },
+    {
+     "id": "LowerCanopy",
+     "type": "canopy",
+     "map": [
+      6314,
+      3124,
+      6506,
+      3148
+     ],
+     "curve": "L",
+     "y": [
+      -5,
+      5
+     ],
+     "ev": "A",
+     "ref": "master B1"
+    }
+   ]
+  },
+  {
+   "id": "EastPeakHall",
+   "name": "东城区穹顶厅",
+   "label": [
+    6770,
+    2270
+   ],
+   "elements": [
+    {
+     "id": "Hall",
+     "type": "stack",
+     "map": [
+      6508,
+      2545,
+      7018,
+      2644
+     ],
+     "floors": [
+      2634
+     ],
+     "doors": [
+      [
+       "L",
+       2634
+      ]
+     ],
+     "ev": "A",
+     "ref": "06_Right_City/Right_City_peak.jpg; master C5",
+     "y": [
+      -10,
+      19
+     ]
+    },
+    {
+     "id": "Dome",
+     "type": "dome",
+     "map": [
+      6634,
+      2480,
+      6910,
+      2545
+     ],
+     "ry": 11,
+     "yc": 4.5,
+     "ev": "A",
+     "ref": "06_Right_City/Right_City_peak.jpg"
+    },
+    {
+     "id": "RoofL",
+     "type": "canopy",
+     "map": [
+      6508,
+      2515,
+      6634,
+      2545
+     ],
+     "curve": "L",
+     "y": [
+      -10.5,
+      19.5
+     ],
+     "ev": "A",
+     "ref": "06_Right_City/Right_City_peak.jpg"
+    },
+    {
+     "id": "RoofR",
+     "type": "canopy",
+     "map": [
+      6910,
+      2515,
+      7018,
+      2545
+     ],
+     "curve": "R",
+     "y": [
+      -10.5,
+      19.5
+     ],
+     "ev": "A",
+     "ref": "06_Right_City/Right_City_peak.jpg"
+    },
+    {
+     "id": "CaveCeiling",
+     "type": "rock",
+     "map": [
+      6500,
+      2300,
+      7060,
+      2390
+     ],
+     "y": [
+      -10,
+      96
+     ],
+     "layer": "CEILING",
+     "ev": "A",
+     "ref": "master C5"
+    },
+    {
+     "id": "EastRock",
+     "type": "rock",
+     "map": [
+      7018,
+      2390,
+      7080,
+      2644
+     ],
+     "y": [
+      -10,
+      96
+     ],
+     "ev": "A",
+     "ref": "master C5",
+     "layer": "HOSTROCK"
+    },
+    {
+     "id": "SpireA",
+     "type": "marker",
+     "shape": "spire",
+     "map": [
+      6690,
+      2400,
+      6730,
+      2515
+     ],
+     "yc": 22,
+     "mat": "backdrop",
+     "layer": "BACKDROP",
+     "ev": "A",
+     "ref": "master C5 spires behind the hall; depth is completion"
+    },
+    {
+     "id": "SpireB",
+     "type": "marker",
+     "shape": "spire",
+     "map": [
+      6800,
+      2405,
+      6836,
+      2515
+     ],
+     "yc": 26,
+     "mat": "backdrop",
+     "layer": "BACKDROP",
+     "ev": "A",
+     "ref": "as above"
+    }
+   ]
+  },
+  {
+   "id": "EastStack",
+   "name": "东城区紫调叠层",
+   "label": [
+    6670,
+    2900
+   ],
+   "elements": [
+    {
+     "id": "Stack",
+     "type": "stack",
+     "map": [
+      6531,
+      2644,
+      6807,
+      3196
+     ],
+     "floors": [
+      2715,
+      2790,
+      2865,
+      2940,
+      3015,
+      3090,
+      3165,
+      3192
+     ],
+     "voids": [
+      [
+       6536,
+       6560,
+       2650,
+       3200
+      ],
+      [
+       6740,
+       6764,
+       2650,
+       3180
+      ]
+     ],
+     "ev": "A",
+     "ref": "06_Right_City/Right_City_step1.jpg, step2.jpg, step3.jpg; master B1",
+     "y": [
+      -8,
+      15
+     ]
+    },
+    {
+     "id": "ShaftL",
+     "type": "shaft",
+     "map": [
+      6536,
+      2660,
+      6560,
+      3376
+     ],
+     "car": 3170,
+     "ev": "A",
+     "ref": "06_Right_City/Right_City_step1.jpg; master B1",
+     "open": true
+    },
+    {
+     "id": "ShaftR",
+     "type": "shaft",
+     "map": [
+      6740,
+      2660,
+      6764,
+      3165
+     ],
+     "car": 2700,
+     "ev": "A",
+     "ref": "06_Right_City/Right_City_step3.jpg",
+     "open": true
+    },
+    {
+     "id": "GlassR",
+     "type": "pillar",
+     "x": 6800,
+     "map_y": [
+      2720,
+      3120
+     ],
+     "r": 10,
+     "yc": 0,
+     "ev": "A",
+     "ref": "06_Right_City/Right_City_step2.jpg"
+    },
+    {
+     "id": "GlassL",
+     "type": "pillar",
+     "x": 6524,
+     "map_y": [
+      2720,
+      3120
+     ],
+     "r": 10,
+     "yc": 0,
+     "ev": "A",
+     "ref": "06_Right_City/Right_City_step1.jpg"
+    },
+    {
+     "id": "BottomCanopy",
+     "type": "canopy",
+     "map": [
+      6807,
+      3172,
+      6890,
+      3208
+     ],
+     "curve": "R",
+     "y": [
+      -5,
+      5
+     ],
+     "ev": "A",
+     "ref": "06_Right_City/Right_City_step1.jpg lower right"
+    }
+   ]
+  },
+  {
+   "id": "EastQuarter",
+   "name": "东城区下层叠楼",
+   "label": [
+    6480,
+    3285
+   ],
+   "elements": [
+    {
+     "id": "Center",
+     "type": "stack",
+     "map": [
+      6520,
+      3336,
+      6616,
+      3640
+     ],
+     "floors": [
+      3378,
+      3429,
+      3498,
+      3576,
+      3636
+     ],
+     "voids": [
+      [
+       6536,
+       6560,
+       3330,
+       3390
+      ]
+     ],
+     "ev": "A",
+     "ref": "06_Right_City/Right_City_middle.jpg; master C2",
+     "y": [
+      -9,
+      14
+     ]
+    },
+    {
+     "id": "West",
+     "type": "stack",
+     "map": [
+      6320,
+      3340,
+      6520,
+      3640
+     ],
+     "floors": [
+      3402,
+      3468,
+      3552,
+      3636
+     ],
+     "doors": [
+      [
+       "L",
+       3636
+      ]
+     ],
+     "ev": "A",
+     "ref": "06_Right_City/Right_City_middle.jpg; master C2",
+     "y": [
+      -8,
+      17
+     ]
+    },
+    {
+     "id": "East",
+     "type": "stack",
+     "map": [
+      6616,
+      3340,
+      6760,
+      3640
+     ],
+     "floors": [
+      3402,
+      3468,
+      3552,
+      3636
+     ],
+     "doors": [
+      [
+       "R",
+       3468
+      ]
+     ],
+     "ev": "A",
+     "ref": "06_Right_City/Right_City_middle.jpg; master C2",
+     "y": [
+      -8,
+      17
+     ]
+    }
+   ]
+  },
+  {
+   "id": "EastStation",
+   "name": "东城区车站",
+   "label": [
+    6890,
+    3310
+   ],
+   "elements": [
+    {
+     "id": "Hall",
+     "type": "stack",
+     "map": [
+      6760,
+      3408,
+      6990,
+      3472
+     ],
+     "floors": [
+      3468
+     ],
+     "doors": [
+      [
+       "L",
+       3468
+      ],
+      [
+       "R",
+       3468
+      ]
+     ],
+     "ev": "A",
+     "ref": "06_Right_City/Right_City_station.jpg; master C2",
+     "y": [
+      -8,
+      13
+     ]
+    },
+    {
+     "id": "Roof",
+     "type": "canopy",
+     "map": [
+      6808,
+      3360,
+      6961,
+      3408
+     ],
+     "curve": "R",
+     "y": [
+      -8.5,
+      13.5
+     ],
+     "ev": "A",
+     "ref": "06_Right_City/Right_City_station.jpg"
+    },
+    {
+     "id": "TunnelArch",
+     "type": "marker",
+     "shape": "box",
+     "map": [
+      6990,
+      3392,
+      7040,
+      3468
+     ],
+     "y": [
+      -2.5,
+      4
+     ],
+     "mat": "landmark",
+     "ev": "A",
+     "ref": "06_Right_City/Right_City_station.jpg right side"
+    },
+    {
+     "id": "Plinth",
+     "type": "box",
+     "map": [
+      6760,
+      3472,
+      7040,
+      3558
+     ],
+     "y": [
+      -8,
+      13
+     ],
+     "mat": "hostrock",
+     "ev": "C",
+     "ref": "black between the station floor and the undercroft"
+    }
+   ]
+  },
+  {
+   "id": "EastRainGap",
+   "name": "东端雨隙",
+   "label": [
+    7000,
+    2820
+   ],
+   "elements": [
+    {
+     "id": "BigRoof",
+     "type": "canopy",
+     "map": [
+      6980,
+      3014,
+      7172,
+      3074
+     ],
+     "curve": "L",
+     "y": [
+      0,
+      16
+     ],
+     "ev": "A",
+     "ref": "master C4 large spiked curved roof"
+    },
+    {
+     "id": "Tower",
+     "type": "tower",
+     "map": [
+      6990,
+      3080,
+      7160,
+      3558
+     ],
+     "yc": 8,
+     "ry": 6,
+     "roof": "flat",
+     "windows": 8,
+     "ev": "A",
+     "ref": "master C4"
+    },
+    {
+     "id": "SmallCanopy",
+     "type": "canopy",
+     "map": [
+      7070,
+      3062,
+      7166,
+      3122
+     ],
+     "curve": "L",
+     "y": [
+      -4,
+      0
+     ],
+     "ev": "A",
+     "ref": "master C4"
+    },
+    {
+     "id": "BackTower",
+     "type": "tower",
+     "map": [
+      6830,
+      2700,
+      7060,
+      3558
+     ],
+     "yc": 40,
+     "ry": 10,
+     "roof": "dome",
+     "windows": 10,
+     "layer": "BACKDROP",
+     "ev": "B",
+     "ref": "blurred leaf windows in the purple rain on master C4; depth is completion"
+    },
+    {
+     "id": "BackTowerB",
+     "type": "tower",
+     "map": [
+      7060,
+      2760,
+      7230,
+      3558
+     ],
+     "yc": 62,
+     "ry": 7,
+     "roof": "umbrella",
+     "windows": 8,
+     "layer": "BACKDROP",
+     "ev": "C",
+     "ref": "depth completion: simplified distant tower with real volume"
+    }
+   ]
+  },
+  {
+   "id": "EastJarHouse",
+   "name": "东端紫色罐室楼",
+   "label": [
+    7320,
+    2590
+   ],
+   "elements": [
+    {
+     "id": "CageRoom",
+     "type": "stack",
+     "map": [
+      7277,
+      2636,
+      7364,
+      2729
+     ],
+     "floors": [
+      2699
+     ],
+     "ev": "A",
+     "ref": "master C4; no local screenshot",
+     "y": [
+      -4,
+      6
+     ]
+    },
+    {
+     "id": "Top",
+     "type": "stack",
+     "map": [
+      7079,
+      2729,
+      7502,
+      2793
+     ],
+     "floors": [
+      2789
+     ],
+     "ev": "A",
+     "ref": "master C4; no local screenshot",
+     "y": [
+      -7,
+      12
+     ]
+    },
+    {
+     "id": "Neck",
+     "type": "box",
+     "map": [
+      7190,
+      2793,
+      7502,
+      2840
+     ],
+     "y": [
+      -8,
+      14
+     ],
+     "mat": "hostrock",
+     "ev": "C",
+     "ref": "black on master between floors"
+    },
+    {
+     "id": "Mid",
+     "type": "stack",
+     "map": [
+      7190,
+      2840,
+      7532,
+      3165
+     ],
+     "floors": [
+      2918,
+      2984,
+      3062,
+      3161
+     ],
+     "voids": [
+      [
+       7358,
+       7394,
+       3150,
+       3170
+      ]
+     ],
+     "ev": "A",
+     "ref": "master C4; no local screenshot",
+     "y": [
+      -8,
+      14
+     ]
+    },
+    {
+     "id": "Shaft",
+     "type": "shaft",
+     "map": [
+      7358,
+      3161,
+      7394,
+      3374
+     ],
+     "ev": "A",
+     "ref": "master C4"
+    },
+    {
+     "id": "Base",
+     "type": "stack",
+     "map": [
+      7241,
+      3374,
+      7511,
+      3518
+     ],
+     "floors": [
+      3440,
+      3514
+     ],
+     "voids": [
+      [
+       7358,
+       7394
+      ]
+     ],
+     "ev": "A",
+     "ref": "master C4; no local screenshot",
+     "y": [
+      -7,
+      12
+     ]
+    },
+    {
+     "id": "Stub",
+     "type": "shaft",
+     "map": [
+      7358,
+      3518,
+      7394,
+      3558
+     ],
+     "ev": "A",
+     "ref": "master C4"
+    }
+   ]
+  },
+  {
+   "id": "EastUndercroft",
+   "name": "东城区底部低廊",
+   "label": [
+    7300,
+    3700
+   ],
+   "elements": [
+    {
+     "id": "Gallery",
+     "type": "stack",
+     "map": [
+      6760,
+      3558,
+      7544,
+      3650
+     ],
+     "floors": [
+      3645
+     ],
+     "voids": [
+      [
+       7358,
+       7394,
+       3550,
+       3565
+      ]
+     ],
+     "doors": [
+      [
+       "L",
+       3645
+      ]
+     ],
+     "ev": "A",
+     "ref": "master C2, C4; no local screenshot",
+     "y": [
+      -8,
+      14
+     ]
+    }
+   ]
+  },
+  {
+   "id": "_World",
+   "name": "洞体与补全体量",
+   "label": [
+    300,
+    400
+   ],
+   "elements": [
+    {
+     "id": "GroundBase",
+     "type": "box",
+     "map": [
+      0,
+      3680,
+      7600,
+      3740
+     ],
+     "y": [
+      -128,
+      100
+     ],
+     "mat": "rock",
+     "layer": "CAVESHELL",
+     "ev": "C",
+     "ref": "cavern floor under everything"
+    },
+    {
+     "id": "BackWall",
+     "type": "box",
+     "map": [
+      0,
+      100,
+      7600,
+      3740
+     ],
+     "y": [
+      96,
+      100
+     ],
+     "mat": "rock",
+     "layer": "CAVESHELL",
+     "ev": "C",
+     "ref": "far cavern wall; the master map does not show it"
+    },
+    {
+     "id": "HostWestA",
+     "type": "rock",
+     "map": [
+      60,
+      1464,
+      1194,
+      2113
+     ],
+     "y": [
+      -7,
+      96
+     ],
+     "layer": "HOSTROCK",
+     "ev": "C",
+     "ref": "black on master under the west hall; cavern wall the west rooms are built into"
+    },
+    {
+     "id": "HostWestB",
+     "type": "rock",
+     "map": [
+      60,
+      2113,
+      795,
+      2210
+     ],
+     "y": [
+      -7,
+      96
+     ],
+     "layer": "HOSTROCK",
+     "ev": "C",
+     "ref": "as above"
+    },
+    {
+     "id": "HostWestC",
+     "type": "rock",
+     "map": [
+      60,
+      2210,
+      1340,
+      3125
+     ],
+     "y": [
+      -7,
+      96
+     ],
+     "layer": "HOSTROCK",
+     "ev": "C",
+     "ref": "black on master west of the left-well block"
+    },
+    {
+     "id": "HostWestD",
+     "type": "rock",
+     "map": [
+      1340,
+      2210,
+      1479,
+      3104
+     ],
+     "y": [
+      -7,
+      96
+     ],
+     "layer": "HOSTROCK",
+     "ev": "C",
+     "ref": "as above"
+    },
+    {
+     "id": "HostWestBehind",
+     "type": "box",
+     "map": [
+      60,
+      1125,
+      1905,
+      2113
+     ],
+     "y": [
+      13,
+      96
+     ],
+     "mat": "hostrock",
+     "layer": "HOSTROCK",
+     "ev": "C",
+     "ref": "rock behind the west hall, station and atrium"
+    },
+    {
+     "id": "HostMidA",
+     "type": "rock",
+     "map": [
+      5002,
+      330,
+      5440,
+      3548
+     ],
+     "y": [
+      -12,
+      96
+     ],
+     "layer": "HOSTROCK",
+     "ev": "C",
+     "ref": "black on master between the tower block and the east city; unknown, filled as rock"
+    },
+    {
+     "id": "HostMidB",
+     "type": "rock",
+     "map": [
+      4867,
+      2400,
+      5002,
+      3548
+     ],
+     "y": [
+      -12,
+      96
+     ],
+     "layer": "HOSTROCK",
+     "ev": "C",
+     "ref": "as above"
+    },
+    {
+     "id": "HostEastEnd",
+     "type": "rock",
+     "map": [
+      7544,
+      2090,
+      7600,
+      3680
+     ],
+     "y": [
+      -124,
+      96
+     ],
+     "layer": "CAVESHELL",
+     "ev": "C",
+     "ref": "east end of the cavern"
+    },
+    {
+     "id": "HostWestEnd",
+     "type": "rock",
+     "map": [
+      0,
+      1000,
+      60,
+      3680
+     ],
+     "y": [
+      -124,
+      96
+     ],
+     "layer": "CAVESHELL",
+     "ev": "C",
+     "ref": "west end of the cavern"
+    },
+    {
+     "id": "HostEastTopA",
+     "type": "rock",
+     "map": [
+      5440,
+      1500,
+      6290,
+      2090
+     ],
+     "y": [
+      -12,
+      96
+     ],
+     "layer": "CEILING",
+     "ev": "C",
+     "ref": "black on master above the east city west of the tower; filled as cavern roof"
+    },
+    {
+     "id": "HostEastTopB",
+     "type": "rock",
+     "map": [
+      6500,
+      1500,
+      7600,
+      2300
+     ],
+     "y": [
+      -12,
+      96
+     ],
+     "layer": "CEILING",
+     "ev": "C",
+     "ref": "black on master above the east city east of the tower; filled as cavern roof"
+    },
+    {
+     "id": "FrontWall",
+     "type": "box",
+     "map": [
+      0,
+      60,
+      7600,
+      3740
+     ],
+     "y": [
+      -128,
+      -124
+     ],
+     "mat": "rock",
+     "layer": "CAVESHELL",
+     "ev": "C",
+     "ref": "viewer-side cavern wall; the master map cannot show it"
+    },
+    {
+     "id": "Roof",
+     "type": "box",
+     "map": [
+      0,
+      60,
+      7600,
+      130
+     ],
+     "y": [
+      -128,
+      100
+     ],
+     "mat": "rock",
+     "layer": "CEILING",
+     "ev": "C",
+     "ref": "cavern roof above everything"
+    },
+    {
+     "id": "FrontFloor",
+     "type": "box",
+     "map": [
+      0,
+      3625,
+      7600,
+      3680
+     ],
+     "y": [
+      -128,
+      -16
+     ],
+     "mat": "rock",
+     "layer": "CAVESHELL",
+     "ev": "C",
+     "ref": "cavern floor on the viewer side of the wells"
+    },
+    {
+     "id": "BackFloor",
+     "type": "box",
+     "map": [
+      0,
+      3625,
+      7600,
+      3680
+     ],
+     "y": [
+      44,
+      100
+     ],
+     "mat": "rock",
+     "layer": "CAVESHELL",
+     "ev": "C",
+     "ref": "cavern floor behind the wells"
+    },
+    {
+     "id": "HostWestTop",
+     "type": "rock",
+     "map": [
+      60,
+      130,
+      2166,
+      1125
+     ],
+     "y": [
+      -7,
+      96
+     ],
+     "layer": "CEILING",
+     "ev": "C",
+     "ref": "black on master above the west hall, whose stalactite ceiling shows rock overhead"
+    },
+    {
+     "id": "HostSanctumTop",
+     "type": "rock",
+     "map": [
+      2166,
+      130,
+      2765,
+      986
+     ],
+     "y": [
+      -7,
+      96
+     ],
+     "layer": "CEILING",
+     "ev": "C",
+     "ref": "black on master above the sanctum's left wing; cavern roof"
+    },
+    {
+     "id": "HostBridgeRoofW",
+     "type": "rock",
+     "map": [
+      1905,
+      1125,
+      2166,
+      1890
+     ],
+     "y": [
+      -7,
+      96
+     ],
+     "layer": "CEILING",
+     "ev": "B",
+     "ref": "04_Bridges/Bridges_left.jpg shows a stalactite ceiling over the west half of the bridge; its extent is completion"
+    },
+    {
+     "id": "HostBridgeRoofE",
+     "type": "rock",
+     "map": [
+      2166,
+      1814,
+      2616,
+      1890
+     ],
+     "y": [
+      -7,
+      96
+     ],
+     "layer": "CEILING",
+     "ev": "C",
+     "ref": "black on master between the sanctum left wing and the bridge roof"
+    },
+    {
+     "id": "HostSanctumBack",
+     "type": "box",
+     "map": [
+      2166,
+      986,
+      3000,
+      1880
+     ],
+     "y": [
+      16,
+      96
+     ],
+     "mat": "hostrock",
+     "layer": "HOSTROCK",
+     "ev": "C",
+     "ref": "black on master around the sanctum left wing, arena and book rooms; rock face they are built against"
+    },
+    {
+     "id": "HostOverArcade",
+     "type": "rock",
+     "map": [
+      330,
+      1125,
+      800,
+      1340
+     ],
+     "y": [
+      -7,
+      13
+     ],
+     "layer": "HOSTROCK",
+     "ev": "C",
+     "ref": "black on master above the west arcade"
+    },
+    {
+     "id": "HostOverFace",
+     "type": "rock",
+     "map": [
+      60,
+      1125,
+      330,
+      1268
+     ],
+     "y": [
+      -8,
+      13
+     ],
+     "layer": "HOSTROCK",
+     "ev": "C",
+     "ref": "black on master above the face chamber"
+    },
+    {
+     "id": "HostUnderArcade",
+     "type": "rock",
+     "map": [
+      60,
+      1415,
+      800,
+      1464
+     ],
+     "y": [
+      -7,
+      13
+     ],
+     "layer": "HOSTROCK",
+     "ev": "C",
+     "ref": "black on master under the west arcade floor"
+    },
+    {
+     "id": "HostEastA",
+     "type": "rock",
+     "map": [
+      5440,
+      2090,
+      5590,
+      2596
+     ],
+     "y": [
+      -12,
+      96
+     ],
+     "layer": "HOSTROCK",
+     "ev": "C",
+     "ref": "black on master west of the rain column beside the House of Pleasure"
+    },
+    {
+     "id": "HostEastB",
+     "type": "rock",
+     "map": [
+      5440,
+      2596,
+      5590,
+      3250
+     ],
+     "y": [
+      -12,
+      96
+     ],
+     "layer": "HOSTROCK",
+     "ev": "C",
+     "ref": "black on master west of the east well"
+    },
+    {
+     "id": "HostEastUpperA",
+     "type": "rock",
+     "map": [
+      5002,
+      130,
+      5440,
+      330
+     ],
+     "y": [
+      -12,
+      96
+     ],
+     "layer": "CEILING",
+     "ev": "C",
+     "ref": "black on master above the rock between tower block and east city"
+    },
+    {
+     "id": "HostEastUpperB",
+     "type": "rock",
+     "map": [
+      5440,
+      130,
+      7600,
+      1500
+     ],
+     "y": [
+      -12,
+      96
+     ],
+     "layer": "CEILING",
+     "ev": "C",
+     "ref": "black on master above the east city; cavern roof mass"
+    }
+   ]
+  }
+ ],
+ "connections": [
+  {
+   "a": "WestFaceChamber",
+   "b": "WestStreets",
+   "ev": "A",
+   "path": [
+    [
+     330,
+     1395
+    ],
+    [
+     400,
+     1395
+    ]
+   ]
+  },
+  {
+   "a": "WestStreets",
+   "b": "WestStation",
+   "ev": "A",
+   "path": [
+    [
+     1380,
+     1430
+    ],
+    [
+     1470,
+     1320
+    ]
+   ]
+  },
+  {
+   "a": "WestStreets",
+   "b": "GreenAtrium",
+   "ev": "B",
+   "path": [
+    [
+     1300,
+     1448
+    ],
+    [
+     1300,
+     1510
+    ]
+   ]
+  },
+  {
+   "a": "GreenAtrium",
+   "b": "WestLowCorridor",
+   "ev": "A",
+   "path": [
+    [
+     1232,
+     1989
+    ],
+    [
+     1232,
+     2160
+    ]
+   ]
+  },
+  {
+   "a": "WestLowCorridor",
+   "b": "LeftWell",
+   "ev": "A",
+   "path": [
+    [
+     1568,
+     2203
+    ],
+    [
+     1568,
+     2440
+    ]
+   ]
+  },
+  {
+   "a": "GreenAtrium",
+   "b": "UpperBridge",
+   "ev": "B",
+   "path": [
+    [
+     1650,
+     1975
+    ],
+    [
+     1930,
+     1975
+    ]
+   ]
+  },
+  {
+   "a": "UpperBridge",
+   "b": "BridgeGatehouse",
+   "ev": "A",
+   "path": [
+    [
+     2590,
+     1975
+    ],
+    [
+     2710,
+     1975
+    ]
+   ]
+  },
+  {
+   "a": "BridgeGatehouse",
+   "b": "SoulSanctum",
+   "ev": "U",
+   "path": [
+    [
+     2850,
+     1880
+    ],
+    [
+     2850,
+     1800
+    ]
+   ]
+  },
+  {
+   "a": "BridgeGatehouse",
+   "b": "CentralBlock",
+   "ev": "U",
+   "path": [
+    [
+     2900,
+     1990
+    ],
+    [
+     2900,
+     2090
+    ]
+   ]
+  },
+  {
+   "a": "SouthwestCave",
+   "b": "LeftWell",
+   "ev": "A",
+   "path": [
+    [
+     1180,
+     3590
+    ],
+    [
+     1420,
+     3590
+    ]
+   ]
+  },
+  {
+   "a": "LeftWell",
+   "b": "CentralBlock",
+   "ev": "A",
+   "path": [
+    [
+     2560,
+     3590
+    ],
+    [
+     2760,
+     3590
+    ]
+   ]
+  },
+  {
+   "a": "LeftWell",
+   "b": "CentralBlock",
+   "ev": "B",
+   "path": [
+    [
+     2461,
+     3325
+    ],
+    [
+     2700,
+     3325
+    ]
+   ]
+  },
+  {
+   "a": "CentralBlock",
+   "b": "LowerBridge",
+   "ev": "A",
+   "path": [
+    [
+     3110,
+     2600
+    ],
+    [
+     3270,
+     2600
+    ]
+   ]
+  },
+  {
+   "a": "LowerBridge",
+   "b": "TowerBlock",
+   "ev": "A",
+   "path": [
+    [
+     3960,
+     2610
+    ],
+    [
+     4110,
+     2610
+    ]
+   ]
+  },
+  {
+   "a": "CentralBlock",
+   "b": "FountainPlaza",
+   "ev": "A",
+   "path": [
+    [
+     3530,
+     3590
+    ],
+    [
+     3650,
+     3590
+    ]
+   ]
+  },
+  {
+   "a": "CentralBlock",
+   "b": "FountainPlaza",
+   "ev": "U",
+   "path": [
+    [
+     3428,
+     3452
+    ],
+    [
+     3600,
+     3545
+    ]
+   ]
+  },
+  {
+   "a": "FountainPlaza",
+   "b": "PlazaEastHouse",
+   "ev": "A",
+   "path": [
+    [
+     3820,
+     3580
+    ],
+    [
+     3930,
+     3580
+    ]
+   ]
+  },
+  {
+   "a": "PlazaEastHouse",
+   "b": "TowerBlock",
+   "ev": "A",
+   "path": [
+    [
+     4090,
+     3580
+    ],
+    [
+     4310,
+     3580
+    ]
+   ]
+  },
+  {
+   "a": "TowerBlock",
+   "b": "GroundCorridorEast",
+   "ev": "A",
+   "path": [
+    [
+     4840,
+     3582
+    ],
+    [
+     4960,
+     3582
+    ]
+   ]
+  },
+  {
+   "a": "GroundCorridorEast",
+   "b": "EastWell",
+   "ev": "A",
+   "path": [
+    [
+     5390,
+     3600
+    ],
+    [
+     5500,
+     3632
+    ]
+   ]
+  },
+  {
+   "a": "EastWell",
+   "b": "EastQuarter",
+   "ev": "A",
+   "path": [
+    [
+     6270,
+     3632
+    ],
+    [
+     6370,
+     3632
+    ]
+   ]
+  },
+  {
+   "a": "EastQuarter",
+   "b": "EastStation",
+   "ev": "A",
+   "path": [
+    [
+     6730,
+     3462
+    ],
+    [
+     6810,
+     3462
+    ]
+   ]
+  },
+  {
+   "a": "EastQuarter",
+   "b": "EastStack",
+   "ev": "A",
+   "path": [
+    [
+     6548,
+     3345
+    ],
+    [
+     6548,
+     3190
+    ]
+   ]
+  },
+  {
+   "a": "EastStack",
+   "b": "EastPeakHall",
+   "ev": "B",
+   "path": [
+    [
+     6610,
+     2700
+    ],
+    [
+     6610,
+     2620
+    ]
+   ]
+  },
+  {
+   "a": "EastPeakHall",
+   "b": "EastTower",
+   "ev": "B",
+   "path": [
+    [
+     6525,
+     2625
+    ],
+    [
+     6450,
+     2800
+    ]
+   ]
+  },
+  {
+   "a": "EastTower",
+   "b": "EastQuarter",
+   "ev": "U",
+   "path": [
+    [
+     6420,
+     2849
+    ],
+    [
+     6420,
+     3345
+    ]
+   ]
+  },
+  {
+   "a": "HouseOfPleasure",
+   "b": "EastWell",
+   "ev": "U",
+   "path": [
+    [
+     5790,
+     2440
+    ],
+    [
+     5690,
+     2620
+    ]
+   ]
+  },
+  {
+   "a": "HouseOfPleasure",
+   "b": "EastTower",
+   "ev": "U",
+   "path": [
+    [
+     6220,
+     2400
+    ],
+    [
+     6307,
+     2400
+    ]
+   ]
+  },
+  {
+   "a": "EastStation",
+   "b": "EastUndercroft",
+   "ev": "U",
+   "path": [
+    [
+     6900,
+     3472
+    ],
+    [
+     6900,
+     3565
+    ]
+   ]
+  },
+  {
+   "a": "EastUndercroft",
+   "b": "EastJarHouse",
+   "ev": "A",
+   "path": [
+    [
+     7376,
+     3565
+    ],
+    [
+     7376,
+     3505
+    ]
+   ]
+  }
+ ],
+ "cameras": [
+  {
+   "id": "CAM_CHK_Front_All",
+   "type": "ORTHO",
+   "at": [
+    3800.0,
+    1879.0,
+    -400
+   ],
+   "rot": [
+    90,
+    0,
+    0
+   ],
+   "ortho_scale": 506.667,
+   "res": [
+    3040,
+    1503
+   ],
+   "hide": [
+    "FRONT",
+    "CAVESHELL",
+    "FOREGROUND"
+   ],
+   "reference": false,
+   "purpose": "Front elevation with interiors cut open; same framing as the master map",
+   "map_box": [
+    0,
+    0,
+    7600,
+    3758
+   ]
+  },
+  {
+   "id": "CAM_CHK_Front_Labels",
+   "type": "ORTHO",
+   "at": [
+    3800.0,
+    1879.0,
+    -400
+   ],
+   "rot": [
+    90,
+    0,
+    0
+   ],
+   "ortho_scale": 506.667,
+   "res": [
+    3040,
+    1503
+   ],
+   "hide": [
+    "FRONT",
+    "CAVESHELL",
+    "FOREGROUND"
+   ],
+   "reference": true,
+   "purpose": "Front elevation with region labels and connection lines",
+   "map_box": [
+    0,
+    0,
+    7600,
+    3758
+   ]
+  },
+  {
+   "id": "CAM_CHK_Front_Closed",
+   "type": "ORTHO",
+   "at": [
+    3800.0,
+    1879.0,
+    -400
+   ],
+   "rot": [
+    90,
+    0,
+    0
+   ],
+   "ortho_scale": 506.667,
+   "res": [
+    3040,
+    1503
+   ],
+   "hide": [
+    "CAVESHELL",
+    "FOREGROUND"
+   ],
+   "reference": false,
+   "purpose": "Front elevation with the front walls of interiors in place",
+   "map_box": [
+    0,
+    0,
+    7600,
+    3758
+   ]
+  },
+  {
+   "id": "CAM_CHK_Top_All",
+   "type": "ORTHO",
+   "at": [
+    3800,
+    -2500,
+    -14
+   ],
+   "rot": [
+    0,
+    0,
+    0
+   ],
+   "ortho_scale": 506.667,
+   "res": [
+    3040,
+    1400
+   ],
+   "hide": [
+    "CEILING",
+    "CAVESHELL",
+    "HOSTROCK"
+   ],
+   "purpose": "Top view: X to the right, depth Y upward"
+  },
+  {
+   "id": "CAM_CHK_Back_All",
+   "type": "ORTHO",
+   "at": [
+    3800,
+    1879,
+    500
+   ],
+   "rot": [
+    90,
+    0,
+    180
+   ],
+   "ortho_scale": 506.667,
+   "res": [
+    3040,
+    1503
+   ],
+   "hide": [
+    "CAVESHELL"
+   ],
+   "purpose": "Back elevation from +Y"
+  },
+  {
+   "id": "CAM_CHK_Side_West",
+   "type": "ORTHO",
+   "at": [
+    -2270,
+    1879,
+    -14
+   ],
+   "rot": [
+    90,
+    0,
+    -90
+   ],
+   "ortho_scale": 300,
+   "res": [
+    1700,
+    1500
+   ],
+   "hide": [
+    "CAVESHELL"
+   ],
+   "purpose": "Side elevation from the west"
+  },
+  {
+   "id": "CAM_CHK_Side_East",
+   "type": "ORTHO",
+   "at": [
+    9730,
+    1879,
+    -14
+   ],
+   "rot": [
+    90,
+    0,
+    90
+   ],
+   "ortho_scale": 300,
+   "res": [
+    1700,
+    1500
+   ],
+   "hide": [
+    "CAVESHELL"
+   ],
+   "purpose": "Side elevation from the east"
+  },
+  {
+   "id": "CAM_CHK_Oblique_West",
+   "type": "PERSP",
+   "at": [
+    -1220,
+    -300,
+    -420
+   ],
+   "look": [
+    3730,
+    2100,
+    20
+   ],
+   "lens": 35,
+   "hide": [
+    "CAVESHELL",
+    "FOREGROUND"
+   ],
+   "res": [
+    2400,
+    1350
+   ],
+   "purpose": "Oblique overview from the front, above and west"
+  },
+  {
+   "id": "CAM_CHK_Oblique_East",
+   "type": "PERSP",
+   "at": [
+    8830,
+    -300,
+    -420
+   ],
+   "look": [
+    3730,
+    2100,
+    20
+   ],
+   "lens": 35,
+   "hide": [
+    "CAVESHELL",
+    "FOREGROUND"
+   ],
+   "res": [
+    2400,
+    1350
+   ],
+   "purpose": "Oblique overview from the front, above and east"
+  },
+  {
+   "id": "CAM_CHK_Oblique_High",
+   "type": "PERSP",
+   "at": [
+    3730,
+    -2600,
+    -330
+   ],
+   "look": [
+    3730,
+    2300,
+    30
+   ],
+   "lens": 35,
+   "hide": [
+    "CAVESHELL",
+    "CEILING"
+   ],
+   "res": [
+    2400,
+    1350
+   ],
+   "purpose": "High oblique from the front showing depth layering"
+  },
+  {
+   "id": "CAM_ZONE_West",
+   "type": "ORTHO",
+   "at": [
+    1010.0,
+    1670.0,
+    -400
+   ],
+   "rot": [
+    90,
+    0,
+    0
+   ],
+   "ortho_scale": 126.667,
+   "res": [
+    2280,
+    1416
+   ],
+   "hide": [
+    "FRONT",
+    "CAVESHELL",
+    "FOREGROUND"
+   ],
+   "reference": false,
+   "purpose": "West streets, station, atrium, low corridor",
+   "map_box": [
+    60,
+    1080,
+    1960,
+    2260
+   ]
+  },
+  {
+   "id": "CAM_ZONE_WestLow",
+   "type": "ORTHO",
+   "at": [
+    1410.0,
+    2850.0,
+    -400
+   ],
+   "rot": [
+    90,
+    0,
+    0
+   ],
+   "ortho_scale": 180.0,
+   "res": [
+    2400,
+    1511
+   ],
+   "hide": [
+    "FRONT",
+    "CAVESHELL",
+    "FOREGROUND"
+   ],
+   "reference": false,
+   "purpose": "Left well, west block, south-west cave",
+   "map_box": [
+    60,
+    2000,
+    2760,
+    3700
+   ]
+  },
+  {
+   "id": "CAM_ZONE_Sanctum",
+   "type": "ORTHO",
+   "at": [
+    3025.0,
+    1700.0,
+    -400
+   ],
+   "rot": [
+    90,
+    0,
+    0
+   ],
+   "ortho_scale": 123.333,
+   "res": [
+    2220,
+    1800
+   ],
+   "hide": [
+    "FRONT",
+    "CAVESHELL",
+    "FOREGROUND"
+   ],
+   "reference": false,
+   "purpose": "Soul Sanctum, upper bridge, gatehouse",
+   "map_box": [
+    2100,
+    950,
+    3950,
+    2450
+   ]
+  },
+  {
+   "id": "CAM_ZONE_Central",
+   "type": "ORTHO",
+   "at": [
+    3275.0,
+    2960.0,
+    -400
+   ],
+   "rot": [
+    90,
+    0,
+    0
+   ],
+   "ortho_scale": 136.667,
+   "res": [
+    2400,
+    1780
+   ],
+   "hide": [
+    "FRONT",
+    "CAVESHELL",
+    "FOREGROUND"
+   ],
+   "reference": false,
+   "purpose": "Central block, lower bridge, central well, fountain plaza",
+   "map_box": [
+    2250,
+    2200,
+    4300,
+    3720
+   ]
+  },
+  {
+   "id": "CAM_ZONE_Tower",
+   "type": "ORTHO",
+   "at": [
+    4475.0,
+    1935.0,
+    -400
+   ],
+   "rot": [
+    90,
+    0,
+    0
+   ],
+   "ortho_scale": 76.667,
+   "res": [
+    900,
+    2794
+   ],
+   "hide": [
+    "FRONT",
+    "CAVESHELL",
+    "FOREGROUND"
+   ],
+   "reference": false,
+   "purpose": "Tower block from base to top room",
+   "map_box": [
+    3900,
+    150,
+    5050,
+    3720
+   ]
+  },
+  {
+   "id": "CAM_ZONE_East",
+   "type": "ORTHO",
+   "at": [
+    6500.0,
+    2650.0,
+    -400
+   ],
+   "rot": [
+    90,
+    0,
+    0
+   ],
+   "ortho_scale": 146.667,
+   "res": [
+    2200,
+    2200
+   ],
+   "hide": [
+    "FRONT",
+    "CAVESHELL",
+    "FOREGROUND"
+   ],
+   "reference": false,
+   "purpose": "East city",
+   "map_box": [
+    5400,
+    1550,
+    7600,
+    3750
+   ]
+  },
+  {
+   "id": "CAM_CON_UpperBridge",
+   "type": "PERSP",
+   "at": [
+    1650,
+    1840,
+    -75
+   ],
+   "look": [
+    2300,
+    2000,
+    0
+   ],
+   "lens": 30,
+   "hide": [
+    "CAVESHELL",
+    "FOREGROUND"
+   ],
+   "res": [
+    1280,
+    720
+   ],
+   "purpose": "Atrium corridor to upper bridge to gatehouse"
+  },
+  {
+   "id": "CAM_CON_LowerBridge",
+   "type": "PERSP",
+   "at": [
+    3150,
+    2330,
+    -80
+   ],
+   "look": [
+    3640,
+    2640,
+    0
+   ],
+   "lens": 30,
+   "hide": [
+    "CAVESHELL",
+    "FOREGROUND"
+   ],
+   "res": [
+    1280,
+    720
+   ],
+   "purpose": "Central block to lower bridge to tower block"
+  },
+  {
+   "id": "CAM_CON_PlazaGround",
+   "type": "PERSP",
+   "at": [
+    3330,
+    3430,
+    -62
+   ],
+   "look": [
+    3780,
+    3530,
+    3
+   ],
+   "lens": 30,
+   "hide": [
+    "CAVESHELL",
+    "FOREGROUND"
+   ],
+   "res": [
+    1280,
+    720
+   ],
+   "purpose": "Ground gallery, plaza, east house, walkway height"
+  },
+  {
+   "id": "CAM_CON_CaveToWell",
+   "type": "PERSP",
+   "at": [
+    850,
+    3330,
+    -85
+   ],
+   "look": [
+    1500,
+    3530,
+    0
+   ],
+   "lens": 30,
+   "hide": [
+    "CAVESHELL",
+    "FOREGROUND"
+   ],
+   "res": [
+    1280,
+    720
+   ],
+   "purpose": "South-west cave ground continuing into the left well"
+  },
+  {
+   "id": "CAM_CON_EastCorridor",
+   "type": "PERSP",
+   "at": [
+    4650,
+    3380,
+    -75
+   ],
+   "look": [
+    5330,
+    3610,
+    0
+   ],
+   "lens": 30,
+   "hide": [
+    "CAVESHELL",
+    "FOREGROUND"
+   ],
+   "res": [
+    1280,
+    720
+   ],
+   "purpose": "Tower base through the low corridor to the east well"
+  },
+  {
+   "id": "CAM_CON_HouseOfPleasure",
+   "type": "PERSP",
+   "at": [
+    5600,
+    2230,
+    -65
+   ],
+   "look": [
+    6010,
+    2400,
+    0
+   ],
+   "lens": 30,
+   "hide": [
+    "CAVESHELL",
+    "FOREGROUND",
+    "FRONT"
+   ],
+   "res": [
+    1280,
+    720
+   ],
+   "purpose": "House of Pleasure porch, lobby, stage and upper room"
+  },
+  {
+   "id": "CAM_CON_TowerSpire",
+   "type": "PERSP",
+   "at": [
+    3800,
+    850,
+    -170
+   ],
+   "look": [
+    4500,
+    900,
+    0
+   ],
+   "lens": 30,
+   "hide": [
+    "CAVESHELL",
+    "FOREGROUND",
+    "FRONT"
+   ],
+   "res": [
+    1280,
+    720
+   ],
+   "purpose": "Spire shaft, tower body and top room"
+  },
+  {
+   "id": "CAM_CON_EastStack",
+   "type": "PERSP",
+   "at": [
+    6150,
+    2880,
+    -115
+   ],
+   "look": [
+    6650,
+    3020,
+    0
+   ],
+   "lens": 30,
+   "hide": [
+    "CAVESHELL",
+    "FOREGROUND",
+    "FRONT"
+   ],
+   "res": [
+    1280,
+    720
+   ],
+   "purpose": "East tower base, peak hall, stack, quarter and station"
+  },
+  {
+   "id": "CAM_CLR_UnderLowerBridge",
+   "type": "PERSP",
+   "at": [
+    3290,
+    2700,
+    0
+   ],
+   "look": [
+    4000,
+    2690,
+    0
+   ],
+   "lens": 24,
+   "hide": [
+    "CAVESHELL"
+   ],
+   "res": [
+    1280,
+    720
+   ],
+   "purpose": "Clearance under the lower bridge"
+  },
+  {
+   "id": "CAM_CLR_OnLowerBridge",
+   "type": "PERSP",
+   "at": [
+    3190,
+    2596,
+    0
+   ],
+   "look": [
+    4000,
+    2596,
+    0
+   ],
+   "lens": 24,
+   "hide": [
+    "CAVESHELL"
+   ],
+   "res": [
+    1280,
+    720
+   ],
+   "purpose": "Clearance inside the roofed lower bridge"
+  },
+  {
+   "id": "CAM_CLR_UnderUpperBridge",
+   "type": "PERSP",
+   "at": [
+    1990,
+    2062,
+    0
+   ],
+   "look": [
+    2640,
+    2052,
+    0
+   ],
+   "lens": 24,
+   "hide": [
+    "CAVESHELL"
+   ],
+   "res": [
+    1280,
+    720
+   ],
+   "purpose": "Clearance under the upper bridge"
+  },
+  {
+   "id": "CAM_CLR_ShopDoor",
+   "type": "PERSP",
+   "at": [
+    3050,
+    3425,
+    0
+   ],
+   "look": [
+    3400,
+    3432,
+    0
+   ],
+   "lens": 24,
+   "hide": [
+    "CAVESHELL"
+   ],
+   "res": [
+    1280,
+    720
+   ],
+   "purpose": "Inside the shop room looking out of the east door to the walkway"
+  },
+  {
+   "id": "CAM_CLR_PlazaHouseDoor",
+   "type": "PERSP",
+   "at": [
+    3790,
+    3565,
+    0
+   ],
+   "look": [
+    4100,
+    3568,
+    0
+   ],
+   "lens": 24,
+   "hide": [
+    "CAVESHELL"
+   ],
+   "res": [
+    1280,
+    720
+   ],
+   "purpose": "From the plaza into the east house ground door"
+  },
+  {
+   "id": "CAM_CLR_GroundGallery",
+   "type": "PERSP",
+   "at": [
+    2715,
+    3575,
+    0
+   ],
+   "look": [
+    3550,
+    3575,
+    0
+   ],
+   "lens": 24,
+   "hide": [
+    "CAVESHELL"
+   ],
+   "res": [
+    1280,
+    720
+   ],
+   "purpose": "Inside the central ground gallery"
+  },
+  {
+   "id": "CAM_CLR_SanctumHall",
+   "type": "PERSP",
+   "at": [
+    3030,
+    1418,
+    -4
+   ],
+   "look": [
+    3850,
+    1400,
+    2
+   ],
+   "lens": 22,
+   "hide": [
+    "CAVESHELL"
+   ],
+   "res": [
+    1280,
+    720
+   ],
+   "purpose": "Inside a sanctum floor"
+  },
+  {
+   "id": "CAM_CLR_AtriumInside",
+   "type": "PERSP",
+   "at": [
+    1225,
+    1962,
+    -6
+   ],
+   "look": [
+    1600,
+    1650,
+    4
+   ],
+   "lens": 20,
+   "hide": [
+    "CAVESHELL"
+   ],
+   "res": [
+    1280,
+    720
+   ],
+   "purpose": "Inside the green atrium looking up"
+  },
+  {
+   "id": "CAM_CLR_PleasureLobby",
+   "type": "PERSP",
+   "at": [
+    5858,
+    2414,
+    0
+   ],
+   "look": [
+    6180,
+    2408,
+    2
+   ],
+   "lens": 22,
+   "hide": [
+    "CAVESHELL"
+   ],
+   "res": [
+    1280,
+    720
+   ],
+   "purpose": "From the lobby through the door to the stage"
+  },
+  {
+   "id": "CAM_CLR_TowerShaftUp",
+   "type": "PERSP",
+   "at": [
+    4428,
+    1270,
+    0
+   ],
+   "look": [
+    4428,
+    420,
+    0.01
+   ],
+   "lens": 20,
+   "hide": [
+    "CAVESHELL"
+   ],
+   "res": [
+    1280,
+    720
+   ],
+   "purpose": "Looking up the spire shaft"
+  },
+  {
+   "id": "CAM_CLR_EastTowerUp",
+   "type": "PERSP",
+   "at": [
+    6394,
+    2815,
+    -2.5
+   ],
+   "look": [
+    6394,
+    1700,
+    0.5
+   ],
+   "lens": 20,
+   "hide": [
+    "CAVESHELL"
+   ],
+   "res": [
+    1280,
+    720
+   ],
+   "purpose": "Looking up the east tower"
+  },
+  {
+   "id": "CAM_CLR_LeftWellUp",
+   "type": "PERSP",
+   "at": [
+    1620,
+    3530,
+    -9
+   ],
+   "look": [
+    2330,
+    2900,
+    8
+   ],
+   "lens": 24,
+   "hide": [
+    "CAVESHELL"
+   ],
+   "res": [
+    1280,
+    720
+   ],
+   "purpose": "From the left well ground looking up the well"
+  },
+  {
+   "id": "CAM_CLR_WestElevator",
+   "type": "PERSP",
+   "at": [
+    1458,
+    3470,
+    0
+   ],
+   "look": [
+    1458,
+    3250,
+    0.01
+   ],
+   "lens": 20,
+   "hide": [
+    "CAVESHELL"
+   ],
+   "res": [
+    1280,
+    720
+   ],
+   "purpose": "Looking up the west elevator shaft"
+  },
+  {
+   "id": "CAM_CHK_Oblique_Back",
+   "type": "PERSP",
+   "at": [
+    8830,
+    -300,
+    430
+   ],
+   "look": [
+    3730,
+    2100,
+    0
+   ],
+   "lens": 35,
+   "hide": [
+    "CAVESHELL",
+    "CEILING"
+   ],
+   "res": [
+    2400,
+    1350
+   ],
+   "purpose": "Oblique overview from behind, above and east"
+  },
+  {
+   "id": "CAM_CHK_WellLookFront",
+   "type": "PERSP",
+   "at": [
+    3700,
+    3250,
+    27
+   ],
+   "look": [
+    3450,
+    2900,
+    -100
+   ],
+   "lens": 22,
+   "hide": [],
+   "res": [
+    1920,
+    1080
+   ],
+   "purpose": "From behind the central well looking toward the viewer side: bridge, plane towers, foreground row"
+  },
+  {
+   "id": "CAM_CHK_WellLookBack",
+   "type": "PERSP",
+   "at": [
+    3640,
+    3330,
+    -50
+   ],
+   "look": [
+    3560,
+    2900,
+    60
+   ],
+   "lens": 22,
+   "hide": [],
+   "res": [
+    1920,
+    1080
+   ],
+   "purpose": "From the viewer side of the central well looking into the depth"
+  }
+ ]
+}

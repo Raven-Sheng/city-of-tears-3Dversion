@@ -1,0 +1,181 @@
+{
+  "version": "stage06_v004",
+  "source_animation": "scenes/city_animation_v010.blend",
+  "source_animation_sha256": "eafcdcf8629b960404c397061b3930d2cde1d4ab999482bd3556692005981248",
+  "shot_config": "config/shots_v010.json",
+  "shot_config_sha256": "75f5dfa10fc4a2dfa148b3df6493696cd9d1dd16a0037c3cc376b741821db049",
+  "title_source": "delivery/CityOfTears_Stage05_Title_v002/title_rgba_1080p",
+  "title_frames": 144,
+  "film_frames": [
+    1,
+    4272
+  ],
+  "fps": 24,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "still_resolution": [
+    2560,
+    1440
+  ],
+  "engine": "CYCLES",
+  "device_preference": [
+    "OPTIX",
+    "CUDA",
+    "CPU"
+  ],
+  "samples": 64,
+  "adaptive_sampling": true,
+  "adaptive_threshold": 0.02,
+  "adaptive_min_samples": 32,
+  "denoise": true,
+  "denoiser": "OPENIMAGEDENOISE",
+  "seed": 0,
+  "animated_seed": false,
+  "motion_blur": false,
+  "compositing": true,
+  "sequencer": false,
+  "view_transform": "Standard",
+  "look": "None",
+  "exposure": 0,
+  "gamma": 1,
+  "format": "PNG",
+  "color_mode": "RGB",
+  "color_depth": "8",
+  "png_compression": 15,
+  "output_root": "renders/final/stage06_v004",
+  "light_culling": {
+    "mode": "none",
+    "scope": "Preserve all saved source light and collection visibility."
+  },
+  "delivery_root": "delivery/CityOfTears_Stage06",
+  "risk_tests": [
+    {
+      "id": "rain_fog",
+      "take": "S05",
+      "frames": [
+        2980,
+        3051
+      ],
+      "seconds": 3,
+      "focus": "EastWell rain, fog, transparent streaks"
+    },
+    {
+      "id": "fine_ironwork",
+      "take": "S04",
+      "frames": [
+        1825,
+        1896
+      ],
+      "seconds": 3,
+      "focus": "UpperBridge fine ironwork and lateral motion"
+    },
+    {
+      "id": "bright_sanctum",
+      "take": "S04",
+      "frames": [
+        2065,
+        2136
+      ],
+      "seconds": 3,
+      "focus": "SoulSanctum bright windows, beams, denoising"
+    }
+  ],
+  "stills": [
+    {
+      "id": "01_full_city",
+      "take": "S07",
+      "frame": 4230,
+      "region": "CentralWell",
+      "category": "全城"
+    },
+    {
+      "id": "02_fountain_plaza",
+      "take": "S01",
+      "frame": 540,
+      "region": "FountainPlaza",
+      "category": "雕像广场"
+    },
+    {
+      "id": "03_upper_bridge",
+      "take": "S04",
+      "frame": 1880,
+      "region": "UpperBridge",
+      "category": "桥"
+    },
+    {
+      "id": "04_left_city",
+      "take": "S02",
+      "frame": 1000,
+      "region": "LeftWell",
+      "category": "左城区"
+    },
+    {
+      "id": "05_right_city",
+      "take": "S07",
+      "frame": 3800,
+      "region": "EastQuarter",
+      "category": "右城区"
+    },
+    {
+      "id": "06_soul_sanctum",
+      "take": "S04",
+      "frame": 2140,
+      "region": "SoulSanctum",
+      "category": "灵魂圣所"
+    },
+    {
+      "id": "07_tower",
+      "take": "S05",
+      "frame": 2440,
+      "region": "TowerBlock",
+      "category": "塔楼"
+    },
+    {
+      "id": "08_house_of_pleasure",
+      "take": "S06",
+      "frame": 3320,
+      "region": "HouseOfPleasure",
+      "category": "室内／欢乐之屋"
+    },
+    {
+      "id": "09_quirrel_rest",
+      "take": "S02",
+      "frame": 1180,
+      "region": "LeftWell",
+      "category": "休憩／奎若"
+    },
+    {
+      "id": "10_green_atrium",
+      "take": "S03",
+      "frame": 1440,
+      "region": "GreenAtrium",
+      "category": "室内／圆簇区"
+    },
+    {
+      "id": "11_pleasure_reference_marissa",
+      "camera": "CAM_S3_HouseOfPleasure_REF_Marissa",
+      "frame": 3320,
+      "region": "HouseOfPleasure",
+      "category": "参考对照／表演空间",
+      "reference": "CityOfTears_Reference/02_Marissa/Marissa.jpg"
+    },
+    {
+      "id": "12_pleasure_reference_home",
+      "camera": "CAM_S3_HouseOfPleasure_REF_Home",
+      "frame": 3320,
+      "region": "HouseOfPleasure",
+      "category": "参考对照／装饰厅",
+      "reference": "CityOfTears_Reference/02_Marissa/Marrisa_home.jpg"
+    }
+  ],
+  "encode": {
+    "codec": "libx264",
+    "crf": 14,
+    "preset": "slow",
+    "pixel_format": "yuv420p",
+    "movflags": "+faststart"
+  },
+  "note": "2026-10-10 resumed authorized Stage 6. Long measured render cost is an estimate, not a failure gate. Same Cycles 64 maximum / 32 minimum settings as v002; preserve source light visibility. Complete all three 72-frame risk tests before full-film batch. Continuous viewing remains mandatory and is separate from decoding."
+}

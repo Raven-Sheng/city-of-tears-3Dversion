@@ -1,0 +1,2079 @@
+{
+ "version": "stage05_v010",
+ "author": "Codex: user-directed stabilization and statue timing revision",
+ "source": "scenes/city_art.blend",
+ "source_sha256": "dbc6cbed872ae3229c63385a05e2b638c47c7b424b78bebb95fa3af8c51cde0d",
+ "output": "scenes/city_animation_v010.blend",
+ "fps": 24,
+ "duration_seconds": 178,
+ "frames": [
+  1,
+  4272
+ ],
+ "resolution": [
+  1920,
+  1080
+ ],
+ "previs_resolution": [
+  960,
+  540
+ ],
+ "dissolve_frames": 18,
+ "motion": "Original spatial Hermite splines retained; position/rotation float and bank disabled. Monotone integrated quintic time windows change screen timing only; fixed world-up, independent focus and perspective.",
+ "note": "v009 full viewing by user reported unstable shaking and too little statue plaza. v010 keeps route/order/art/title and eight takes; adds six seconds to S01 statue approach/orbit, removes three seconds from S02 cave and three from S03B street traverse. Other takes retain durations. No new characters, audio or geometry changes.",
+ "takes": [
+  {
+   "id": "S01",
+   "title": "雨腔入城·雕像广场",
+   "seconds": 31,
+   "start": "hold",
+   "end": "flow",
+   "seed": 1,
+   "float": 0,
+   "keys": [
+    {
+     "t": 0,
+     "pos": [
+      -36,
+      -74,
+      216
+     ],
+     "look": [
+      4,
+      26,
+      176
+     ],
+     "lens": 20
+    },
+    {
+     "t": 6,
+     "pos": [
+      -24,
+      -67,
+      198
+     ],
+     "look": [
+      8,
+      26,
+      152
+     ]
+    },
+    {
+     "t": 9.6,
+     "pos": [
+      -5,
+      -59,
+      160
+     ],
+     "look": [
+      5,
+      20,
+      112
+     ]
+    },
+    {
+     "t": 12.4,
+     "pos": [
+      8,
+      -51,
+      114
+     ],
+     "look": [
+      0,
+      2,
+      64
+     ]
+    },
+    {
+     "t": 14.6,
+     "pos": [
+      12,
+      -43,
+      74
+     ],
+     "look": [
+      0,
+      4,
+      20
+     ],
+     "lens": 22
+    },
+    {
+     "t": 17,
+     "pos": [
+      14,
+      -31,
+      30
+     ],
+     "look": [
+      0,
+      3,
+      8
+     ]
+    },
+    {
+     "t": 19.4,
+     "pos": [
+      12,
+      -19,
+      10
+     ],
+     "look": [
+      0,
+      2,
+      6
+     ],
+     "lens": 24
+    },
+    {
+     "t": 21.8,
+     "pos": [
+      1,
+      -20,
+      6.5
+     ],
+     "look": [
+      0,
+      2,
+      5.8
+     ]
+    },
+    {
+     "t": 23.6,
+     "pos": [
+      -10,
+      -15,
+      5.0
+     ],
+     "look": [
+      -6,
+      2,
+      5
+     ]
+    },
+    {
+     "t": 25,
+     "pos": [
+      -16,
+      -4,
+      3.6
+     ],
+     "look": [
+      -36,
+      1,
+      3.2
+     ],
+     "lens": 22
+    }
+   ],
+   "frame_start": 1,
+   "frame_end": 744,
+   "handle_in": 0,
+   "handle_out": 9,
+   "camera": "CAM_V8_S01",
+   "hero": "FountainPlaza",
+   "beats": [
+    {
+     "region": "TopCavern",
+     "seconds": [
+      0,
+      8
+     ],
+     "frames": [
+      1,
+      192
+     ],
+     "content": "高耸雨腔、圣所尖塔、塔顶与雨幕（标题段）",
+     "reference": "总图独有（无局部截图）; 08_Tower/Tower_step7.jpg（背景）",
+     "path_seconds": [
+      0,
+      8
+     ]
+    },
+    {
+     "region": "CentralWell",
+     "seconds": [
+      6,
+      16.568627
+     ],
+     "frames": [
+      145,
+      398
+     ],
+     "content": "中央雨井、叶片窗壳塔、楼群立面纵深",
+     "reference": "11_Lower_City/Lower_City_statue_upper_right.jpg; 14_Rain/Rain_photo.jpg",
+     "path_seconds": [
+      6,
+      16
+     ]
+    },
+    {
+     "region": "LowerBridge",
+     "seconds": [
+      10.5,
+      14.6
+     ],
+     "frames": [
+      253,
+      350
+     ],
+     "content": "下层有盖长桥俯视与侧面",
+     "reference": "11_Lower_City/Lower_City_upperbridge.jpg",
+     "path_seconds": [
+      10.5,
+      14.6
+     ]
+    },
+    {
+     "region": "FountainPlaza",
+     "seconds": [
+      14,
+      29.6
+     ],
+     "frames": [
+      337,
+      710
+     ],
+     "content": "雕像广场：下降后环绕主像、基座厚度与白灯",
+     "reference": "11_Lower_City/Lower_City_statue.jpg; 12_Materials/Materials_02.jpg; Materials_01.jpg; 20260911201846_1.jpg; 13_Lighting/Lighting_01.jpg",
+     "path_seconds": [
+      14,
+      23.6
+     ]
+    },
+    {
+     "region": "CentralBlock",
+     "seconds": [
+      29.186136,
+      31
+     ],
+     "frames": [
+      701,
+      744
+     ],
+     "content": "广场西侧连拱廊进入中央楼群底层",
+     "reference": "11_Lower_City/Lower_City_middle.jpg; Lower_City_upper.jpg; Lower_City_bottom.jpg; 13_Lighting/Lighting_03.jpg; Lighting_02.jpg",
+     "path_seconds": [
+      23.2,
+      25
+     ]
+    }
+   ],
+   "float_rot": 0,
+   "bank": 0,
+   "bank_max": 0,
+   "time_warp": [
+    {
+     "path_start": 14.6,
+     "path_end": 23.6,
+     "seconds_delta": 6,
+     "ramp_fraction": 0.15
+    }
+   ],
+   "path_seconds": 25
+  },
+  {
+   "id": "S02",
+   "title": "西南洞穴·左雨井·奎若",
+   "seconds": 22,
+   "start": "flow",
+   "end": "flow",
+   "seed": 2,
+   "float": 0,
+   "keys": [
+    {
+     "t": 0,
+     "pos": [
+      -206,
+      -7,
+      15
+     ],
+     "look": [
+      -185,
+      -2,
+      6
+     ],
+     "lens": 22
+    },
+    {
+     "t": 3,
+     "pos": [
+      -196,
+      -5.5,
+      10
+     ],
+     "look": [
+      -176,
+      -3,
+      5.5
+     ]
+    },
+    {
+     "t": 5.4,
+     "pos": [
+      -186,
+      -4.2,
+      6.4
+     ],
+     "look": [
+      -165,
+      -4,
+      5
+     ]
+    },
+    {
+     "t": 7.4,
+     "pos": [
+      -174,
+      -4,
+      4.6
+     ],
+     "look": [
+      -150,
+      -5,
+      6
+     ]
+    },
+    {
+     "t": 8.6,
+     "pos": [
+      -163.5,
+      -4.4,
+      4.9
+     ],
+     "look": [
+      -140,
+      -12,
+      9
+     ]
+    },
+    {
+     "t": 10.2,
+     "pos": [
+      -151,
+      -14,
+      7.5
+     ],
+     "look": [
+      -136,
+      -22,
+      18
+     ]
+    },
+    {
+     "t": 13,
+     "pos": [
+      -140,
+      -25,
+      22
+     ],
+     "look": [
+      -137,
+      0,
+      30
+     ]
+    },
+    {
+     "t": 15.8,
+     "pos": [
+      -131.5,
+      -18,
+      40
+     ],
+     "look": [
+      -134,
+      -5,
+      45
+     ]
+    },
+    {
+     "t": 18.6,
+     "pos": [
+      -130.2,
+      -11.6,
+      47.7
+     ],
+     "look": [
+      -133.5,
+      -5.6,
+      45.9
+     ],
+     "lens": 28
+    },
+    {
+     "t": 21.6,
+     "pos": [
+      -131.2,
+      -8.7,
+      47.75
+     ],
+     "look": [
+      -133.5,
+      -5.6,
+      45.85
+     ]
+    },
+    {
+     "t": 23.2,
+     "pos": [
+      -131.5,
+      -7.35,
+      47.4
+     ],
+     "look": [
+      -133.5,
+      -5.6,
+      45.85
+     ]
+    },
+    {
+     "t": 25,
+     "pos": [
+      -131.8,
+      -6.95,
+      46.6
+     ],
+     "look": [
+      -133.5,
+      -5.6,
+      45.85
+     ],
+     "lens": 30
+    }
+   ],
+   "frame_start": 745,
+   "frame_end": 1272,
+   "handle_in": 9,
+   "handle_out": 9,
+   "camera": "CAM_V8_S02",
+   "hero": "LeftWell(Quirrel)",
+   "beats": [
+    {
+     "region": "SouthwestCave",
+     "seconds": [
+      0,
+      5.6
+     ],
+     "frames": [
+      745,
+      878
+     ],
+     "content": "洞穴岩壁圆簇、卵石台与灯，出洞口",
+     "reference": "09_Bench 全部 4 张",
+     "path_seconds": [
+      0,
+      8.6
+     ]
+    },
+    {
+     "region": "LeftWell",
+     "seconds": [
+      5.6,
+      22
+     ],
+     "frames": [
+      879,
+      1272
+     ],
+     "content": "出洞进入左雨井，沿立面爬升",
+     "reference": "03_Left_City 全部 10 张; 15_Background/Background_01.jpg; Background_02.jpg",
+     "path_seconds": [
+      8.6,
+      25
+     ]
+    },
+    {
+     "region": "LeftWell",
+     "seconds": [
+      15.6,
+      22
+     ],
+     "frames": [
+      1119,
+      1272
+     ],
+     "content": "越过栏杆：奎若与长椅（重点）",
+     "reference": "03_Left_City 全部 10 张; 15_Background/Background_01.jpg; Background_02.jpg",
+     "path_seconds": [
+      18.6,
+      25
+     ]
+    }
+   ],
+   "float_rot": 0,
+   "bank": 0,
+   "bank_max": 0,
+   "time_warp": [
+    {
+     "path_start": 0,
+     "path_end": 8.6,
+     "seconds_delta": -3,
+     "ramp_fraction": 0.15
+    }
+   ],
+   "path_seconds": 25
+  },
+  {
+   "id": "S03",
+   "title": "西侧低廊·地面井口·绿色中庭",
+   "seconds": 10,
+   "start": "flow",
+   "end": "flow",
+   "seed": 3,
+   "float": 0,
+   "keys": [
+    {
+     "t": 0,
+     "pos": [
+      -190,
+      0.5,
+      96.2
+     ],
+     "look": [
+      -160,
+      1,
+      96.4
+     ],
+     "lens": 22
+    },
+    {
+     "t": 2.6,
+     "pos": [
+      -170.0,
+      0.3,
+      96.6
+     ],
+     "look": [
+      -160,
+      1.5,
+      101
+     ]
+    },
+    {
+     "t": 3.6,
+     "pos": [
+      -166.1,
+      0.2,
+      97.0
+     ],
+     "look": [
+      -160,
+      2,
+      104
+     ],
+     "lens": 20
+    },
+    {
+     "t": 4.3,
+     "pos": [
+      -166.0,
+      0.1,
+      100.0
+     ],
+     "look": [
+      -159,
+      3,
+      110
+     ]
+    },
+    {
+     "t": 4.9,
+     "pos": [
+      -166.05,
+      0.0,
+      104.0
+     ],
+     "look": [
+      -158,
+      3.5,
+      114
+     ]
+    },
+    {
+     "t": 5.9,
+     "pos": [
+      -166.0,
+      -0.5,
+      111.5
+     ],
+     "look": [
+      -152,
+      5,
+      122
+     ]
+    },
+    {
+     "t": 8,
+     "pos": [
+      -164,
+      -2.5,
+      118.5
+     ],
+     "look": [
+      -148,
+      8,
+      121
+     ]
+    },
+    {
+     "t": 10,
+     "pos": [
+      -163.2,
+      -4,
+      124.5
+     ],
+     "look": [
+      -151,
+      12,
+      133
+     ]
+    }
+   ],
+   "frame_start": 1273,
+   "frame_end": 1512,
+   "handle_in": 9,
+   "handle_out": 9,
+   "camera": "CAM_V8_S03",
+   "hero": "",
+   "beats": [
+    {
+     "region": "WestLowCorridor",
+     "seconds": [
+      0,
+      3.6
+     ],
+     "frames": [
+      1273,
+      1358
+     ],
+     "content": "低廊成列吊灯与拱廊",
+     "reference": "总图独有（无局部截图）",
+     "path_seconds": [
+      0,
+      3.6
+     ]
+    },
+    {
+     "region": "GreenAtrium",
+     "seconds": [
+      3.6,
+      10
+     ],
+     "frames": [
+      1359,
+      1512
+     ],
+     "content": "自低廊地面井口升入绿色中庭，仰望层层挑台",
+     "reference": "07_Interior/Interior_total.jpg 及同组其余 9 张",
+     "path_seconds": [
+      3.6,
+      10
+     ]
+    }
+   ],
+   "float_rot": 0,
+   "bank": 0,
+   "bank_max": 0,
+   "time_warp": [],
+   "path_seconds": 10
+  },
+  {
+   "id": "S03B",
+   "title": "西街拱廊侧向跟拍·人面浮雕室",
+   "seconds": 8,
+   "start": "flow",
+   "end": "flow",
+   "seed": 33,
+   "float": 0,
+   "keys": [
+    {
+     "t": 0,
+     "pos": [
+      -180,
+      -21.5,
+      150
+     ],
+     "look": [
+      -190,
+      4,
+      149
+     ],
+     "lens": 24
+    },
+    {
+     "t": 3.2,
+     "pos": [
+      -195,
+      -22.5,
+      150.5
+     ],
+     "look": [
+      -205,
+      4,
+      149
+     ]
+    },
+    {
+     "t": 6.6,
+     "pos": [
+      -212,
+      -22,
+      150.5
+     ],
+     "look": [
+      -224,
+      4,
+      149
+     ]
+    },
+    {
+     "t": 11,
+     "pos": [
+      -232,
+      -19.5,
+      151
+     ],
+     "look": [
+      -239,
+      6,
+      150
+     ],
+     "lens": 24
+    }
+   ],
+   "frame_start": 1513,
+   "frame_end": 1704,
+   "handle_in": 9,
+   "handle_out": 9,
+   "camera": "CAM_V8_S03B",
+   "hero": "",
+   "beats": [
+    {
+     "region": "WestStreets",
+     "seconds": [
+      0,
+      5.697861
+     ],
+     "frames": [
+      1513,
+      1649
+     ],
+     "content": "侧向跟拍西街拱廊与小亭",
+     "reference": "05_Streets/Streets_total.jpg; Streets_left.jpg; Streets_middle.jpg; Streets_right.jpg",
+     "path_seconds": [
+      0,
+      8
+     ]
+    },
+    {
+     "region": "WestFaceChamber",
+     "seconds": [
+      5.358289,
+      8
+     ],
+     "frames": [
+      1642,
+      1704
+     ],
+     "content": "人面浮雕室正面开口",
+     "reference": "总图独有（无局部截图）",
+     "path_seconds": [
+      7.5,
+      11
+     ]
+    }
+   ],
+   "float_rot": 0,
+   "bank": 0,
+   "bank_max": 0,
+   "time_warp": [
+    {
+     "path_start": 0,
+     "path_end": 11,
+     "seconds_delta": -3,
+     "ramp_fraction": 0.15
+    }
+   ],
+   "path_seconds": 11
+  },
+  {
+   "id": "S04",
+   "title": "西站·上层长桥·桥东门厅·圣所",
+   "seconds": 26,
+   "start": "flow",
+   "end": "flow",
+   "seed": 4,
+   "float": 0,
+   "keys": [
+    {
+     "t": 0,
+     "pos": [
+      -133,
+      -17,
+      154.5
+     ],
+     "look": [
+      -142,
+      6,
+      154
+     ],
+     "lens": 24
+    },
+    {
+     "t": 2.3,
+     "pos": [
+      -130,
+      -32,
+      148
+     ],
+     "look": [
+      -112,
+      0,
+      122
+     ]
+    },
+    {
+     "t": 4.6,
+     "pos": [
+      -118,
+      -30,
+      124
+     ],
+     "look": [
+      -100,
+      0,
+      113
+     ]
+    },
+    {
+     "t": 6.4,
+     "pos": [
+      -107,
+      -16,
+      112.8
+     ],
+     "look": [
+      -90,
+      0,
+      111
+     ],
+     "lens": 22
+    },
+    {
+     "t": 8.9,
+     "pos": [
+      -86,
+      -14.5,
+      112
+     ],
+     "look": [
+      -68,
+      2,
+      111.5
+     ]
+    },
+    {
+     "t": 10.7,
+     "pos": [
+      -70,
+      -16,
+      112.5
+     ],
+     "look": [
+      -55,
+      4,
+      113
+     ]
+    },
+    {
+     "t": 13.2,
+     "pos": [
+      -40,
+      -40,
+      128
+     ],
+     "look": [
+      -18,
+      26,
+      145
+     ]
+    },
+    {
+     "t": 15.8,
+     "pos": [
+      -24,
+      -12,
+      145.5
+     ],
+     "look": [
+      -21,
+      40,
+      148
+     ],
+     "lens": 24
+    },
+    {
+     "t": 17.9,
+     "pos": [
+      -21,
+      19,
+      147.5
+     ],
+     "look": [
+      -19,
+      50,
+      149
+     ]
+    },
+    {
+     "t": 20.1,
+     "pos": [
+      -20,
+      30,
+      148.5
+     ],
+     "look": [
+      -16,
+      52,
+      153
+     ],
+     "lens": 22
+    },
+    {
+     "t": 22.2,
+     "pos": [
+      -21,
+      10,
+      152
+     ],
+     "look": [
+      -22,
+      40,
+      158
+     ]
+    },
+    {
+     "t": 24.2,
+     "pos": [
+      -29.5,
+      7,
+      164.6
+     ],
+     "look": [
+      -29.5,
+      40,
+      165.5
+     ]
+    },
+    {
+     "t": 26,
+     "pos": [
+      -30,
+      23,
+      164.8
+     ],
+     "look": [
+      -28,
+      50,
+      166
+     ]
+    }
+   ],
+   "frame_start": 1705,
+   "frame_end": 2328,
+   "handle_in": 9,
+   "handle_out": 9,
+   "camera": "CAM_V8_S04",
+   "hero": "SoulSanctum",
+   "beats": [
+    {
+     "region": "WestStation",
+     "seconds": [
+      0,
+      3
+     ],
+     "frames": [
+      1705,
+      1776
+     ],
+     "content": "西站拱廊正面",
+     "reference": "05_Streets/Streets_station.jpg",
+     "path_seconds": [
+      0,
+      3
+     ]
+    },
+    {
+     "region": "UpperBridge",
+     "seconds": [
+      4.6,
+      10.7
+     ],
+     "frames": [
+      1815,
+      1961
+     ],
+     "content": "上层长桥尖窗立面侧向跟拍",
+     "reference": "04_Bridges 全部 4 张",
+     "path_seconds": [
+      4.6,
+      10.7
+     ]
+    },
+    {
+     "region": "BridgeGatehouse",
+     "seconds": [
+      10,
+      12.5
+     ],
+     "frames": [
+      1945,
+      2004
+     ],
+     "content": "桥东冷白门厅开口",
+     "reference": "总图独有（无局部截图）",
+     "path_seconds": [
+      10,
+      12.5
+     ]
+    },
+    {
+     "region": "SoulSanctum",
+     "seconds": [
+      14,
+      26
+     ],
+     "frames": [
+      2041,
+      2328
+     ],
+     "content": "自正面飞入圣所大厅，退出上升再入穹顶厅（重点）",
+     "reference": "01_Soul_Sanctuary 全部 10 张",
+     "path_seconds": [
+      14,
+      26
+     ]
+    }
+   ],
+   "float_rot": 0,
+   "bank": 0,
+   "bank_max": 0,
+   "time_warp": [],
+   "path_seconds": 26
+  },
+  {
+   "id": "S05",
+   "title": "塔楼吊灯厅·塔身下降·广场东侧楼·塔基·东向低廊·东城雨井",
+   "seconds": 33,
+   "start": "flow",
+   "end": "flow",
+   "seed": 5,
+   "float": 0,
+   "keys": [
+    {
+     "t": 0,
+     "pos": [
+      6,
+      -26,
+      121
+     ],
+     "look": [
+      40,
+      4,
+      120
+     ],
+     "lens": 22
+    },
+    {
+     "t": 2.3,
+     "pos": [
+      36,
+      -22,
+      120.5
+     ],
+     "look": [
+      58,
+      6,
+      121
+     ]
+    },
+    {
+     "t": 4,
+     "pos": [
+      47,
+      -6,
+      120.5
+     ],
+     "look": [
+      66,
+      8,
+      121
+     ],
+     "lens": 20
+    },
+    {
+     "t": 5.6,
+     "pos": [
+      52,
+      -2,
+      120.2
+     ],
+     "look": [
+      64,
+      12,
+      120
+     ]
+    },
+    {
+     "t": 7.2,
+     "pos": [
+      56,
+      -14,
+      119
+     ],
+     "look": [
+      60,
+      10,
+      116
+     ]
+    },
+    {
+     "t": 8.9,
+     "pos": [
+      52,
+      -40,
+      100
+     ],
+     "look": [
+      50,
+      0,
+      84
+     ]
+    },
+    {
+     "t": 10.8,
+     "pos": [
+      42,
+      -48,
+      62
+     ],
+     "look": [
+      42,
+      0,
+      52
+     ]
+    },
+    {
+     "t": 12.7,
+     "pos": [
+      30,
+      -38,
+      26
+     ],
+     "look": [
+      24,
+      0,
+      14
+     ]
+    },
+    {
+     "t": 14.4,
+     "pos": [
+      18,
+      -17,
+      9
+     ],
+     "look": [
+      16,
+      0,
+      6
+     ],
+     "lens": 22
+    },
+    {
+     "t": 16.4,
+     "pos": [
+      36,
+      -20,
+      7
+     ],
+     "look": [
+      48,
+      4,
+      6
+     ]
+    },
+    {
+     "t": 18.6,
+     "pos": [
+      52,
+      -23,
+      3.5
+     ],
+     "look": [
+      62,
+      6,
+      3.5
+     ]
+    },
+    {
+     "t": 20.6,
+     "pos": [
+      68,
+      -22,
+      2.5
+     ],
+     "look": [
+      78,
+      -3,
+      0.7000000000000002
+     ]
+    },
+    {
+     "t": 22.8,
+     "pos": [
+      84,
+      -23,
+      2
+     ],
+     "look": [
+      95,
+      -4,
+      0.10000000000000009
+     ]
+    },
+    {
+     "t": 24.8,
+     "pos": [
+      100,
+      -24,
+      2.4000000000000004
+     ],
+     "look": [
+      112,
+      -4,
+      0.5
+     ]
+    },
+    {
+     "t": 26.6,
+     "pos": [
+      113,
+      -23,
+      3
+     ],
+     "look": [
+      126,
+      -5,
+      5.5
+     ]
+    },
+    {
+     "t": 28.3,
+     "pos": [
+      124,
+      -32,
+      14
+     ],
+     "look": [
+      150,
+      0,
+      40
+     ]
+    },
+    {
+     "t": 30.6,
+     "pos": [
+      132,
+      -56,
+      46
+     ],
+     "look": [
+      152,
+      -5,
+      80
+     ]
+    },
+    {
+     "t": 33,
+     "pos": [
+      146,
+      -38,
+      78
+     ],
+     "look": [
+      154,
+      0,
+      82
+     ],
+     "lens": 26
+    }
+   ],
+   "frame_start": 2329,
+   "frame_end": 3120,
+   "handle_in": 9,
+   "handle_out": 9,
+   "camera": "CAM_V8_S05",
+   "hero": "",
+   "beats": [
+    {
+     "region": "TowerBlock",
+     "seconds": [
+      0,
+      10.8
+     ],
+     "frames": [
+      2329,
+      2587
+     ],
+     "content": "飞入塔楼吊灯厅，后退出厅沿塔身下降",
+     "reference": "08_Tower 全部 9 张",
+     "path_seconds": [
+      0,
+      10.8
+     ]
+    },
+    {
+     "region": "LowerBridge",
+     "seconds": [
+      8.9,
+      12.7
+     ],
+     "frames": [
+      2543,
+      2633
+     ],
+     "content": "下降途中下层长桥与塔楼西廊",
+     "reference": "11_Lower_City/Lower_City_upperbridge.jpg",
+     "path_seconds": [
+      8.9,
+      12.7
+     ]
+    },
+    {
+     "region": "PlazaEastHouse",
+     "seconds": [
+      12.7,
+      16.4
+     ],
+     "frames": [
+      2634,
+      2722
+     ],
+     "content": "广场东侧楼粉窗正面",
+     "reference": "11_Lower_City/Lower_City_statue.jpg（右侧）; Lower_City_statue_upper_right.jpg; 13_Lighting/Lighting_04.jpg",
+     "path_seconds": [
+      12.7,
+      16.4
+     ]
+    },
+    {
+     "region": "TowerBlock",
+     "seconds": [
+      16.1,
+      21
+     ],
+     "frames": [
+      2715,
+      2832
+     ],
+     "content": "沿塔基大厅开敞正面低空掠过，看挂幡与吊灯",
+     "reference": "08_Tower 全部 9 张",
+     "path_seconds": [
+      16.1,
+      21
+     ]
+    },
+    {
+     "region": "GroundCorridorEast",
+     "seconds": [
+      21,
+      26.6
+     ],
+     "frames": [
+      2833,
+      2966
+     ],
+     "content": "东向地面低廊拱廊外侧低空跟拍至东出口",
+     "reference": "总图独有（无局部截图）",
+     "path_seconds": [
+      21,
+      26.6
+     ]
+    },
+    {
+     "region": "EastWell",
+     "seconds": [
+      26.6,
+      33
+     ],
+     "frames": [
+      2967,
+      3120
+     ],
+     "content": "东城雨井：伞盖壳塔与雨柱，上升",
+     "reference": "06_Right_City/Right_City_west.jpg; 10_Elevator/Elevator_bottom.jpg; Elevator_upper.jpg; 15_Background/Background_03.jpg",
+     "path_seconds": [
+      26.6,
+      33
+     ]
+    },
+    {
+     "region": "HouseOfPleasure",
+     "seconds": [
+      30.6,
+      33
+     ],
+     "frames": [
+      3063,
+      3120
+     ],
+     "content": "空中欢乐之屋外观",
+     "reference": "02_Marissa/Marissa.jpg; 02_Marissa/Marrisa_home.jpg",
+     "path_seconds": [
+      30.6,
+      33
+     ]
+    }
+   ],
+   "float_rot": 0,
+   "bank": 0,
+   "bank_max": 0,
+   "time_warp": [],
+   "path_seconds": 33
+  },
+  {
+   "id": "S06",
+   "title": "欢乐之屋门厅·玛丽莎舞台",
+   "seconds": 14,
+   "start": "flow",
+   "end": "flow",
+   "seed": 6,
+   "float": 0,
+   "keys": [
+    {
+     "t": 0,
+     "pos": [
+      142.2,
+      -5.2,
+      80.0
+     ],
+     "look": [
+      146,
+      8,
+      80.8
+     ],
+     "lens": 22
+    },
+    {
+     "t": 2.8,
+     "pos": [
+      145.6,
+      -2.6,
+      80.0
+     ],
+     "look": [
+      151,
+      1,
+      80.0
+     ]
+    },
+    {
+     "t": 4.4,
+     "pos": [
+      150.6,
+      -0.6,
+      79.7
+     ],
+     "look": [
+      158.5,
+      4.1,
+      80.8
+     ],
+     "lens": 24
+    },
+    {
+     "t": 6.5,
+     "pos": [
+      153.6,
+      -3.6,
+      80.6
+     ],
+     "look": [
+      158.5,
+      4.1,
+      81.0
+     ],
+     "lens": 26
+    },
+    {
+     "t": 10,
+     "pos": [
+      158.3,
+      -4.7,
+      81.0
+     ],
+     "look": [
+      158.5,
+      4.1,
+      81.0
+     ],
+     "lens": 30
+    },
+    {
+     "t": 14,
+     "pos": [
+      161.4,
+      -3.2,
+      81.1
+     ],
+     "look": [
+      158.5,
+      4.1,
+      80.9
+     ],
+     "lens": 34
+    }
+   ],
+   "frame_start": 3121,
+   "frame_end": 3456,
+   "handle_in": 9,
+   "handle_out": 9,
+   "camera": "CAM_V8_S06",
+   "hero": "HouseOfPleasure(Marissa)",
+   "beats": [
+    {
+     "region": "HouseOfPleasure",
+     "seconds": [
+      0,
+      14
+     ],
+     "frames": [
+      3121,
+      3456
+     ],
+     "content": "门厅→门洞→舞台：玛丽莎（重点，静态，不加表演）",
+     "reference": "02_Marissa/Marissa.jpg; 02_Marissa/Marrisa_home.jpg",
+     "path_seconds": [
+      0,
+      14
+     ]
+    }
+   ],
+   "float_rot": 0,
+   "bank": 0,
+   "bank_max": 0,
+   "time_warp": [],
+   "path_seconds": 14
+  },
+  {
+   "id": "S07",
+   "title": "东塔·穹顶厅·紫调叠层·东城下层·东站·雨隙·罐室楼·底部低廊·归于雨幕",
+   "seconds": 34,
+   "start": "flow",
+   "end": "hold",
+   "seed": 7,
+   "float": 0,
+   "keys": [
+    {
+     "t": 0,
+     "pos": [
+      177.2,
+      -2.4,
+      54.2
+     ],
+     "look": [
+      177.6,
+      4,
+      80
+     ],
+     "lens": 18
+    },
+    {
+     "t": 2.6,
+     "pos": [
+      178.0,
+      -1.5,
+      66.2
+     ],
+     "look": [
+      183,
+      -0.4,
+      68
+     ]
+    },
+    {
+     "t": 4.2,
+     "pos": [
+      181.2,
+      -0.45,
+      67.2
+     ],
+     "look": [
+      196,
+      -0.4,
+      67.2
+     ]
+    },
+    {
+     "t": 5.4,
+     "pos": [
+      186.5,
+      -0.4,
+      67.1
+     ],
+     "look": [
+      200,
+      1,
+      67.2
+     ]
+    },
+    {
+     "t": 7,
+     "pos": [
+      192,
+      -2.5,
+      66.8
+     ],
+     "look": [
+      206,
+      4,
+      67.2
+     ],
+     "lens": 20
+    },
+    {
+     "t": 8.6,
+     "pos": [
+      198,
+      -4,
+      67
+     ],
+     "look": [
+      204,
+      12,
+      66.5
+     ]
+    },
+    {
+     "t": 10,
+     "pos": [
+      203,
+      -8.5,
+      67.2
+     ],
+     "look": [
+      200,
+      12,
+      63
+     ]
+    },
+    {
+     "t": 11,
+     "pos": [
+      204.5,
+      -12,
+      67
+     ],
+     "look": [
+      199,
+      10,
+      58
+     ]
+    },
+    {
+     "t": 12.6,
+     "pos": [
+      204,
+      -24,
+      48
+     ],
+     "look": [
+      196,
+      5,
+      42
+     ],
+     "lens": 22
+    },
+    {
+     "t": 14.8,
+     "pos": [
+      194,
+      -22,
+      14
+     ],
+     "look": [
+      190,
+      5,
+      10
+     ]
+    },
+    {
+     "t": 17,
+     "pos": [
+      209,
+      -20,
+      11
+     ],
+     "look": [
+      210,
+      5,
+      11
+     ]
+    },
+    {
+     "t": 19.2,
+     "pos": [
+      220,
+      -22,
+      20
+     ],
+     "look": [
+      222,
+      5,
+      26
+     ]
+    },
+    {
+     "t": 21.5,
+     "pos": [
+      238,
+      -24,
+      38
+     ],
+     "look": [
+      242,
+      5,
+      38
+     ]
+    },
+    {
+     "t": 23.8,
+     "pos": [
+      232,
+      -20,
+      3
+     ],
+     "look": [
+      228,
+      5,
+      0
+     ]
+    },
+    {
+     "t": 25.8,
+     "pos": [
+      214,
+      -44,
+      28
+     ],
+     "look": [
+      150,
+      10,
+      60
+     ],
+     "lens": 20
+    },
+    {
+     "t": 28.6,
+     "pos": [
+      160,
+      -68,
+      74
+     ],
+     "look": [
+      60,
+      20,
+      88
+     ]
+    },
+    {
+     "t": 30.8,
+     "pos": [
+      100,
+      -80,
+      104
+     ],
+     "look": [
+      8,
+      30,
+      92
+     ],
+     "lens": 19
+    },
+    {
+     "t": 32.6,
+     "pos": [
+      46,
+      -84,
+      122
+     ],
+     "look": [
+      -9,
+      30,
+      96
+     ],
+     "lens": 18
+    },
+    {
+     "t": 34,
+     "pos": [
+      32,
+      -84,
+      126
+     ],
+     "look": [
+      -10,
+      30,
+      96
+     ]
+    }
+   ],
+   "frame_start": 3457,
+   "frame_end": 4272,
+   "handle_in": 9,
+   "handle_out": 0,
+   "camera": "CAM_V8_S07",
+   "hero": "",
+   "beats": [
+    {
+     "region": "EastTower",
+     "seconds": [
+      0,
+      4.6
+     ],
+     "frames": [
+      3457,
+      3566
+     ],
+     "content": "高塔竖井内：轿厢、木架、翼壳浮雕，经平台门洞",
+     "reference": "06_Right_City/Right_City_elevator.jpg; Right_City_elevator_upper.jpg",
+     "path_seconds": [
+      0,
+      4.6
+     ]
+    },
+    {
+     "region": "EastPeakHall",
+     "seconds": [
+      4.6,
+      11.2
+     ],
+     "frames": [
+      3567,
+      3725
+     ],
+     "content": "穹顶厅内部，自正面开口飞出",
+     "reference": "06_Right_City/Right_City_peak.jpg",
+     "path_seconds": [
+      4.6,
+      11.2
+     ]
+    },
+    {
+     "region": "EastStack",
+     "seconds": [
+      11.2,
+      14
+     ],
+     "frames": [
+      3726,
+      3792
+     ],
+     "content": "紫调叠层立面",
+     "reference": "06_Right_City/Right_City_step1.jpg; Right_City_step2.jpg; Right_City_step3.jpg",
+     "path_seconds": [
+      11.2,
+      14
+     ]
+    },
+    {
+     "region": "EastQuarter",
+     "seconds": [
+      14,
+      16.2
+     ],
+     "frames": [
+      3793,
+      3845
+     ],
+     "content": "东城下层楼群多层开间",
+     "reference": "06_Right_City/Right_City_middle.jpg",
+     "path_seconds": [
+      14,
+      16.2
+     ]
+    },
+    {
+     "region": "EastStation",
+     "seconds": [
+      16.2,
+      18.4
+     ],
+     "frames": [
+      3846,
+      3898
+     ],
+     "content": "东站拱廊",
+     "reference": "06_Right_City/Right_City_station.jpg",
+     "path_seconds": [
+      16.2,
+      18.4
+     ]
+    },
+    {
+     "region": "EastRainGap",
+     "seconds": [
+      18.4,
+      20.8
+     ],
+     "frames": [
+      3899,
+      3955
+     ],
+     "content": "紫色雨隙与叶片窗塔",
+     "reference": "总图独有（无局部截图）",
+     "path_seconds": [
+      18.4,
+      20.8
+     ]
+    },
+    {
+     "region": "EastJarHouse",
+     "seconds": [
+      20.8,
+      23
+     ],
+     "frames": [
+      3956,
+      4008
+     ],
+     "content": "罐室楼紫色开间",
+     "reference": "总图独有（无局部截图）",
+     "path_seconds": [
+      20.8,
+      23
+     ]
+    },
+    {
+     "region": "EastUndercroft",
+     "seconds": [
+      23,
+      25.6
+     ],
+     "frames": [
+      4009,
+      4070
+     ],
+     "content": "底部斜撑低廊",
+     "reference": "总图独有（无局部截图）",
+     "path_seconds": [
+      23,
+      25.6
+     ]
+    },
+    {
+     "region": "CentralWell",
+     "seconds": [
+      27.5,
+      34
+     ],
+     "frames": [
+      4117,
+      4272
+     ],
+     "content": "后拉上升：中央城区群全景归于雨幕",
+     "reference": "11_Lower_City/Lower_City_statue_upper_right.jpg; 14_Rain/Rain_photo.jpg",
+     "path_seconds": [
+      27.5,
+      34
+     ]
+    }
+   ],
+   "float_rot": 0,
+   "bank": 0,
+   "bank_max": 0,
+   "time_warp": [],
+   "path_seconds": 34
+  }
+ ],
+ "transitions": [
+  {
+   "type": "DISSOLVE",
+   "from_take": "S01",
+   "to_take": "S02",
+   "boundary_frame": 745,
+   "frames": [
+    736,
+    753
+   ],
+   "curve": "smoothstep"
+  },
+  {
+   "type": "DISSOLVE",
+   "from_take": "S02",
+   "to_take": "S03",
+   "boundary_frame": 1273,
+   "frames": [
+    1264,
+    1281
+   ],
+   "curve": "smoothstep"
+  },
+  {
+   "type": "DISSOLVE",
+   "from_take": "S03",
+   "to_take": "S03B",
+   "boundary_frame": 1513,
+   "frames": [
+    1504,
+    1521
+   ],
+   "curve": "smoothstep"
+  },
+  {
+   "type": "DISSOLVE",
+   "from_take": "S03B",
+   "to_take": "S04",
+   "boundary_frame": 1705,
+   "frames": [
+    1696,
+    1713
+   ],
+   "curve": "smoothstep"
+  },
+  {
+   "type": "DISSOLVE",
+   "from_take": "S04",
+   "to_take": "S05",
+   "boundary_frame": 2329,
+   "frames": [
+    2320,
+    2337
+   ],
+   "curve": "smoothstep"
+  },
+  {
+   "type": "DISSOLVE",
+   "from_take": "S05",
+   "to_take": "S06",
+   "boundary_frame": 3121,
+   "frames": [
+    3112,
+    3129
+   ],
+   "curve": "smoothstep"
+  },
+  {
+   "type": "DISSOLVE",
+   "from_take": "S06",
+   "to_take": "S07",
+   "boundary_frame": 3457,
+   "frames": [
+    3448,
+    3465
+   ],
+   "curve": "smoothstep"
+  }
+ ]
+}

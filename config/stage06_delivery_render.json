@@ -1,0 +1,22 @@
+{
+  "version": "stage06_v004_delivery_render",
+  "device_preference": ["OPTIX", "CUDA", "CPU"],
+  "engine": "CYCLES",
+  "samples": 64,
+  "adaptive_sampling": true,
+  "adaptive_threshold": 0.02,
+  "adaptive_min_samples": 32,
+  "denoise": true,
+  "denoiser": "OPENIMAGEDENOISE",
+  "motion_blur": false,
+  "compositing": true,
+  "sequencer": false,
+  "view_transform": "Standard",
+  "look": "None",
+  "exposure": 0.0,
+  "gamma": 1.0,
+  "resolution": [1920, 1080],
+  "format": "PNG",
+  "color_mode": "RGB",
+  "color_depth": "8"
+}

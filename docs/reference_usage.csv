@@ -1,0 +1,85 @@
+﻿素材路径,证据类型,对应区域,用途,重叠或归并依据,是否含其他图未覆盖的独有空间,待核对,阶段1查看方式
+CityOfTears_Reference/00_Master/master_map.png.png,布局,全部 28 个区域,全城横向位置与高差；总图独有空间的唯一依据,各区域的总图裁切坐标见区域矩阵,是：8 个区域和 4 处子空间只见于总图,黑色区域的性质逐处判断，见决定记录,整体缩略图、六分区、24 处原分辨率裁切；未整图解码
+CityOfTears_Reference/01_Soul_Sanctuary/Soul_Sanctuary_bottom.jpg,空间,SoulSanctum,下部宽厅、冷白光幕、壳块平台,十张同属圣所；与总图 B3_sanctum 的主体、立面和穹顶对应,否,与具体楼层的对应为 B 级,原图逐张查看
+CityOfTears_Reference/01_Soul_Sanctuary/Soul_Sanctuary_bottom1.jpg,空间,SoulSanctum,贯穿多层的发光电梯井,十张同属圣所；与总图 B3_sanctum 的主体、立面和穹顶对应,否,与具体楼层的对应为 B 级,原图逐张查看
+CityOfTears_Reference/01_Soul_Sanctuary/Soul_Sanctuary_bottom2.jpg,空间,SoulSanctum,右缘四层与肋纹玻璃立面,十张同属圣所；与总图 B3_sanctum 的主体、立面和穹顶对应,否,与具体楼层的对应为 B 级,原图逐张查看
+CityOfTears_Reference/01_Soul_Sanctuary/Soul_Sanctuary_core.jpg,空间,SoulSanctum,多房间总览、三扇冷白高窗大厅,十张同属圣所；与总图 B3_sanctum 的主体、立面和穹顶对应,否,与具体楼层的对应为 B 级,原图逐张查看
+CityOfTears_Reference/01_Soul_Sanctuary/Soul_Sanctuary_core_upper.jpg,空间,SoulSanctum,顶部放射肋穹顶厅与百叶屋盖,十张同属圣所；与总图 B3_sanctum 的主体、立面和穹顶对应,否,与具体楼层的对应为 B 级,原图逐张查看
+CityOfTears_Reference/01_Soul_Sanctuary/Soul_Sanctuary_left.jpg,空间,SoulSanctum,上下两层、伞形罩、椭圆镜饰,十张同属圣所；与总图 B3_sanctum 的主体、立面和穹顶对应,否,与具体楼层的对应为 B 级,原图逐张查看
+CityOfTears_Reference/01_Soul_Sanctuary/Soul_Sanctuary_middle1.jpg,空间,SoulSanctum,人字纹竖井与尖顶轿厢,十张同属圣所；与总图 B3_sanctum 的主体、立面和穹顶对应,否,与具体楼层的对应为 B 级,原图逐张查看
+CityOfTears_Reference/01_Soul_Sanctuary/Soul_Sanctuary_middle2.jpg,空间,SoulSanctum,右缘楼层与外侧远景,十张同属圣所；与总图 B3_sanctum 的主体、立面和穹顶对应,否,与具体楼层的对应为 B 级,原图逐张查看
+CityOfTears_Reference/01_Soul_Sanctuary/Soul_Sanctuary_upper1.jpg,空间,SoulSanctum,书架楼层与电梯井,十张同属圣所；与总图 B3_sanctum 的主体、立面和穹顶对应,否,与具体楼层的对应为 B 级,原图逐张查看
+CityOfTears_Reference/01_Soul_Sanctuary/Soul_Sanctuary_upper2.jpg,空间,SoulSanctum,屋顶百叶与玻璃井内轿厢,十张同属圣所；与总图 B3_sanctum 的主体、立面和穹顶对应,否,与具体楼层的对应为 B 级,原图逐张查看
+CityOfTears_Reference/02_Marissa/Marissa.jpg,空间,HouseOfPleasure,表演空间：帘幕、台沿、圆形帷幔华盖、花纹墙,总图 C1 中带光束的粉色身影与台沿,否,角色、光束、HUD 与「坐下」提示排除,原图逐张查看
+CityOfTears_Reference/02_Marissa/Marrisa_home.jpg,空间,HouseOfPleasure,装饰厅／门厅：花纹墙、拱柱、壁灯、百叶檐角,总图 C1 中表演空间西侧同层的花纹墙与百叶罩,否,中央罩形构件用途未知；HUD 排除,原图逐张查看
+CityOfTears_Reference/03_Left_City/Left_City_left_bottom.jpg,空间,LeftWell,地面左端、电梯轿厢、石墩,全景加九张局部，视野互相重叠；与总图 A_left_well_lower 一致,否,,原图逐张查看
+CityOfTears_Reference/03_Left_City/Left_City_left_middle.jpg,空间,LeftWell,电梯井中段,全景加九张局部，视野互相重叠；与总图 A_left_well_lower 一致,否,,原图逐张查看
+CityOfTears_Reference/03_Left_City/Left_City_left_upper.jpg,空间,LeftWell,左上室内与电梯上站,全景加九张局部，视野互相重叠；与总图 A_left_well_lower 一致,否,,原图逐张查看
+CityOfTears_Reference/03_Left_City/Left_City_middle.jpg,空间,LeftWell,铁艺栈桥与悬浮石台,全景加九张局部，视野互相重叠；与总图 A_left_well_lower 一致,否,,原图逐张查看
+CityOfTears_Reference/03_Left_City/Left_City_middle_bottom.jpg,空间,LeftWell,地面中段石拱墙与水帘,全景加九张局部，视野互相重叠；与总图 A_left_well_lower 一致,否,,原图逐张查看
+CityOfTears_Reference/03_Left_City/Left_City_middle_upper.jpg,空间,LeftWell,高处悬浮平台与壳顶,全景加九张局部，视野互相重叠；与总图 A_left_well_lower 一致,否,,原图逐张查看
+CityOfTears_Reference/03_Left_City/Left_City_right_bottom.jpg,空间,LeftWell,地面右端与壳塔叶片窗,全景加九张局部，视野互相重叠；与总图 A_left_well_lower 一致,否,,原图逐张查看
+CityOfTears_Reference/03_Left_City/Left_City_right_middle.jpg,空间,LeftWell,高挑台下方的壳塔立面,全景加九张局部，视野互相重叠；与总图 A_left_well_lower 一致,否,,原图逐张查看
+CityOfTears_Reference/03_Left_City/Left_City_right_upper.jpg,空间,LeftWell,带栏杆的高挑台与东端开口,全景加九张局部，视野互相重叠；与总图 A_left_well_lower 一致,否,,原图逐张查看
+CityOfTears_Reference/03_Left_City/Left_City_total.jpg,空间,LeftWell,左雨井全貌,全景加九张局部，视野互相重叠；与总图 A_left_well_lower 一致,否,,原图逐张查看
+CityOfTears_Reference/04_Bridges/Bridges_left.jpg,空间,UpperBridge,上层长桥：窗廊、桥下圆拱、东半段百叶屋盖,四张是同一座桥的全景与三段；与总图 A_upper_bridge 一致,否,,原图逐张查看
+CityOfTears_Reference/04_Bridges/Bridges_middle.jpg,空间,UpperBridge,上层长桥：窗廊、桥下圆拱、东半段百叶屋盖,四张是同一座桥的全景与三段；与总图 A_upper_bridge 一致,否,,原图逐张查看
+CityOfTears_Reference/04_Bridges/Bridges_right.jpg,空间,UpperBridge,上层长桥：窗廊、桥下圆拱、东半段百叶屋盖,四张是同一座桥的全景与三段；与总图 A_upper_bridge 一致,否,,原图逐张查看
+CityOfTears_Reference/04_Bridges/Bridges_total.jpg,空间,UpperBridge,上层长桥：窗廊、桥下圆拱、东半段百叶屋盖,四张是同一座桥的全景与三段；与总图 A_upper_bridge 一致,否,,原图逐张查看
+CityOfTears_Reference/05_Streets/Streets_left.jpg,空间,WestStreets,左段圆拱廊与台阶,全景加三段；与总图 D1、D2 一致,否,,原图逐张查看
+CityOfTears_Reference/05_Streets/Streets_middle.jpg,空间,WestStreets,中段台地、大圆拱、圆顶小亭,全景加三段；与总图 D1、D2 一致,否,,原图逐张查看
+CityOfTears_Reference/05_Streets/Streets_right.jpg,空间,WestStreets,小亭、悬链、右侧台地门洞,全景加三段；与总图 D1、D2 一致,否,,原图逐张查看
+CityOfTears_Reference/05_Streets/Streets_station.jpg,空间,WestStation,站台拱廊、长椅、大拱洞,与总图 C7 中长厅右端的抬高台地一致,否,鹿角虫与提示排除,原图逐张查看
+CityOfTears_Reference/05_Streets/Streets_total.jpg,空间,WestStreets,长厅全貌,全景加三段；与总图 D1、D2 一致,否,,原图逐张查看
+CityOfTears_Reference/06_Right_City/Right_City_elevator.jpg,空间,EastTower,穹顶轿厢、椭圆高窗、紫调,带翼壳形浮雕与总图高塔一致,否,与 10_Elevator 的开放雨井分别处理,原图逐张查看
+CityOfTears_Reference/06_Right_City/Right_City_elevator_upper.jpg,空间,EastTower,长链、巨大带翼壳形浮雕、木架平台,同上,否,,原图逐张查看
+CityOfTears_Reference/06_Right_City/Right_City_middle.jpg,空间,EastQuarter,密集多层楼与中央叠层挑台,与总图 C2 一致,否,,原图逐张查看
+CityOfTears_Reference/06_Right_City/Right_City_peak.jpg,空间,EastPeakHall,穹顶下的帷幔大厅,与总图 C5 一致,否,,原图逐张查看
+CityOfTears_Reference/06_Right_City/Right_City_station.jpg,空间,EastStation,带尖刺百叶屋盖的站台,与总图 C2 一致,否,,原图逐张查看
+CityOfTears_Reference/06_Right_City/Right_City_step1.jpg,空间,EastStack,紫调叠层室内、电梯井、玻璃柱,与总图 B1 中穹顶厅下方的叠层相符,否,具体楼层对应为 B 级,原图逐张查看
+CityOfTears_Reference/06_Right_City/Right_City_step2.jpg,空间,EastStack,紫调叠层室内、电梯井、玻璃柱,与总图 B1 中穹顶厅下方的叠层相符,否,具体楼层对应为 B 级,原图逐张查看
+CityOfTears_Reference/06_Right_City/Right_City_step3.jpg,空间,EastStack,紫调叠层室内、电梯井、玻璃柱,与总图 B1 中穹顶厅下方的叠层相符,否,具体楼层对应为 B 级,原图逐张查看
+CityOfTears_Reference/06_Right_City/Right_City_west.jpg,空间,EastWell,两组层层铁艺挑台与尖顶门龛,与总图 C3 一致,否,,原图逐张查看
+CityOfTears_Reference/07_Interior/Interior_bottom_left.jpg,空间,GreenAtrium,绿色中庭全景或局部：竖索小平台、百叶罩、挑台,十张是同一中庭，不是十个房间；与总图 A_green_shaft 一致,否,,原图逐张查看
+CityOfTears_Reference/07_Interior/Interior_bottom_right.jpg,空间,GreenAtrium,绿色中庭全景或局部：竖索小平台、百叶罩、挑台,十张是同一中庭，不是十个房间；与总图 A_green_shaft 一致,否,,原图逐张查看
+CityOfTears_Reference/07_Interior/Interior_centre.jpg,空间,GreenAtrium,绿色中庭全景或局部：竖索小平台、百叶罩、挑台,十张是同一中庭，不是十个房间；与总图 A_green_shaft 一致,否,,原图逐张查看
+CityOfTears_Reference/07_Interior/Interior_middle_bottom.jpg,空间,GreenAtrium,绿色中庭全景或局部：竖索小平台、百叶罩、挑台,十张是同一中庭，不是十个房间；与总图 A_green_shaft 一致,否,,原图逐张查看
+CityOfTears_Reference/07_Interior/Interior_middle_left.jpg,空间,GreenAtrium,绿色中庭全景或局部：竖索小平台、百叶罩、挑台,十张是同一中庭，不是十个房间；与总图 A_green_shaft 一致,否,,原图逐张查看
+CityOfTears_Reference/07_Interior/Interior_middle_right.jpg,空间,GreenAtrium,绿色中庭全景或局部：竖索小平台、百叶罩、挑台,十张是同一中庭，不是十个房间；与总图 A_green_shaft 一致,否,,原图逐张查看
+CityOfTears_Reference/07_Interior/Interior_middle_upper.jpg,空间,GreenAtrium,绿色中庭全景或局部：竖索小平台、百叶罩、挑台,十张是同一中庭，不是十个房间；与总图 A_green_shaft 一致,否,,原图逐张查看
+CityOfTears_Reference/07_Interior/Interior_total.jpg,空间,GreenAtrium,绿色中庭全景或局部：竖索小平台、百叶罩、挑台,十张是同一中庭，不是十个房间；与总图 A_green_shaft 一致,否,,原图逐张查看
+CityOfTears_Reference/07_Interior/Interior_upper_left.jpg,空间,GreenAtrium,绿色中庭全景或局部：竖索小平台、百叶罩、挑台,十张是同一中庭，不是十个房间；与总图 A_green_shaft 一致,否,,原图逐张查看
+CityOfTears_Reference/07_Interior/Interior_upper_right.jpg,空间,GreenAtrium,绿色中庭全景或局部：竖索小平台、百叶罩、挑台,十张是同一中庭，不是十个房间；与总图 A_green_shaft 一致,否,,原图逐张查看
+CityOfTears_Reference/08_Tower/Tower_step1.jpg,空间,TowerBlock,底层挂幡大厅与双电梯井,step1—9 自下而上对应总图 B2 的同一幢塔楼，不是九层等高楼层,否,,原图逐张查看
+CityOfTears_Reference/08_Tower/Tower_step2.jpg,空间,TowerBlock,冷白三窗高室,step1—9 自下而上对应总图 B2 的同一幢塔楼，不是九层等高楼层,否,,原图逐张查看
+CityOfTears_Reference/08_Tower/Tower_step3.jpg,空间,TowerBlock,电梯井与长走廊,step1—9 自下而上对应总图 B2 的同一幢塔楼，不是九层等高楼层,否,,原图逐张查看
+CityOfTears_Reference/08_Tower/Tower_step4.jpg,空间,TowerBlock,吊灯大厅,step1—9 自下而上对应总图 B2 的同一幢塔楼，不是九层等高楼层,否,,原图逐张查看
+CityOfTears_Reference/08_Tower/Tower_step5.jpg,空间,TowerBlock,花窗楼层,step1—9 自下而上对应总图 B2 的同一幢塔楼，不是九层等高楼层,否,,原图逐张查看
+CityOfTears_Reference/08_Tower/Tower_step6.jpg,空间,TowerBlock,塔基与小穹顶亭,step1—9 自下而上对应总图 B2 的同一幢塔楼，不是九层等高楼层,否,step6 的界面文字排除,原图逐张查看
+CityOfTears_Reference/08_Tower/Tower_step7.jpg,空间,TowerBlock,细长竖井中段,step1—9 自下而上对应总图 B2 的同一幢塔楼，不是九层等高楼层,否,,原图逐张查看
+CityOfTears_Reference/08_Tower/Tower_step8.jpg,空间,TowerBlock,竖井上段,step1—9 自下而上对应总图 B2 的同一幢塔楼，不是九层等高楼层,否,,原图逐张查看
+CityOfTears_Reference/08_Tower/Tower_step9.jpg,空间,TowerBlock,塔顶望远镜房间,step1—9 自下而上对应总图 B2 的同一幢塔楼，不是九层等高楼层,否,,原图逐张查看
+CityOfTears_Reference/09_Bench/Bench_left.jpg,空间,SouthwestCave,洞穴左段与错落岩台,四张同属总图左下洞穴 B4,否,长椅未能确认,原图逐张查看
+CityOfTears_Reference/09_Bench/Bench_middle.jpg,空间,SouthwestCave,地面石墩与铁艺拱门,四张同属总图左下洞穴 B4,否,长椅未能确认,原图逐张查看
+CityOfTears_Reference/09_Bench/Bench_right.jpg,空间,SouthwestCave,洞穴东端收口,四张同属总图左下洞穴 B4,否,长椅未能确认,原图逐张查看
+CityOfTears_Reference/09_Bench/Bench_top.jpg,空间,SouthwestCave,上方岩台与壳状小屋,四张同属总图左下洞穴 B4,否,长椅未能确认,原图逐张查看
+CityOfTears_Reference/10_Elevator/Elevator_bottom.jpg,空间,EastWell,雨井底部：石砌挑台、铁艺围栏、双灯、小石桥,与总图 C3 左端构图相符,否,定位为 B 级；未拍到轿厢,原图逐张查看
+CityOfTears_Reference/10_Elevator/Elevator_upper.jpg,空间,EastWell,雨井上部：叶片窗与羽状托架,同类雨井上部，与上一张同组,否,定位为 B 级,原图逐张查看
+CityOfTears_Reference/11_Lower_City/Lower_City_bottom.jpg,空间,CentralBlock,地面层：细柱、电梯轿厢、发光纹章,与总图 C6 的地面长廊一致,否,,原图逐张查看
+CityOfTears_Reference/11_Lower_City/Lower_City_middle.jpg,空间,CentralBlock,蓝调叠层室内与电梯井,与总图 B3_central_lower 一致,否,,原图逐张查看
+CityOfTears_Reference/11_Lower_City/Lower_City_statue.jpg,空间,FountainPlaza; PlazaEastHouse; CentralWell,雕像广场全景；阶段 2 样板的布局主参考,与总图 B6、A_fountain_plaza 一致,否,,原图逐张查看
+CityOfTears_Reference/11_Lower_City/Lower_City_statue_upper_right.jpg,空间,FountainPlaza; PlazaEastHouse; CentralWell,广场右上方：叶片窗、铁拱、东侧楼屋盖与挑台,与上一张视野重叠,否,,原图逐张查看
+CityOfTears_Reference/11_Lower_City/Lower_City_upper.jpg,空间,CentralBlock,更高处楼层、轿厢、橙色堆,橙色堆在总图同一位置可见,否,,原图逐张查看
+CityOfTears_Reference/11_Lower_City/Lower_City_upperbridge.jpg,空间,LowerBridge,带三座穹顶亭的有盖长桥；右下长椅小室,与总图 B6 一致,否,,原图逐张查看
+CityOfTears_Reference/12_Materials/20260911201846_1.jpg,构件,雨井地面（构件通用）,卵石石墩、出水环、铁艺围栏、系桩,雨井地面通用构件，位置不认定,否,,原图逐张查看
+CityOfTears_Reference/12_Materials/Materials_01.jpg,构件,FountainPlaza（构件通用）,铁艺栏杆、双头灯、石板桥沿、桥下圆拱,与 Elevator_bottom 的小石桥相似，位置不认定,否,,原图逐张查看
+CityOfTears_Reference/12_Materials/Materials_02.jpg,构件,FountainPlaza,雕像基座：壳片水盆、石阶、铭牌,即喷泉雕像基座近景,否,,原图逐张查看
+CityOfTears_Reference/13_Lighting/Lighting_01.jpg,风格,雨井地面（外部照明基准）,青蓝雨雾与白色双灯,无新空间,否,,原图逐张查看
+CityOfTears_Reference/13_Lighting/Lighting_02.jpg,风格,CentralBlock 或 LeftWell 西侧楼体（同类室内）,尖拱花窗与串灯的室内照明,属蓝调花窗室内，具体房间不认定,否,归属未定,原图逐张查看
+CityOfTears_Reference/13_Lighting/Lighting_03.jpg,空间,CentralBlock,右下角店铺与门外平直走道；室内粉紫照明,"店铺在总图 (3024–3138, 3380–3443) 可见",是：店铺只在本图有近景,NPC 与「聆听」提示排除,原图逐张查看
+CityOfTears_Reference/13_Lighting/Lighting_04.jpg,空间,PlazaEastHouse,粉紫室内、书架拱龛、玻璃柱与露台,玻璃柱加露台与广场东侧楼外观相符,是：该楼室内只在本图有近景,归属为 B 级,原图逐张查看
+CityOfTears_Reference/14_Rain/Rain_photo.jpg,天气,CentralWell（雨与空气层次通用）,近垂直雨线、青蓝雾、两层叶片窗,无新空间,否,,原图逐张查看
+CityOfTears_Reference/14_Rain/Rain_video.mp4,天气；空间,雨效通用；FountainPlaza,动态雨效参考；画面是喷泉广场的另一个机位（铁艺屏、三尊披覆像、通透的圆拱高架廊、东侧高台）,阶段 2 全部 1259 帧解码（25%）并取 301—480 帧原尺寸分析；与 Lower_City_statue.jpg 是同一地点,否,实时播放观感与声音仍未看；雨速为低置信度估计,本阶段未读取（阶段 0 抽帧记录见预览索引）
+CityOfTears_Reference/15_Background/Background_01.jpg,空间,LeftWell,左雨井下部：楼体、铁架、石拱墙,与 Left_City_total 视野重叠,否,,原图逐张查看
+CityOfTears_Reference/15_Background/Background_02.jpg,空间,LeftWell,左雨井右部：铁架、高挑台、远景巨塔,与 Left_City_right_upper 视野重叠,否,,原图逐张查看
+CityOfTears_Reference/15_Background/Background_03.jpg,空间,EastWell,两座壳塔之间的雨隙与层层挑台,挑台与 Right_City_west 一致,否,,原图逐张查看
